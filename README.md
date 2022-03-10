@@ -14,7 +14,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 * Augusto Hiroshi
 * Junior Antunes
 * Hugo Kioshi
-* Flipe
+* Felipe
 
 ## Orientador
 
