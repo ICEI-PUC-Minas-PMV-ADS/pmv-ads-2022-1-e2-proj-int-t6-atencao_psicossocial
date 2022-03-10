@@ -1,8 +1,8 @@
 # TÍTULO DO PROJETO
 
-`CURSO`
+ANALISE E DESENVOLVIMENTO DE SISTEMAS
 
-`DISCIPLINA`
+PROJETO DE DESENVOLVIMENTO BACK END
 
 `SEMESTRE`
 
@@ -11,7 +11,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 ## Integrantes
 
 * Naiara Julieta Maria Carvalho Mafra
-* Augusto Hiroshi
+* Augusto Hiroshi Santos Inanobe
 * Junior Antunes
 * Hugo Kioshi
 * Felipe
