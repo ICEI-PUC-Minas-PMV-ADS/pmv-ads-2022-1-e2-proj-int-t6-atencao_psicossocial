@@ -13,15 +13,12 @@ Com base no que foi mencionado, busca-se uma solução que auxilie os profission
 ## Objetivos
 
 O projeto em questão tem como objetivo geral o desenvolvimento de uma aplicação web que auxilie profissionais da área de atenção psicossocial no desempenho de suas funções. 
-Como objetivos específicos, propõe se:
--Fornecer ferramentas para organização e padronização dos dados coletados;
--Facilitar o acesso às informações de maneira pelos profissionais envolvidos;
+Como objetivos específicos, propõe se:<br>
+-Fornecer ferramentas para organização e padronização dos dados coletados;<br>
+-Facilitar o acesso às informações de maneira pelos profissionais envolvidos;<br>
 -Constituir banco de dados que parametrize os dados de acordo com classes;
 -Integrar as informações, mantendo quesitos de confidencialidade, agilidade e segurança.
 
-
-
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
 
 O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
 
