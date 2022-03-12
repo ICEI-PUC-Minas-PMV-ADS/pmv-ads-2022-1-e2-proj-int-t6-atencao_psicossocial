@@ -6,7 +6,7 @@ PROJETO DE DESENVOLVIMENTO BACK END
 
 `SEMESTRE`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+Desenvolvimento de aplicação web voltada para registro e manipulação de informações de pacientes usuários de serviços de atenção psicossocial. 
 
 ## Integrantes
 
