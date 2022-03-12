@@ -1,13 +1,12 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+Os transtornos mentais são síndromes que se caracterizam por perturbações clínicas na cognição, emoção e no comportamento do indivíduo, de acordo com o Manual Diagnóstico e Estatístico de Transtornos Mentais (DSM - 5). Atualmente, em virtude das mais variadas pressões sociais, constata-se um significativo aumento dos casos de transtornos de ordem psíquica, o que faz que os  indivíduos acometidos desta síndrome necessitem de cuidados especializados, que visem à amenização do sofrimento e elaboração de estratégias de enfrentamento. Contudo,  a atenção se faz nas esferas psicológica e social, uma vez que ambas encontram-se integradas, cabendo, neste caso, destacar a importância do papel desempenhado pela rede de atenção psicossocial, no caso o CAPS. 
+No entanto, é oportuno salientar que em muitos casos, essas unidades de saúde não dispõe de sistemas de coleta, arquivo e consulta de informações padronizados, ainda lançando mão de recursos arcaicos, que dificultam o lançamento e a organização das informações dos usuários, podendo, também, acarretar em prejuízos no que tange ao processo decisório nesses espaços. 
+Conforme exposto acima, se faz necessário que existam nessas instituições mecanismos que possibilitem um bom tratamento da informação, de maneira que psicólogos e assistentes sociais possam realizar diagnósticos/ prognósticos mais precisos, e que os administradores possam tomar decisões mais assertivas no que diz respeito à formação de estratégias de trabalho e/ou políticas sociais. 
+
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
-
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
+Com base no que foi mencionado, busca-se uma solução que auxilie os profissionais ligados à área de atenção psicossocial no gerenciamento de informações, de maneira que estas estejam organizadas e padronizadas, além de facilitar o acesso dessas informações.
 
 > **Links Úteis**:
 > - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
@@ -16,9 +15,13 @@ Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thin
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+O projeto em questão tem como objetivo geral o desenvolvimento de uma aplicação web que auxilie profissionais da área de atenção psicossocial no desempenho de suas funções. 
+Como objetivos específicos, propõe se:
+-Fornecer ferramentas para organização e padronização dos dados coletados;
+-Facilitar o acesso às informações de maneira pelos profissionais envolvidos;
+-Constituir banco de dados que parametrize os dados de acordo com classes;
+-Integrar as informações, mantendo quesitos de confidencialidade, agilidade e segurança.
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
  
 > **Links Úteis**:
 > - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
