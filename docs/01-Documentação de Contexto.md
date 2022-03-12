@@ -8,10 +8,7 @@ Conforme exposto acima, se faz necessário que existam nessas instituições mec
 ## Problema
 Com base no que foi mencionado, busca-se uma solução que auxilie os profissionais ligados à área de atenção psicossocial no gerenciamento de informações, de maneira que estas estejam organizadas e padronizadas, além de facilitar o acesso dessas informações.
 
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+
 
 ## Objetivos
 
@@ -22,11 +19,7 @@ Como objetivos específicos, propõe se:
 -Constituir banco de dados que parametrize os dados de acordo com classes;
 -Integrar as informações, mantendo quesitos de confidencialidade, agilidade e segurança.
 
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
 
-## Justificativa
 
 Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
 
