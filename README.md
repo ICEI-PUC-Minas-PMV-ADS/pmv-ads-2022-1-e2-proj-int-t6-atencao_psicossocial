@@ -1,11 +1,11 @@
-# TÍTULO DO PROJETO
+# Sistema Psi-Social
 
 ANALISE E DESENVOLVIMENTO DE SISTEMAS
 
 PROJETO DE DESENVOLVIMENTO BACK END
 
-`SEMESTRE`
-
+`2º SEMESTRE`
+ 
 Desenvolvimento de aplicação web voltada para registro e manipulação de informações de pacientes usuários de serviços de atenção psicossocial. 
 
 ## Integrantes
