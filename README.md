@@ -15,6 +15,7 @@ Desenvolvimento de aplicação web voltada para registro e manipulação de info
 * Junior Antunes
 * Hugo Kioshi
 * Felipe
+* Luiz Felipe Vitor
 
 ## Orientador
 
