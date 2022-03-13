@@ -19,7 +19,6 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 |![](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial/blob/main/docs/img/Cristiane.png)|**Idade:** 34  anos - **Ocupação:** Secretária no Centro de Atendimento Psicossocial. |**Aplicativos:** Whatsapp, Telegram.|
 |**Motivações:** Otimizar a parte de agendamentos, check in e sequência nos tratamentos oferecidos pelo centro.  |**Frustrações:** Dificuldade de agendar e confirmar consultas na clínica; dificuldade de conciliar a disponibilidade dos profissionais com a  dos pacientes.|**Hobbies:** Assistir séries e cozinhar.|
 | Francisco            |                                    |                |
-|--------------------|------------------------------------|----------------------------------------|
 |![](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial/blob/main/docs/img/Francisco.png)|**Idade:** 37  anos - **Ocupação:** Desempregado. |**Aplicativos:** Instagram, Facebook, Twitter, Linkedln.|
 |**Motivações:** Quer ser atendido de forma rápida e ter melhor controle e informações de suas consultas.  |**Frustrações:** Tem bastante dificuldade em lembrar os horários agendados de suas consultas, perdendo frequentemente os agendamentos.|**Hobbies:** Adora ler, passear com o pet e viajar com a família.|
 
