@@ -64,9 +64,12 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
-
+|RNF-001| O App ou site será publicado em um ambiente na Internet. cap(GitHub, Firebase) | ALTA | 
+|RNF-002| O website poderá ser acessado por um telefone celular Android ou IOS com uma visualização adequada. |  ALTA | 
+|RNF-003| O website será compatível com os principais navegadores do mercado. |  ALTA | 
+|RNF-004| O website deve ser confiável, deve atender às suas especificações. |  MÉDIA | 
+|RNF-005| O website deve tratar acessos não autorizados, garantindo um alto grau de segurança. |  MÉDIA | 
+|RNF-006| A interface do website deve ser amigável, ou seja deve se sentir confortável ao utilizar o site, de forma que sua experiência torna-se fácil. |  BAIXA | 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
 - [Requisitos Funcionais
