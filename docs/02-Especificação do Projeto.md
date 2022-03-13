@@ -51,7 +51,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-001| O sistema deve permitir que os usuários façam login e alterem sua senha.. | ALTA | 
 |RF-002| O sistema deve permitir gerenciar o paciente e o profissional.   | ALTA |
 |RF-003| O sistema deve permitir gerenciar os atendimentos, para cada atendimento o profissional de saúde deverá vincular o paciente que foi atendido ao dia, a hora e a escrição do atendimento.   | ALTA |
-|RF-004| O sistema deve emitir os seguintes relatórios:Relatório profissional.Relatório por atendimento ao paciente.Relatório por data.  | ALTA |
+|RF-004| O sistema deve emitir os seguintes relatórios: Relatório profissional, relatório por atendimento ao paciente, relatório por data.  | ALTA |
 |RF-005| O sistema deve permitir ao profissional registrar o atendimento.   | MÉDIA |
 |RF-006| O site deve permitir a visualização dos agendamentos na plataforma e do histórico de consultas por mês e status: Concluído, reagendado ou cancelado   | MÉDIA |
 
