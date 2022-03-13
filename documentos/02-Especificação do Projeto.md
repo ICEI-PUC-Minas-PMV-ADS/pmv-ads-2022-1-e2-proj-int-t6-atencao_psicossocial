@@ -1,4 +1,34 @@
-# Especificações do Projeto
+# Espespecificações do Projeto
+
+<span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
+
+Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
+
+Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
+
+## Personas
+
+| Marcela            |                                    |                |
+|--------------------|------------------------------------|----------------------------------------|
+|![](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial/blob/main/docs/img/Marcela.png)|**Idade:** 27  anos - **Ocupação:** Ocupação: Psicóloga e pós-graduanda. |Aplicativos: Instagram e whatsApp.|
+|**Motivações:** Marcela tem a ideia de melhorar a qualidade dos atendimentos a partir da criação de perfis de pacientes.  |**Frustrações:** Baseiam se na falta de organização das informações coletadas, agenda confusa, uso de formulários em papel e arquivos arcaicos, além da perda de documentos por funcionários e ausência de confidencialidade.|**Hobbies:** Ler, praticar esportes e aprender coisas novas.|
+
+Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+
+Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
+
+> **Links Úteis**:
+> - [Rock Content](https://rockcontent.com/blog/personas/)
+> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
+> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
+> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
+> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
+> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
+>
+Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+
+
+
 
 Problema<br>
 Com base no que foi mencionado, busca-se uma solução que auxilie os profissionais ligados à área de atenção psicossocial no gerenciamento de informações, de maneira que estas estejam organizadas e padronizadas, além de facilitar o acesso dessas informações.
