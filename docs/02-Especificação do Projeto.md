@@ -1,8 +1,8 @@
 # Especificações do Projeto
 
-<span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
+Problema
+Com base no que foi mencionado, busca-se uma solução que auxilie os profissionais ligados à área de atenção psicossocial no gerenciamento de informações, de maneira que estas estejam organizadas e padronizadas, além de facilitar o acesso dessas informações.
 
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
 
 Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
 
