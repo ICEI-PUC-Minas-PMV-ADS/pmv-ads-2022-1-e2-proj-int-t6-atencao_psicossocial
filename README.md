@@ -23,7 +23,7 @@ Desenvolvimento de aplicação web voltada para registro e manipulação de info
 
 ## Instruções de utilização
 
-Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
+O objetivo dessa aplicação é auxiliar os profissionais da áreas de atenção psicossocial no desempenho de suas funções como organização e padronização dos dados coletados, agilidade nos atendimentos, fácil acesso ao histórico psicológico dos pacientes. 
 
 # Documentação
 
