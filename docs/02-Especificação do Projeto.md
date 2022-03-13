@@ -53,10 +53,19 @@ Lembre-se que você deve ser enumerar e descrever precisamente e personalizada t
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE`                     |PARA ... `MOTIVO/VALOR`                                                |
+|--------------------|--------------------------------------------------------|-----------------------------------------------------|
+|Marcela             | Receber notificação dos agendamentos                   | Obter controle total da agenda de consultas         |
+|Marcela             | Receber notificação dos cancelamentos                  | Realizar possíveis encaixes                                                   |
+|Marcela             | Cadastrar pacientes através de Prontuário Eletrônico   | Facilitar a busca de pacientes, registro de atendimentos |
+|Marcela             | Registrar/editar atendimentos/informações de pacientes | Facilitar o processo de trabalho sem meios físicos e evitar perda/ extravio de documentos |
+|Marcela             | Registrar informações de forma restrita/especial e bloquear o acesso de terceiros não autorizados | Garantir a confidencialidade das informações dos pacientes |
+|Isaque              | Cadastrar pacientes através de prontuário eletrônico   | Economizar papel e espaço na clínica |
+|Isaque              | Gerar relatórios eletrônicos                           | Evitar a perda de documentos |
+|Isaque              | Guardar as informações em um banco de dados            | Facilitar a relação de dados e possibilitar a criação de perfis de usuários |
+|Cristiane           | Cadastrar os pacientes na plataforma e editar ou excluir os perfis quando necessário | Organizar o banco de dados e facilitar o acesso/controle das sessões |
+|Cristiane           | Verificar a compatibilidade de horários entre psicólogos e pacientes                 | Garantir que os atendimentos sejam gerenciados sem conflitos de agenda  |
+|Francisco           | Receber lembretes com opção de cancelar consulta                     | Em caso de esquecimento ou outro compromisso no mesmo dia e horário   
 
 Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
