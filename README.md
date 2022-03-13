@@ -12,10 +12,10 @@ Desenvolvimento de aplicação web voltada para registro e manipulação de info
 
 * Naiara Julieta Maria Carvalho Mafra
 * Augusto Hiroshi Santos Inanobe
-* Junior Antunes
-* Hugo Kioshi
-* Felipe
 * Luiz Felipe Vitor
+* Hugo Kioshi
+* Junior Antunes
+* Samuel Leite Fonseca
 
 ## Orientador
 
