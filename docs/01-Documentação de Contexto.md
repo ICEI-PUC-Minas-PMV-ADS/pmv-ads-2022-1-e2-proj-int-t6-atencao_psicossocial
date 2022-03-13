@@ -11,9 +11,6 @@ Com base no que foi mencionado, busca-se uma solução que auxilie os profission
 Justificativa<br>
 Em virtude do crescimento das demandas em serviços de atenção psicológica/social  em função de acontecimentos recentes como a pandemia, bem como garantir a  qualidade dos serviços prestados, se fazem necessárias ferramentas que melhorem o atendimento nestes espaços de maneira que profissionais possam acessar mais facilmente as informações coletadas e refina-las, buscando otimizar processos de trabalho e a tomada de decisão, levando em conta todas as diretrizes de atendimento pertencentes à legislação de saúde vigente. 
 
-Público-Alvo<br>
-O projeto em destaque tem como público alvo, especialmente, profissionais atuantes na atenção social, como psicólogos, assistentes sociais e atuantes na área administrativa, bem como, outros profissionais que estejam envolvidos nesse campo e os próprios pacientes dos serviços prestados, que perceberão benefícios das soluções propostas.
-
 ## Objetivos
 
 O projeto em questão tem como objetivo geral o desenvolvimento de uma aplicação web que auxilie profissionais da área de atenção psicossocial no desempenho de suas funções. 
@@ -25,5 +22,5 @@ Como objetivos específicos, propõe se:<br>
 * Integrar as informações, mantendo quesitos de confidencialidade, agilidade e segurança.
 
 ## Público-Alvo
-Público-Alvo
+
 O projeto em destaque tem como público alvo, especialmente, profissionais atuantes na atenção social, como psicólogos, assistentes sociais e atuantes na área administrativa, bem como, outros profissionais que estejam envolvidos nesse campo e os próprios pacientes dos serviços prestados, que perceberão benefícios das soluções propostas.
