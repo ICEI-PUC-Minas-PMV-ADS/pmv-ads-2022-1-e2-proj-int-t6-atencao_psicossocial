@@ -14,16 +14,11 @@ Com base no que foi mencionado, busca-se uma solução que auxilie os profission
 
 O projeto em questão tem como objetivo geral o desenvolvimento de uma aplicação web que auxilie profissionais da área de atenção psicossocial no desempenho de suas funções. 
 Como objetivos específicos, propõe se:<br>
--Fornecer ferramentas para organização e padronização dos dados coletados;<br>
--Facilitar o acesso às informações de maneira pelos profissionais envolvidos;<br>
--Constituir banco de dados que parametrize os dados de acordo com classes;
--Integrar as informações, mantendo quesitos de confidencialidade, agilidade e segurança.
 
-
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
-
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+*Fornecer ferramentas para organização e padronização dos dados coletados;<br>
+*Facilitar o acesso às informações de maneira pelos profissionais envolvidos;<br>
+*Constituir banco de dados que parametrize os dados de acordo com classes;
+*Integrar as informações, mantendo quesitos de confidencialidade, agilidade e segurança.
 
 ## Público-Alvo
 Público-Alvo
