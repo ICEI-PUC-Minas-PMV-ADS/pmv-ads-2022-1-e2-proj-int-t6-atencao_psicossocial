@@ -138,7 +138,7 @@ O diagrama de casos de uso é o próximo passo após a elicitação de requisito
 
 
 | Caso de Uso | Descrição | RF |
-|---|---|
+|------|------|------|
 |Realizar o Cadastro de usuário na Home Page | O cadastro deve ser feito a partir de uma ficha de dados com informações do usuário | RF-02 |
 | Alterar a senha | O usuário deve conseguir alterar sua senha de acesso | RF-01 |
 | Fazer o login na aplicação | O usuário deve conseguir realizar o login na aplicação através de um nome de uma senha | RF-01 |
