@@ -8,7 +8,11 @@ Conforme exposto acima, se faz necessário que existam nessas instituições mec
 ## Problema
 Com base no que foi mencionado, busca-se uma solução que auxilie os profissionais ligados à área de atenção psicossocial no gerenciamento de informações, de maneira que estas estejam organizadas e padronizadas, além de facilitar o acesso dessas informações.
 
+Justificativa<br>
+Em virtude do crescimento das demandas em serviços de atenção psicológica/social  em função de acontecimentos recentes como a pandemia, bem como garantir a  qualidade dos serviços prestados, se fazem necessárias ferramentas que melhorem o atendimento nestes espaços de maneira que profissionais possam acessar mais facilmente as informações coletadas e refina-las, buscando otimizar processos de trabalho e a tomada de decisão, levando em conta todas as diretrizes de atendimento pertencentes à legislação de saúde vigente. 
 
+Público-Alvo<br>
+O projeto em destaque tem como público alvo, especialmente, profissionais atuantes na atenção social, como psicólogos, assistentes sociais e atuantes na área administrativa, bem como, outros profissionais que estejam envolvidos nesse campo e os próprios pacientes dos serviços prestados, que perceberão benefícios das soluções propostas.
 
 ## Objetivos
 
