@@ -29,10 +29,6 @@ Lembre-se que você deve ser enumerar e descrever precisamente e personalizada t
 
 
 
-
-Problema<br>
-Com base no que foi mencionado, busca-se uma solução que auxilie os profissionais ligados à área de atenção psicossocial no gerenciamento de informações, de maneira que estas estejam organizadas e padronizadas, além de facilitar o acesso dessas informações.
-
 ## Personas
 
 Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
