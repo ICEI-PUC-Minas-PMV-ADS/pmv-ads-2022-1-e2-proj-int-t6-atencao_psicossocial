@@ -129,6 +129,28 @@ Enumere as restrições à sua solução. Lembre-se de que as restrições geral
 
 O diagrama de casos de uso é o próximo passo após a elicitação de requisitos, que utiliza um modelo gráfico e uma tabela com as descrições sucintas dos casos de uso e dos atores. Ele contempla a fronteira do sistema e o detalhamento dos requisitos funcionais com a indicação dos atores, casos de uso e seus relacionamentos. 
 
+| Ator | Descrição |
+|--------|----------------|
+| Usuário | Funcionários e pacientes do centro de atendimento interessados em utilizar a aplicação |
+|--------|----------------|
+| Banco de Dados | Banco de Dados responsável por armazenar, buscar e gerenciar as solicitações da plataforma |
+|--------|----------------|
+| CAPS | Centro de Atenção Psicossocial |
+
+| Caso de Uso | Descrição | RF |
+|--------|----------------|
+|Realizar o Cadastro de usuário na Home Page | O cadastro deve ser feito a partir de uma ficha de dados com informações do usuário | RF-02 |
+|--------|----------------|
+| Alterar a senha | O usuário deve conseguir alterar sua senha de acesso | RF-01 |
+|--------|----------------|
+| Fazer o login na aplicação | O usuário deve conseguir realizar o login na aplicação através de um nome de uma senha | RF-01 |
+|--------|----------------|
+| Modificar prontuário | O site deve permitir o acesso e edição da documentação relativa ao paciente antes, durante e depois do atendimento | RF-05 |
+|--------|----------------|
+| Alterar agendamentos | O site deve permitir aos usuários a marcação, remarcação e cancelamento de atendimentos | RF-03 |
+|--------|----------------|
+| Gerar relatórios | O site deve permitir a visualização do  histórico de consultas por mês e gerar relatórios com base nestas informações | RF-04 |
+
 As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de Casos de Uso”.
 
 > **Links Úteis**:
