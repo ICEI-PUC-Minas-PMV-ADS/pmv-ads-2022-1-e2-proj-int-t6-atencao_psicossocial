@@ -10,10 +10,20 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 | Marcela            |                                    |                |
 |--------------------|------------------------------------|----------------------------------------|
-|![](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial/blob/main/docs/img/Marcela.png)|**Idade:** 27  anos - **Ocupação:** Ocupação: Psicóloga e pós-graduanda. |Aplicativos: Instagram e whatsApp.|
+|![](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial/blob/main/docs/img/Marcela.png)|**Idade:** 27  anos - **Ocupação:** Psicóloga e pós-graduanda. |Aplicativos: Instagram e whatsApp.|
 |**Motivações:** Marcela tem a ideia de melhorar a qualidade dos atendimentos a partir da criação de perfis de pacientes.  |**Frustrações:** Baseiam se na falta de organização das informações coletadas, agenda confusa, uso de formulários em papel e arquivos arcaicos, além da perda de documentos por funcionários e ausência de confidencialidade.|**Hobbies:** Ler, praticar esportes e aprender coisas novas.|
-
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+| Isaque            |                                    |                |
+|--------------------|------------------------------------|----------------------------------------|
+|![](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial/blob/main/docs/img/Isaque.png)|**Idade:** 38  anos - **Ocupação:** Assistente Social e Gestor de Unidade de Saúde Pública. |**Aplicativos:** WhatsApp, Telegram, Teams e Facebook.|
+|**Motivações:** Melhorar a qualidade dos serviços prestados e abranger um número maior de atendidos nas áreas de cobertura da unidade.  |**Frustrações:** Desorganização dos dados coletados, problemas relacionados à perda e mistura de documentos/ registros de pacientes, falta de meios para planejamento de programas específicos.|**Hobbies:** Ler, acompanhar notícias online, conversar com amigos por meio de videochamadas.|
+| Cristiane            |                                    |                |
+|--------------------|------------------------------------|----------------------------------------|
+|![](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial/blob/main/docs/img/Cristiane.png)|**Idade:** 34  anos - **Ocupação:** Secretária no Centro de Atendimento Psicossocial. |**Aplicativos:** Whatsapp, Telegram.|
+|**Motivações:** Otimizar a parte de agendamentos, check in e sequência nos tratamentos oferecidos pelo centro.  |**Frustrações:** Dificuldade de agendar e confirmar consultas na clínica; dificuldade de conciliar a disponibilidade dos profissionais com a  dos pacientes.|**Hobbies:** Assistir séries e cozinhar.|
+| Francisco            |                                    |                |
+|--------------------|------------------------------------|----------------------------------------|
+|![](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial/blob/main/docs/img/Francisco.png)|**Idade:** 37  anos - **Ocupação:** Desempregado. |**Aplicativos:** Instagram, Facebook, Twitter, Linkedln.|
+|**Motivações:** Quer ser atendido de forma rápida e ter melhor controle e informações de suas consultas.  |**Frustrações:** Tem bastante dificuldade em lembrar os horários agendados de suas consultas, perdendo frequentemente os agendamentos.|**Hobbies:** Adora ler, passear com o pet e viajar com a família.|
 
 Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
 
