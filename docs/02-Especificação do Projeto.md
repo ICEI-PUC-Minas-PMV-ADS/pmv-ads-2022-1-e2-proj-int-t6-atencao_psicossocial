@@ -22,19 +22,6 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 |![](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial/blob/main/docs/img/Francisco.png)|**Idade:** 37  anos - **Ocupação:** Desempregado. |**Aplicativos:** Instagram, Facebook, Twitter, Linkedln.|
 |**Motivações:** Quer ser atendido de forma rápida e ter melhor controle e informações de suas consultas.  |**Frustrações:** Tem bastante dificuldade em lembrar os horários agendados de suas consultas, perdendo frequentemente os agendamentos.|**Hobbies:** Adora ler, passear com o pet e viajar com a família.|
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
-
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
-
-
 
 ## Personas
 
@@ -173,6 +160,8 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de
 |EXTENSÃO|Caso o usuário ainda não tenha cadastro, será necessário fazê-lo antes de fazer login na aplicação.|
 | |Caso o usuário tenha esquecido sua senha, será necessário alterá-la antes de fazer login na aplicação.|
 ||Caso o usuário deseje requisitar prontuário poderá fazer pesquisa em banco de dados.|
+
+![](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial/blob/main/docs/img/Marcela.png)
 
 
 
