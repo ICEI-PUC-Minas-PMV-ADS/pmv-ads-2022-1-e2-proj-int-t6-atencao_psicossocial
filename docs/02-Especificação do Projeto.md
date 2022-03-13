@@ -158,6 +158,17 @@ O diagrama de casos de uso é o próximo passo após a elicitação de requisito
 
 As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de Casos de Uso”.
 
+| RELACIONAMETO | DESCRIÇÃO |
+|------|------|
+| INCLUSÃO | É necessário fazer o login na aplicação antes de realizar os casos de uso: “Solicitar ficha do paciente”, “Solicitar relatório de agendamento”, “Solicitar prontuário de atendimento” |
+| | Para solicitar a ficha do paciente é  necessário que o banco de dados busque informações por palavra “chave”.|
+|  | Para solicitar relatório de agendamento é necessário que o banco de dados busque informações por palavra “chave”. |
+|EXTENSÃO|Caso o usuário ainda não tenha cadastro, será necessário fazê-lo antes de fazer login na aplicação.|
+| |Caso o usuário tenha esquecido sua senha, será necessário alterá-la antes de fazer login na aplicação.|
+||Caso o usuário deseje requisitar prontuário poderá fazer pesquisa em banco de dados.|
+
+
+
 > **Links Úteis**:
 > - [Criando Casos de Uso](https://www.ibm.com/docs/pt-br/elm/6.0?topic=requirements-creating-use-cases)
 > - [Como Criar Diagrama de Caso de Uso: Tutorial Passo a Passo](https://gitmind.com/pt/fazer-diagrama-de-caso-uso.html/)
