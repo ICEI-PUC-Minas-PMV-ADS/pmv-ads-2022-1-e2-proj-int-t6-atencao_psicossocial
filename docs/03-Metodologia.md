@@ -21,6 +21,7 @@ A ferramenta de controle de versão adotada no projeto foi o Git, sendo que o Gi
 
 Para gestão do código fonte do software desenvolvido, o grupo utiliza um processo baseado no Git Flow, como mostra a Figura 1. Desta forma, todas as manutenções no código são realizadas em branches separados, identificados como Hotfix, Release, Develop e Feature.  
 ![GitFlow](img/Metodologia-gitFlow.png)
+
 Figura 1 Fluxo de controle do código fonte no repositório git
 
 > **Links Úteis**:
