@@ -24,6 +24,22 @@ Para gestão do código fonte do software desenvolvido, o grupo utiliza um proce
 
 Figura 1 Fluxo de controle do código fonte no repositório git
 
+
+O projeto segue a seguinte convenção para o nome de branches:
+
+- `main`: versão estável já testada do software
+- `unstable`: versão já testada do software, porém instável
+- `testing`: versão em testes do software
+- `dev`: versão de desenvolvimento do software
+Quanto à gerência de issues, o projeto adota a seguinte convenção para etiquetas:
+
+- `documentation`: melhorias ou acréscimos à documentação
+- `bug`: uma funcionalidade encontra-se com problemas
+- `melhoria`: uma funcionalidade precisa ser melhorada
+- `implementação`: uma nova funcionalidade precisa ser introduzida
+- `design`: definições de UI e template da aplicação
+
+
 > **Links Úteis**:
 > - [Tutorial GitHub](https://guides.github.com/activities/hello-world/)
 > - [Git e Github](https://www.youtube.com/playlist?list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA)
