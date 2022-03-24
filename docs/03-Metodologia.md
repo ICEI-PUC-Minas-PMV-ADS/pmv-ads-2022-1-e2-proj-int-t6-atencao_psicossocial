@@ -56,7 +56,7 @@ Sendo assim, o time está organizado da seguinte maneira:
 
 * _Scrum Master_: Augusto Hiroshi Santos Inanobe
 * _Product Owner_: Luiz Felipe Vitor
-*Developer:
+* _Developer:
  -Naiara Julieta Maria Carvalho Mafra
 -Augusto Hiroshi Santos Inanobe
 -Luiz Felipe Vitor
