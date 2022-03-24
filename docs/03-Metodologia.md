@@ -74,7 +74,7 @@ Para organização e distribuição das tarefas do projeto, a equipe está utili
 
 O quadro kanban do grupo no Projects está disponível através da URL https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial/projects/4 e é apresentado, no estado atual, na Figura 2.
 
-! [Figura 2](img/kanban.png)
+! [Figura 2](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial/blob/main/docs/img/kanban.png)
 
 *Figura 2 – Fluxo de controle do código fonte no repositório git* 
 
