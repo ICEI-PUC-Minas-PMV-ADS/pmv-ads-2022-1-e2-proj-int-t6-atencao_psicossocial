@@ -76,7 +76,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| O sistema deve permitir que os usuários façam login e alterem sua senha. | ALTA | 
+|RF-001| O sistema deve permitir que os profissionais façam login e alterem sua senha. | ALTA | 
 |RF-002| O sistema deve permitir gerenciar o paciente e o profissional.   | ALTA |
 |RF-003| O sistema deve permitir registrar os atendimentos, para cada atendimento o profissional de saúde deverá vincular o paciente que foi atendido ao dia, a hora e a descrição do atendimento.   | ALTA |
 |RF-004| O sistema deve emitir os seguintes relatórios: Relatório por profissional, relatório por atendimento ao paciente, relatório por data, histórico de consultas .  | ALTA |
@@ -87,11 +87,11 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
 |RNF-001| O App ou site será publicado em um ambiente na Internet. cap(GitHub, Firebase) | ALTA | 
-|RNF-002| O website poderá ser acessado por um telefone celular Android ou IOS com uma visualização adequada. |  ALTA | 
-|RNF-003| O website será compatível com os principais navegadores do mercado. |  ALTA | 
-|RNF-004| O website deve ser confiável, deve atender às suas especificações. |  MÉDIA | 
-|RNF-005| O website deve tratar acessos não autorizados, garantindo um alto grau de segurança. |  MÉDIA | 
-|RNF-006| A interface do website deve ser amigável, ou seja deve se sentir confortável ao utilizar o site, de forma que sua experiência torna-se fácil. |  BAIXA | 
+|RNF-002| A aplicação web poderá ser acessado por um telefone celular Android ou IOS com uma visualização adequada. |  ALTA | 
+|RNF-003| A aplicação web será compatível com os principais navegadores do mercado. |  ALTA | 
+|RNF-004| A aplicação web deve ser confiável, deve atender às suas especificações. |  MÉDIA | 
+|RNF-005| A aplicação web deve tratar acessos não autorizados, garantindo um alto grau de segurança. |  MÉDIA | 
+|RNF-006| A interface da aplicação deve ser amigável, ou seja deve se sentir confortável ao utilizar o site, de forma que sua experiência torna-se fácil. |  BAIXA | 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
 - [Requisitos Funcionais
