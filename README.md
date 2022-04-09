@@ -16,6 +16,7 @@ Desenvolvimento de aplicação web voltada para registro e manipulação de info
 * Hugo Kioshi
 * Junior Antunes
 * Samuel Leite Fonseca
+* Thiago Álvaro Barbosa Fraga
 
 ## Orientador
 
