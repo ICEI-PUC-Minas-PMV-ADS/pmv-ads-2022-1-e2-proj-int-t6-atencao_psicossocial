@@ -1,4 +1,4 @@
-# Sistema Psi-Social
+#Psiconnect
 
 ANALISE E DESENVOLVIMENTO DE SISTEMAS
 
