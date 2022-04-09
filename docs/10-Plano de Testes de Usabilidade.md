@@ -19,7 +19,7 @@ O teste de usabilidade permite avaliar a qualidade da interface com o usuário d
 | Objetivo do teste            | Verificar se é claro as informações de preenchimento                   |  
 | Critérios de Êxito           | Usuário preenche os campos corretamente  | 
 
-| `Caso de teste ` | ` CTU-004 Erro envio cadastro `                    | 
+| `Caso de teste ` | ` CTU-004 Erro no envio cadastro `                    | 
 |--------------------|--------------------------------------------------------| 
 | Objetivo do teste            | Verificar se o sistema informa ao usuário porque o formulário não foi enviado                    |  
 | Critérios de Êxito           | Sistema informa que o formulário não foi enviado com aviso| 
