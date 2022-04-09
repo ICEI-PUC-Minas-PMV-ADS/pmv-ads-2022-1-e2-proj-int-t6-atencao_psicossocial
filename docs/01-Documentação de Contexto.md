@@ -18,7 +18,7 @@ Como objetivos específicos, propõe se:<br>
 
 * Fornecer ferramentas para organização e padronização dos dados coletados;<br>
 * Facilitar o acesso às informações de maneira pelos profissionais envolvidos;<br>
-* Constituir banco de dados que parametrize os dados de acordo com classes;
+* Constituir banco de dados que parametrize as informações coletadas;
 * Integrar as informações, mantendo quesitos de confidencialidade, agilidade e segurança.
 
 ## Público-Alvo
