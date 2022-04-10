@@ -1,4 +1,4 @@
-# Psiconnect
+![](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial/blob/main/docs/img/LOGOTIPO.png)
 
 ANALISE E DESENVOLVIMENTO DE SISTEMAS
 
