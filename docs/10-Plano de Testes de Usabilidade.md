@@ -36,6 +36,21 @@ O teste de usabilidade permite avaliar a qualidade da interface com o usuário d
 | Objetivo do teste            | Verificar se o sistema informa ao usuário que o formulário foi enviado                   |  
 | Critérios de Êxito           | Sistema informa que o formulário  foi cadastrado com sucesso| 
 
+| `Caso de teste ` | ` CTU-007 Usuário entende onde inclui novo atendimento  `                    | 
+|--------------------|--------------------------------------------------------| 
+| Objetivo do teste            | Verificar se o usuário identifica a opção de incluir atendimento                    |  
+| Critérios de Êxito           | Usuário identifica opções e selecionando opção novo atendimento| 
+
+| `Caso de teste ` | ` CTU-008 Usuário entende onde edita informação do atendimento `                    | 
+|--------------------|--------------------------------------------------------| 
+| Objetivo do teste            | Verificar se o usuário identifica a opção de editar um atendimento                   |  
+| Critérios de Êxito           | Usuário identifica opções e selecionando opção editar atendimento | 
+
+| `Caso de teste ` | ` CTU-009 Usuário entende onde pesquisa os atendimentos `                    | 
+|--------------------|--------------------------------------------------------| 
+| Objetivo do teste            | Verificar se o usuário identifica a opção de pesquisar um atendimento                   |  
+| Critérios de Êxito           | Usuário identifica opções e selecionando opção de pesquisar atendimento| 
+
 
 
 
