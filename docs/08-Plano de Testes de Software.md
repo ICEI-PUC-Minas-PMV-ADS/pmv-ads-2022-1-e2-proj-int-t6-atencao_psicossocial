@@ -3,7 +3,7 @@
 <span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>
 
 |Caso de Teste |CT-01 – Login do usuário |
-|--------------------|----------------------------------------------------------------------|
+|--------------------|-----------------------------------------------------------------------------------------------------------------------|
 |**Requisitos Associados** | RF-001 - O sistema deve permitir que os profissionais façam login e alterem sua senha.|
 |**Entrada** | Login: Após preencher o email e senha. |
 |**Objetivo do Teste** | Permitir que o usuário acesse a plataforma através do login. |
@@ -11,7 +11,7 @@
 |**Critérios de Êxito** | "O usuário sera direcionado a homepage e tera acesso ao seu menu.". |
 
 |Caso de Teste |CT-02 – Cadasto de Proficionais |
-|--------------------|----------------------------------------------------------------------|
+|--------------------|-----------------------------------------------------------------------------------------------------------------------|
 |**Requisitos Associados** | RF-002 - O sistema deve permitir gerenciar o profissional. |
 |**Entrada** | Cadastrar Proficional: Após preencher dados silicitados do proficional. |
 |**Objetivo do Teste** | Permitir que o usuário cadatre proficionais no sistema. |
@@ -19,7 +19,7 @@
 |**Critérios de Êxito** | O usuário sera direcionado a homepage e tera mensagem de confirmação. |
  
 |Caso de Teste |CT-03 – Edição de Proficionais |
-|--------------------|----------------------------------------------------------------------|
+|--------------------|-----------------------------------------------------------------------------------------------------------------------|
 |**Requisitos Associados** | RF-002 - O sistema deve permitir gerenciar o profissional. |
 |**Entrada** | Editar Cadastro Proficional: Após preencher dados do proficional. |
 |**Objetivo do Teste** | Permitir que o usuário edite cadatro de proficionais no sistema. |
@@ -27,7 +27,7 @@
 |**Critérios de Êxito** | O usuário sera direcionado a homepage e terá mensagem de confirmação. |
 
 |Caso de Teste |CT-04 – Registro de atendimentos |
-|--------------------|----------------------------------------------------------------------|
+|--------------------|-----------------------------------------------------------------------------------------------------------------------|
 |**Requisitos Associados** | RF-003 - O sistema deve permitir registrar os atendimentos, para cada atendimento o profissional de saúde deverá vincular o paciente que foi atendido ao dia, a hora e a descrição do atendimento. |
 |**Entrada** | Atraves de um formulário contendo informações do paciente e proficional vinculado. |
 |**Objetivo do Teste** | Permitir que o usuário cadastre informações de consultatas vinculadas entre paciente e proficional, com  caracteristicas e observações para consultas e controles posteriores. |
