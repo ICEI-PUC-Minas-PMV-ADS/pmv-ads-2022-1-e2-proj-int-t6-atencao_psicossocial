@@ -19,11 +19,13 @@ O diagrama apresenta o estudo do fluxo de interação do usuário com o sistema 
 
 ## Tela - LandingPage / Login 
 A tela inicial ou LandingPage apresentada na fira abaixo que o usuário faça login na plataforma.
-![](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial/blob/main/docs/img/01-LOGIN.png)
+<br>
+![](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial/blob/main/docs/img/01-LOGIN.png)<br>
 
 ## Fluxo de Telas - Cadastro de Usuário 
 A tela de cadastro permite ao usuário se cadastrar na palicação caso este ainda não possua uma conta
-![](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial/blob/main/docs/img/02-CADASTRO.png)
+<br>
+![](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial/blob/main/docs/img/02-CADASTRO.png)<br>
 
 ## Fluxo de Telas - Esqueci a Senha  
 Caso o usuário já possua uma conta mas não saiba sua senha, é permitido que ele altere sua senha por meio do fluxo apresentado abaixo. 
