@@ -19,7 +19,7 @@
 |**Requisitos Associados** | RF-002 - O sistema deve permitir gerenciar o profissional. |
 |**Entrada** | Cadastrar Proficional: Após preencher dados silicitados do proficional. |
 |**Objetivo do Teste** | Permitir que o usuário cadatre proficionais no sistema. |
-|**Passos** | 1) Acessar o Navegador ./n2) Informar o endereço do Site.
+|**Passos** | 1) Acessar o Navegador . /n2) Informar o endereço do Site.
 3) Fazer login.
 4) Clicar em Proficionais.
 5) Selecionar novo.
