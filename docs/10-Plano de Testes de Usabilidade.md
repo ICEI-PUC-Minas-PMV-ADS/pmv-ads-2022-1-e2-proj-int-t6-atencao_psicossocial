@@ -15,13 +15,13 @@ O teste de usabilidade permite avaliar a qualidade da interface com o usuário d
 | Critérios de Êxito           | Usuário identifica onde é possível se cadastrar no sistema| 
 
 
-| `Caso de teste ` | ` CTU-003 formulários de cadastro  `                    | 
+| `Caso de teste ` | ` CTU-003 formulário de cadastro  `                    | 
 |--------------------|--------------------------------------------------------| 
 | Objetivo do teste            | Verificar se é claro as informações de preenchimento             |  
 | Critérios de Êxito           | Usuário preenche os campos corretamente  | 
 
 
-| `Caso de teste ` | ` CTU-004 Campos obrigatório nos formulários de cadastro   `                    | 
+| `Caso de teste ` | ` CTU-004 Campos obrigatório no formulário de cadastro   `                    | 
 |--------------------|--------------------------------------------------------| 
 | Objetivo do teste            | Usuário identifica símbolo e legenda                    |  
 | Critérios de Êxito           | Usuário preenche os campos obrigatório|
