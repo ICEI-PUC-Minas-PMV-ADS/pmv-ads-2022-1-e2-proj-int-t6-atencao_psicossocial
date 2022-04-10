@@ -2,10 +2,62 @@
 
 <span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>
 
-Apresente os cenários de testes utilizados na realização dos testes da sua aplicação. Escolha cenários de testes que demonstrem os requisitos sendo satisfeitos.
+|Caso de Teste |CT-01 – Login do usuário |
+|--------------------|----------------------------------------------------------------------|
+|**Requisitos Associados** | RF-001 - O sistema deve permitir que os profissionais façam login e alterem sua senha.|
+|**Entrada** | Login: Após preencher o email e senha. |
+|**Objetivo do Teste** | Permitir que o usuário acesse a plataforma através do login. |
+|**Passos** | 1) Acessar o Navegador. 
+2) Informar o endereço do Site.  
+3) Clicar no botão de login. 
+4) Preencher os campos com informações validas. 
+5) Clicar no botão Logar. |
+|**Critérios de Êxito** | "O usuário sera direcionado a homepage e tera acesso ao seu menu.". |
 
-Enumere quais cenários de testes foram selecionados para teste. Neste tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo de usuários que foi escolhido para participar do teste e as ferramentas utilizadas.
+|Caso de Teste |CT-02 – Cadasto de Proficionais |
+|--------------------|----------------------------------------------------------------------|
+|**Requisitos Associados** | RF-002 - O sistema deve permitir gerenciar o profissional. |
+|**Entrada** | Cadastrar Proficional: Após preencher dados silicitados do proficional. |
+|**Objetivo do Teste** | Permitir que o usuário cadatre proficionais no sistema. |
+|**Passos** | 1) Acessar o Navegador .
+2) Informar o endereço do Site.
+3) Fazer login.
+4) Clicar em Proficionais.
+5) Selecionar novo.
+6) Preencher os campos com informações validas.
+7) Clicar no botão Cadastrar. |
+|**Critérios de Êxito** | O usuário sera direcionado a homepage e tera mensagem de confirmação. |
  
+|Caso de Teste |CT-03 – Edição de Proficionais |
+|--------------------|----------------------------------------------------------------------|
+|**Requisitos Associados** | RF-002 - O sistema deve permitir gerenciar o profissional. |
+|**Entrada** | Editar Cadastro Proficional: Após preencher dados do proficional. |
+|**Objetivo do Teste** | Permitir que o usuário edite cadatro de proficionais no sistema. |
+|**Passos** | 1) Acessar o Navegador .
+2) Informar o endereço do Site.
+3) Fazer login.
+4) Clicar em Proficionais.
+5) Selecionar existente.
+5) Selecionar editar.
+6) Preencher os campos com informações validas.
+7) Clicar no botão Salvar. |
+|**Critérios de Êxito** | O usuário sera direcionado a homepage e terá mensagem de confirmação. |
+
+|Caso de Teste |CT-04 – Registro de atendimentos |
+|--------------------|----------------------------------------------------------------------|
+|**Requisitos Associados** | RF-003 - O sistema deve permitir registrar os atendimentos, para cada atendimento o profissional de saúde deverá vincular o paciente que foi atendido ao dia, a hora e a descrição do atendimento. |
+|**Entrada** | Atraves de um formulário contendo informações do paciente e proficional vinculado. |
+|**Objetivo do Teste** | Permitir que o usuário cadastre informações de consultatas vinculadas entre paciente e proficional, com  caracteristicas e observações para consultas e controles posteriores. |
+|**Passos** | 1) Acessar o Navegador .
+2) Informar o endereço do Site.
+3) Fazer login.
+4) Clicar em Registro de atendimento.
+5) Selecionar existente.
+5) Selecionar editar.
+6) Preencher os campos com informações validas.
+7) Clicar no botão Salvar. |
+|**Critérios de Êxito** | O usuário sera direcionado a homepage e tera mensagem de confirmação. |
+
 ## Ferramentas de Testes (Opcional)
 
 Comente sobre as ferramentas de testes utilizadas.
