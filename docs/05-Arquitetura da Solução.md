@@ -13,7 +13,7 @@ Definição de como o software é estruturado em termos dos componentes que faze
 O Modelo ER representa através de um diagrama como as entidades (coisas, objetos) se relacionam entre si na aplicação interativa.]
 
 
-![](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial/blob/main/docs/img/Modelo%20ER_final.png)
+![](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial/blob/main/docs/img/Modelo%20ER%20-%20P%C3%A1gina%201.png)
 
 ## Esquema Relacional
 
