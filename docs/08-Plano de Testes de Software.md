@@ -10,7 +10,15 @@
 |**Passos** | 1) Acessar o Navegador. <br>2) Informar o endereço do Site.  <br>3) Clicar no botão de login. <br>4) Preencher os campos com informações validas.<br>5) Clicar no botão Logar. |
 |**Critérios de Êxito** | "O usuário sera direcionado a homepage e tera acesso ao seu menu.". |
 
-|Caso de Teste |CT-02 – Cadasto de Proficionais |
+|Caso de Teste |CT-02 – Alterar Senha |
+|--------------------|-----------------------------------------------------------------------------------------------------------------------|
+|**Requisitos Associados** | RF-001 - O sistema deve permitir que os profissionais façam login e alterem sua senha.|
+|**Entrada** | Após clicar no botão esqueci senha, o usuário deverá informar o email cadastrado.. |
+|**Objetivo do Teste** | Verificar se os campos do formulário estão sendo exibidos corretamente. |
+|**Passos** | 1) Acessar o Navegador. <br>2) Informar o endereço do Site.  <br>3) Clicar no botão de login. <br>4)Selecionar esqueci a senha.<br>5) Preencher os campo com dados validos.<br>6) Clicar Salvar. |
+|**Critérios de Êxito** | Senha alterada com sucesso. |
+
+|Caso de Teste |CT-03 – Cadasto de Proficionais |
 |--------------------|-----------------------------------------------------------------------------------------------------------------------|
 |**Requisitos Associados** | RF-002 - O sistema deve permitir gerenciar o profissional. |
 |**Entrada** | Cadastrar Proficional: Após preencher dados silicitados do proficional. |
@@ -18,7 +26,7 @@
 |**Passos** | 1) Acessar o Navegador .<br>2) Informar o endereço do Site.<br>3) Fazer login<br>4) Clicar em Proficionais.<br>5) Selecionar novo.<br>6) Preencher os campos com informações validas.<br>7) Clicar no botão Cadastrar. |
 |**Critérios de Êxito** | O usuário sera direcionado a homepage e tera mensagem de confirmação. |
  
-|Caso de Teste |CT-03 – Edição de Proficionais |
+|Caso de Teste |CT-04 – Edição de Proficionais |
 |--------------------|-----------------------------------------------------------------------------------------------------------------------|
 |**Requisitos Associados** | RF-002 - O sistema deve permitir gerenciar o profissional. |
 |**Entrada** | Editar Cadastro Proficional: Após preencher dados do proficional. |
@@ -26,7 +34,7 @@
 |**Passos** | 1) Acessar o Navegador .<br>2) Informar o endereço do Site.<br>3) Fazer login.<br>4) Clicar em Proficionais.<br>5) Selecionar existente.<br>6) Selecionar editar.<br>7) Preencher os campos com informações validas.<br>8) Clicar no botão Salvar. |
 |**Critérios de Êxito** | O usuário sera direcionado a homepage e terá mensagem de confirmação. |
 
-|Caso de Teste |CT-04 – Registro de atendimentos |
+|Caso de Teste |CT-05 – Registro de atendimentos |
 |--------------------|-----------------------------------------------------------------------------------------------------------------------|
 |**Requisitos Associados** | RF-003 - O sistema deve permitir registrar os atendimentos, para cada atendimento o profissional de saúde deverá vincular o paciente que foi atendido ao dia, a hora e a descrição do atendimento. |
 |**Entrada** | Atraves de um formulário contendo informações do paciente e proficional vinculado. |
