@@ -104,7 +104,7 @@ O diagrama de casos de uso é o próximo passo após a elicitação de requisito
 |------|------|------|
 |Realizar o Cadastro de usuário na Home Page | O cadastro deve ser feito a partir de uma ficha de dados com informações do usuário | RF-02 |
 | Alterar a senha | O usuário deve conseguir alterar sua senha de acesso | RF-01 |
-| Fazer o login na aplicação | O usuário deve conseguir realizar o login na aplicação através de um nome de uma senha | RF-01 |
+| Fazer o login na aplicação | O usuário deve conseguir realizar o login na aplicação através de um nome e uma senha | RF-01 |
 | Modificar prontuário | O site deve permitir o acesso e edição da documentação relativa ao paciente antes, durante e depois do atendimento | RF-05 |
 | Alterar agendamentos | O site deve permitir aos usuários a marcação, remarcação e cancelamento de atendimentos | RF-03 |
 | Gerar relatórios | O site deve permitir a visualização do  histórico de consultas por mês e gerar relatórios com base nestas informações | RF-04 |
