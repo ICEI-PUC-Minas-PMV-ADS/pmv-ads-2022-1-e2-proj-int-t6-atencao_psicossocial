@@ -92,8 +92,8 @@ O quadro kanban do grupo no Projects está disponível através da URL https://g
 As ferramentas empregadas no projeto são:
 
 - Editor de código: Visual Studio.
-- Ferramentas de comunicação: Microsoft Teams,Google Meet.
-- Ferramentas para criação de diagramas: astah, lucidchart,StarUML, Draw.io.
+- Ferramentas de comunicação: Microsoft Teams, Google Meet.
+- Ferramentas para criação de diagramas: astah, lucidchart, StarUML, Draw.io.
 - Ferramentas de desenho de tela (wireframing): Figma.
 
 O editor de código foi escolhido porque ele possui integração com o sistema de versão e permite depuração na máquina local. A ferramenta de comunicação utilizada foi recomendada pela Universidade e é bem completa para gestão de equipes e viabiliza chamadas de áudio, vídeo e conversa por chat. Para criar diagramas utilizamos as ferramentas mencionadas porque cada uma delas capta melhor algumas das necessidades da nossa solução. Por fim, a ferramenta escolhida para o desenvolvimento dos wireframes e interface de usuário foi escolhida por permitir a edição colaborativa, além de ter funcionalidades voltadas especificamente para a natureza deste trabalho.
