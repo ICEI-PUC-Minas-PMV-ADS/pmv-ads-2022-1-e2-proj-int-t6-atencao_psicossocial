@@ -7,8 +7,8 @@
 |**Requisitos Associados** | RF-001 - O sistema deve permitir que os profissionais façam login e alterem sua senha.|
 |**Entrada** | Login: Após preencher o email e senha. |
 |**Objetivo do Teste** | Permitir que o usuário acesse a plataforma através do login. |
-|**Passos** | 1) Acessar o Navegador. <br>2) Informar o endereço do Site.  <br>3) Clicar no botão de login. <br>4) Preencher os campos com informações validas.<br>5) Clicar no botão Logar. |
-|**Critérios de Êxito** | "O usuário sera direcionado a homepage e tera acesso ao seu menu.". |
+|**Passos** | 1) Acessar o Navegador. <br>2) Informar o endereço do Site.  <br>3) Clicar no botão de login. <br>4) Preencher os campos com informações válidas.<br>5) Clicar no botão Logar. |
+|**Critérios de Êxito** | "O usuário sera direcionado a homepage e terá acesso ao seu menu.". |
 
 |Caso de Teste |CT-02 – Alterar Senha |
 |--------------------|-----------------------------------------------------------------------------------------------------------------------|
@@ -24,23 +24,23 @@
 |**Entrada** | Cadastrar Proficional: Após preencher dados silicitados do proficional. |
 |**Objetivo do Teste** | Permitir que o usuário cadatre proficionais no sistema. |
 |**Passos** | 1) Acessar o Navegador .<br>2) Informar o endereço do Site.<br>3) Fazer login<br>4) Clicar em Proficionais.<br>5) Selecionar novo.<br>6) Preencher os campos com informações validas.<br>7) Clicar no botão Cadastrar. |
-|**Critérios de Êxito** | O usuário sera direcionado a homepage e tera mensagem de confirmação. |
+|**Critérios de Êxito** | O usuário sera direcionado a homepage e terá mensagem de confirmação. |
  
 |Caso de Teste |CT-04 – Edição de Proficionais |
 |--------------------|-----------------------------------------------------------------------------------------------------------------------|
 |**Requisitos Associados** | RF-002 - O sistema deve permitir gerenciar o profissional. |
 |**Entrada** | Editar Cadastro Proficional: Após preencher dados do proficional. |
 |**Objetivo do Teste** | Permitir que o usuário edite cadatro de proficionais no sistema. |
-|**Passos** | 1) Acessar o Navegador .<br>2) Informar o endereço do Site.<br>3) Fazer login.<br>4) Clicar em Proficionais.<br>5) Selecionar existente.<br>6) Selecionar editar.<br>7) Preencher os campos com informações validas.<br>8) Clicar no botão Salvar. |
-|**Critérios de Êxito** | O usuário sera direcionado a homepage e terá mensagem de confirmação. |
+|**Passos** | 1) Acessar o Navegador .<br>2) Informar o endereço do Site.<br>3) Fazer login.<br>4) Clicar em Profissionais.<br>5) Selecionar existente.<br>6) Selecionar editar.<br>7) Preencher os campos com informações válidas.<br>8) Clicar no botão Salvar. |
+|**Critérios de Êxito** | O usuário será direcionado a homepage e terá a mensagem de confirmação. |
 
 |Caso de Teste |CT-05 – Registro de atendimentos |
 |--------------------|-----------------------------------------------------------------------------------------------------------------------|
 |**Requisitos Associados** | RF-003 - O sistema deve permitir registrar os atendimentos, para cada atendimento o profissional de saúde deverá vincular o paciente que foi atendido ao dia, a hora e a descrição do atendimento. |
-|**Entrada** | Atraves de um formulário contendo informações do paciente e proficional vinculado. |
+|**Entrada** | Através de um formulário contendo informações do paciente e profissional vinculado. |
 |**Objetivo do Teste** | Permitir que o usuário cadastre informações de consultatas vinculadas entre paciente e proficional, com  caracteristicas e observações para consultas e controles posteriores. |
-|**Passos** | 1) Acessar o Navegador .<br>2) Informar o endereço do Site.<br>3) Fazer login.<br>4) Clicar em Registro de atendimento.<br>5) Selecionar existente.<br>6) Selecionar editar.<br>7) Preencher os campos com informações validas.<br>8) Clicar no botão Salvar. |
-|**Critérios de Êxito** | O usuário sera direcionado a homepage e tera mensagem de confirmação. |
+|**Passos** | 1) Acessar o Navegador .<br>2) Informar o endereço do Site.<br>3) Fazer login.<br>4) Clicar em Registro de atendimento.<br>5) Selecionar existente.<br>6) Selecionar editar.<br>7) Preencher os campos com informações válidas.<br>8) Clicar no botão Salvar. |
+|**Critérios de Êxito** | O usuário será direcionado a homepage e terá mensagem de confirmação. |
 
 ## Ferramentas de Testes (Opcional)
 
