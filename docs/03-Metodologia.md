@@ -80,7 +80,7 @@ O quadro kanban do grupo no Projects está disponível através da URL https://g
 *Figura 2 – Fluxo de controle do código fonte no repositório git* 
 
 \
-  AS tarefas são classificadas em função da natureza ou prioridade da atividade e seguem o um esquema de etiquetagem entre cores e categorias que pode ser visto pela Figura 3:
+  AS tarefas são classificadas em função da natureza ou prioridade da atividade e seguem um esquema de etiquetagem entre cores e categorias que pode ser visto pela Figura 3:
 
   ![Figura 3](img/etiquetaskanban.png)
 
