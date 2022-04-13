@@ -63,6 +63,7 @@ Sendo assim, o time está organizado da seguinte maneira:
 -Hugo Kioshi
 -Junior Antunes
 -Samuel Leite Fonseca
+-Thiago Álvaro Barbosa Fraga
 
 ### Processo
 Para organização e distribuição das tarefas do projeto, a equipe está utilizando o Projects do github estruturado com as seguintes listas:
