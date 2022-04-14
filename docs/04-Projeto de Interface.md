@@ -38,7 +38,7 @@ Depois de fazer o login na aplicação, o usuário é redirecionado para uma hom
 ![](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial/blob/main/docs/img/03-HOME.png)<br>
 
 ## Tela – Perfil
-A tela de perfil permite que o usuário acesso o seu perfil dentro da plataforma.
+A tela de perfil permite que o usuário acesse o seu perfil dentro da plataforma.
 <br>
 ![](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial/blob/main/docs/img/04-PERFIL.png)<br>
 
