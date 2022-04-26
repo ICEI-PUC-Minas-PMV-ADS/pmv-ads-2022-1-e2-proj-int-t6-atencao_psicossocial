@@ -1,0 +1,40 @@
+﻿@model Psiconnect_01.Models.Usuario
+
+@{
+    ViewData["Title"] = "Login";
+}
+
+<div class="row justify-content-center">
+
+    <div class="col-md-4">
+        <p>Psiconnect</p>
+        <hr />
+        <form asp-action="Login">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Email" class="control-label"></label>
+                <input asp-for="Email" class="form-control" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Senha" class="control-label"></label>
+                <input asp-for="Senha" class="form-control" />
+                <span asp-validation-for="Senha" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+
+                <input type="submit" value="Entrar" class="btn btn-primary float-right" />
+            </div>
+        </form>
+        <h3>@ViewBag.Message</h3>
+    </div>
+</div>
+
+<div>
+
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
