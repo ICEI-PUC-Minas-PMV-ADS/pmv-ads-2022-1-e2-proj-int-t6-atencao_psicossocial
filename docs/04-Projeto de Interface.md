@@ -23,7 +23,7 @@ A tela apresentada na figura abaixo permite que o usuário faça login na plataf
 ![](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial/blob/main/docs/img/01-login.png)<br>
 
 ## Tela - Cadastro de Usuário 
-A tela de cadastro permite ao usuário se cadastrar na aplicação caso este ainda não possua uma conta
+A tela de cadastro permite ao usuário se cadastrar na aplicação caso este ainda não possua uma conta.
 <br>
 ![](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial/blob/main/docs/img/02-cadastro.png)<br>
 
@@ -43,7 +43,7 @@ A tela de perfil permite que o usuário acesse o seu perfil dentro da plataforma
 ![](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial/blob/main/docs/img/04-perfil.png)<br>
 
 ## Tela – Atendimento   
-A tela de atendimento o usuário tem acesso a uma tela aonde contém os respectivas informações: nome do paciente, data e hora da consulta, CID, prescrição,descrição e sintomas.   
+A tela de atendimento o usuário tem acesso a uma tela aonde contém os respectivas informações para registro do atendimento: nome do paciente, data e hora da consulta, CID, prescrição,descrição e sintomas.   
 <br>
 ![](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial/blob/main/docs/img/05-Atendimento.png)<br>
 
@@ -55,6 +55,6 @@ A tela de configurações permite que o usuário possa ativar as notificações 
 ## Observação
 Ao lado esquerdo de todas as telas tem a opçãp de logout, apresentado como na figura abaixo.
 <br>
-![](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial/blob/main/docs/img/09-LOGOUT.png)<br>
+![](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial/blob/main/docs/img/09-logout.png)<br>
  
 
