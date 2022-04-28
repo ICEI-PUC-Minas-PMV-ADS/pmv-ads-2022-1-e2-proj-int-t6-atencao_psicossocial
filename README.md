@@ -1,4 +1,4 @@
-![](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial/blob/main/docs/img/08-logotipo.png)
+![](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial/blob/main/docs/img/08-LOGOTIPO.png)
 
 ANALISE E DESENVOLVIMENTO DE SISTEMAS
 
