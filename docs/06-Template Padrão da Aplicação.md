@@ -4,6 +4,15 @@
 
 Layout padrão da aplicação que será utilizado em todas as páginas com a definição de identidade visual, aspectos de responsividade e iconografia.
 
+
+## Guia de Estilos
+Antes de definir o template da aplicação, foi necessário definir uma guia de estilos com todos os padrões que serão utilizados durante o desenvolvimento do projeto. Estão detalhados nos itens a seguir:
+
+### Paleta de Cores
+A paleta de cores definida conta com 2 cores primárias, sendo a principal delas definida como cor base, variando entre 9 diferentes tonalidades e também uma escala de preto encaminhando para o cinza, conforme abaixo:
+![](...)
+Paleta de Cores
+
 > **Links Úteis**:
 >
 > - [CSS Website Layout (W3Schools)](https://www.w3schools.com/css/css_website_layout.asp)
