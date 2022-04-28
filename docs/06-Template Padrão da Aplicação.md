@@ -22,8 +22,10 @@ A escolha das cores não foi por um acaso, mas diz tudo o que queremos passar co
 
 ### Tipografia
 As fontes utilizadas na aplicação são Montserrat e Rubik, e seguem as seguintes definições de tamanho e estilização, como pode ser observado na Figura 12:
-![](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial/blob/main/docs/img/10-tipografia.png)
-Figura 12 – Tipografia e Fontes utilizadas
+<br>
+![](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial/blob/main/docs/img/10-tipografia.png)<br>
+<br>
+Figura 12 – Tipografia e Fontes utilizadas<br>
 
 
 ### Componentes
