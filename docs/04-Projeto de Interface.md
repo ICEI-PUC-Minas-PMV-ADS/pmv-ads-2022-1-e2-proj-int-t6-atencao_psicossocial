@@ -56,5 +56,3 @@ A tela de configurações permite que o usuário possa ativar as notificações 
 Ao lado esquerdo de todas as telas tem a opçãp de logout, apresentado como na figura abaixo.
 <br>
 ![](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial/blob/main/docs/img/09-logout.png)<br>
- 
-
