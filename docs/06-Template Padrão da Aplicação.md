@@ -37,7 +37,8 @@ Figura 13 – Principais componentes visuais da aplicação<br>
 
 ### Ícones
 ![](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial/blob/main/docs/img/12-icons.png)
-Figura 14 – Iconografia
+<br>
+Figura 14 – Iconografia<br>
 
 > **Links Úteis**:
 >
