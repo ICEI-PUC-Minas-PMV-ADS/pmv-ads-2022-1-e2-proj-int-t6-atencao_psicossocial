@@ -31,7 +31,8 @@ Figura 12 – Tipografia e Fontes utilizadas<br>
 ### Componentes
 Dentre nossos principais componentes personalizados estão os botões e inputs, conforme pode ser visto na Figura 13:
 ![](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial/blob/main/docs/img/13-botos.png)
-Figura 13 – Principais componentes visuais da aplicação
+<br>
+Figura 13 – Principais componentes visuais da aplicação<br>
 
 
 ### Ícones
