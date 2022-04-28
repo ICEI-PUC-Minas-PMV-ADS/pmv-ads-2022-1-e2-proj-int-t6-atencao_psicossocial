@@ -9,9 +9,31 @@ Layout padrão da aplicação que será utilizado em todas as páginas com a def
 Antes de definir o template da aplicação, foi necessário definir uma guia de estilos com todos os padrões que serão utilizados durante o desenvolvimento do projeto. Estão detalhados nos itens a seguir:
 
 ### Paleta de Cores
-A paleta de cores definida conta com 2 cores primárias, sendo a principal delas definida como cor base, variando entre 9 diferentes tonalidades e também uma escala de preto encaminhando para o cinza, conforme abaixo:
-![](...)
-Paleta de Cores
+A paleta de cores definida conta com 2 cores primárias, sendo a principal delas definida como cor base, variando entre 9 diferentes tonalidades e também uma escala de preto encaminhando para o cinza, conforme na figura 11:
+![](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial/blob/main/docs/img/011-paleta%20de%20cores.png)
+Figura 11 – Paleta de Cores
+
+A escolha das cores não foi por um acaso, mas diz tudo o que queremos passar com a nossa aplicação:
+- **Saúde Mental** - O ton de azul em conjunto com a logo em forma de cérebro significam a nossa preocupação em ligar o nome da marca diretamente com a questão da saúde mental;   
+- **Conexão** - As variações de azul e preto em conjunto trabalham a estética da nossa marca;   
+- **A Destinação correta dos materiais eletrônicos** - As escalas de cinza são para lembrar dos materiais eletrônicos.
+
+
+### Tipografia
+As fontes utilizadas na aplicação são Montserrat e Rubik, e seguem as seguintes definições de tamanho e estilização, como pode ser observado na Figura 12:
+![](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial/blob/main/docs/img/10-tipografia.png)
+Figura 12 – Tipografia e Fontes utilizadas
+
+
+### Componentes
+Dentre nossos principais componentes personalizados estão os botões e inputs, conforme pode ser visto na Figura 13:
+![](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial/blob/main/docs/img/13-botos.png)
+Figura 13 – Principais componentes visuais da aplicação
+
+
+### Ícones
+![](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial/blob/main/docs/img/12-icons.png)
+Figura 14 – Iconografia
 
 > **Links Úteis**:
 >
