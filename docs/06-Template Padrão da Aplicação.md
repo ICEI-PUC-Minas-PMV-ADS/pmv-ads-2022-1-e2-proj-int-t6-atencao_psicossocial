@@ -10,6 +10,7 @@ Antes de definir o template da aplicação, foi necessário definir uma guia de 
 
 ### Paleta de Cores
 A paleta de cores definida conta com 2 cores primárias, sendo a principal delas definida como cor base, variando entre 9 diferentes tonalidades e também uma escala de preto encaminhando para o cinza, conforme na figura abaixo:
+
 ![](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial/blob/main/docs/img/011-paleta%20de%20cores.png)
 
 A escolha das cores não foi por um acaso, mas diz tudo o que queremos passar com a nossa aplicação:
@@ -20,22 +21,28 @@ A escolha das cores não foi por um acaso, mas diz tudo o que queremos passar co
 
 ### Tipografia
 As fontes utilizadas na aplicação são Montserrat e Rubik, e seguem as seguintes definições de tamanho e estilização, como pode ser observado na figura abaixo:
+
 <br>
 ![](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial/blob/main/docs/img/10-tipografia.png)<br>
 <br>
+
 Tipografia e Fontes utilizadas<br>
 
 
 ### Componentes
 Dentre nossos principais componentes personalizados estão os botões e inputs, conforme pode ser visto na figura abaixo:
+
 ![](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial/blob/main/docs/img/13-botos.png)
 <br>
+
 Principais componentes visuais da aplicação<br>
 
 
 ### Ícones
 Os ícones são um dos nossos principais componentes, na figura abaixo são mostrados com diferentes aplicações de cores:
+
 ![](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial/blob/main/docs/img/12-icons.png)
+
 <br>
 Iconografia<br>
 
