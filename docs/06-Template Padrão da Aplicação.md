@@ -9,10 +9,8 @@ Layout padrão da aplicação que será utilizado em todas as páginas com a def
 Antes de definir o template da aplicação, foi necessário definir uma guia de estilos com todos os padrões que serão utilizados durante o desenvolvimento do projeto. Estão detalhados nos itens a seguir:
 
 ### Paleta de Cores
-A paleta de cores definida conta com 2 cores primárias, sendo a principal delas definida como cor base, variando entre 9 diferentes tonalidades e também uma escala de preto encaminhando para o cinza, conforme na figura 11:
+A paleta de cores definida conta com 2 cores primárias, sendo a principal delas definida como cor base, variando entre 9 diferentes tonalidades e também uma escala de preto encaminhando para o cinza, conforme na figura abaixo:
 ![](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial/blob/main/docs/img/011-paleta%20de%20cores.png)
-<br>
-Figura 11 – Paleta de Cores<br>
 
 A escolha das cores não foi por um acaso, mas diz tudo o que queremos passar com a nossa aplicação:
 - **Saúde Mental** - O ton de azul em conjunto com a logo em forma de cérebro significam a nossa preocupação em ligar o nome da marca diretamente com a questão da saúde mental;   
@@ -21,25 +19,25 @@ A escolha das cores não foi por um acaso, mas diz tudo o que queremos passar co
 
 
 ### Tipografia
-As fontes utilizadas na aplicação são Montserrat e Rubik, e seguem as seguintes definições de tamanho e estilização, como pode ser observado na Figura 12:
+As fontes utilizadas na aplicação são Montserrat e Rubik, e seguem as seguintes definições de tamanho e estilização, como pode ser observado na figura abaixo:
 <br>
 ![](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial/blob/main/docs/img/10-tipografia.png)<br>
 <br>
-Figura 12 – Tipografia e Fontes utilizadas<br>
+Tipografia e Fontes utilizadas<br>
 
 
 ### Componentes
-Dentre nossos principais componentes personalizados estão os botões e inputs, conforme pode ser visto na Figura 13:
+Dentre nossos principais componentes personalizados estão os botões e inputs, conforme pode ser visto na figura abaixo:
 ![](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial/blob/main/docs/img/13-botos.png)
 <br>
-Figura 13 – Principais componentes visuais da aplicação<br>
+Principais componentes visuais da aplicação<br>
 
 
 ### Ícones
-Os ícones são um dos nossos principais componentes, na Figura 14 abaixo são mostrados com diferentes aplicações de cores:
+Os ícones são um dos nossos principais componentes, na figura abaixo são mostrados com diferentes aplicações de cores:
 ![](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial/blob/main/docs/img/12-icons.png)
 <br>
-Figura 14 – Iconografia<br>
+Iconografia<br>
 
 > **Links Úteis**:
 >
