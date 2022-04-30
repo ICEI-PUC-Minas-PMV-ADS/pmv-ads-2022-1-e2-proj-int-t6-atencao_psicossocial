@@ -43,6 +43,30 @@ Os ícones são um dos nossos principais componentes, na figura abaixo são most
 <br>
 Iconografia<br>
 
+## Aplicação nas telas e fluxos:
+
+### Tela - LandingPage / Login 
+A tela inicial ou LandingPage apresentada na *Figura 14* permite que o usuário faça o login para ter acesso à plataforma e aos serviços oferecidos pelo sistema
+![](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial/blob/main/docs/img/14-Login%20e%20home.png)
+Figura 14 – LandingPage
+
+### Modal - Login 
+Essa aplicação permite que o usuário faça login, preenchendo suas credenciais conforme orientado. Além disso, o usuário pode ser direcionado para se cadastrar na opção “Não tem uma conta?” e para redefinir a senha da conta na opção "Esqueceu sua senha?". O modal em questão pode ser visualizado conforme *Figura 01*.
+![](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial/blob/main/docs/img/01-login.png)
+Figura 01 – Modal Login
+
+### Fluxo de Telas - Cadastro de Usuário 
+O fluxo de *Cadastro de Usuário* ilustrado na *Figura 15* permite ao usuário se cadastrar na aplicação caso este ainda não possua uma conta, seguindo um formulário que solicita informações necessárias de acordo com o tipo de perfil criado.
+![](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial/blob/main/docs/img/15-fluxo%20de%20cadastro.png)
+Figura 15 – Fluxo de Cadastro de Usuário. 
+
+## Fluxo de Telas - Esqueci a Senha  
+Caso o usuário já possua uma conta mas não saiba sua senha, é permitido que ele altere sua senha por meio do fluxo apresentado na *Figura 07*. 
+![](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial/blob/main/docs/img/07-Redefini%C3%A7%C3%A3o%20de%20senha.png)
+Figura 07 – Fluxo de Telas de Redefinição de Senha 
+
+
+
 > **Links Úteis**:
 >
 > - [CSS Website Layout (W3Schools)](https://www.w3schools.com/css/css_website_layout.asp)
