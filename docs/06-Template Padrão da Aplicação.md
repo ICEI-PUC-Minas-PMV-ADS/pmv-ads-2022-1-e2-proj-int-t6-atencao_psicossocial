@@ -60,12 +60,14 @@ Figura 01 – Modal Login
 
 ### Fluxo de Telas - Cadastro de Usuário 
 O fluxo de *Cadastro de Usuário* ilustrado na *Figura 15* permite ao usuário se cadastrar na aplicação caso este ainda não possua uma conta, seguindo um formulário que solicita informações necessárias de acordo com o tipo de perfil criado.
-![](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial/blob/main/docs/img/15-fluxo%20de%20cadastro.png)
+<br>
+![](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial/blob/main/docs/img/15-fluxo%20de%20cadastro.png) <br>
 Figura 15 – Fluxo de Cadastro de Usuário. 
 
 ## Fluxo de Telas - Esqueci a Senha  
 Caso o usuário já possua uma conta mas não saiba sua senha, é permitido que ele altere sua senha por meio do fluxo apresentado na *Figura 07*. 
-![](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial/blob/main/docs/img/07-Redefini%C3%A7%C3%A3o%20de%20senha.png)
+<br>
+![](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial/blob/main/docs/img/07-Redefini%C3%A7%C3%A3o%20de%20senha.png) <br>
 Figura 07 – Fluxo de Telas de Redefinição de Senha 
 
 
