@@ -48,11 +48,14 @@ Iconografia<br>
 ### Tela - LandingPage / Login 
 A tela inicial ou LandingPage apresentada na *Figura 14* permite que o usuário faça o login para ter acesso à plataforma e aos serviços oferecidos pelo sistema
 ![](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial/blob/main/docs/img/14-Login%20e%20home.png)
-Figura 14 – LandingPage
+<br>
+Figura 14 - Landing Page <br>
+
 
 ### Modal - Login 
 Essa aplicação permite que o usuário faça login, preenchendo suas credenciais conforme orientado. Além disso, o usuário pode ser direcionado para se cadastrar na opção “Não tem uma conta?” e para redefinir a senha da conta na opção "Esqueceu sua senha?". O modal em questão pode ser visualizado conforme *Figura 01*.
-![](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial/blob/main/docs/img/01-login.png)
+<br>
+![](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial/blob/main/docs/img/01-login.png) <br>
 Figura 01 – Modal Login
 
 ### Fluxo de Telas - Cadastro de Usuário 
