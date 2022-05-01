@@ -14,10 +14,8 @@ A paleta de cores definida conta com 2 cores primárias, sendo a principal delas
 ![](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial/blob/main/docs/img/011-paleta%20de%20cores.png)
 
 A escolha das cores não foi por um acaso, mas diz tudo o que queremos passar com a nossa aplicação:
-- **Saúde Mental** - O ton de azul em conjunto com a logo em forma de cérebro significam a nossa preocupação em ligar o nome da marca diretamente com a questão da saúde mental;   
-- **Conexão** - As variações de azul e preto em conjunto trabalham a estética da nossa marca;   
-- **A Destinação correta dos materiais eletrônicos** - As escalas de cinza são para lembrar dos materiais eletrônicos.
-
+- **Saúde Mental** - O ton de azul em conjunto com a logo em forma de cérebro evidenciam a nossa preocupação em ligar o nome da marca diretamente com a questão da saúde mental. A cor azul possui propriedades calmantes e tranquilizantes, que atuam no sistema nervoso e em todo o sistema muscular. Por isso, na cromoterapia, essa cor é usada para o tratamento de problemas de sono e insônia ou relacionados ao estresse, ajudando a trazer calma e harmonia ao organismo;
+- **Conexão** - As variações de azul e preto em conjunto trabalham a estética particular da nossa marca;
 
 ### Tipografia
 As fontes utilizadas na aplicação são Montserrat e Rubik, e seguem as seguintes definições de tamanho e estilização, como pode ser observado na figura abaixo:
