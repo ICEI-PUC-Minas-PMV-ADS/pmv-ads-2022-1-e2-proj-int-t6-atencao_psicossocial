@@ -68,7 +68,10 @@ Caso o usuário já possua uma conta mas não saiba sua senha, é permitido que 
 ![](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial/blob/main/docs/img/07-Redefini%C3%A7%C3%A3o%20de%20senha.png) <br>
 Figura 07 – Fluxo de Telas de Redefinição de Senha 
 
-
+### Tela – Histórico do atendimento
+Em *Histórico de atendimento* o usuário poderá visualizar todos os atendimentos realizados. Essa tela segue ilustrada na *Figura abaixo*. 
+![](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial/blob/main/docs/img/Hist%C3%B3rico%20de%20atendimento.png) <br>
+Figura acima – Tela Histórico do atendimento
 
 > **Links Úteis**:
 >
