@@ -881,3 +881,8 @@ C:\Users\hugo.ito\source\repos\pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocia
 C:\Users\hugo.ito\source\repos\pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial\Psiconnect-01\obj\Debug\net5.0\Razor\Views\Pacientes\Details.cshtml.g.cs
 C:\Users\hugo.ito\source\repos\pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial\Psiconnect-01\obj\Debug\net5.0\Razor\Views\Pacientes\Edit.cshtml.g.cs
 C:\Users\hugo.ito\source\repos\pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial\Psiconnect-01\obj\Debug\net5.0\Razor\Views\Pacientes\Index.cshtml.g.cs
+C:\Users\hugo.ito\source\repos\pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial\Psiconnect-01\obj\Debug\net5.0\Razor\Views\Atendimentos\Create.cshtml.g.cs
+C:\Users\hugo.ito\source\repos\pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial\Psiconnect-01\obj\Debug\net5.0\Razor\Views\Atendimentos\Delete.cshtml.g.cs
+C:\Users\hugo.ito\source\repos\pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial\Psiconnect-01\obj\Debug\net5.0\Razor\Views\Atendimentos\Details.cshtml.g.cs
+C:\Users\hugo.ito\source\repos\pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial\Psiconnect-01\obj\Debug\net5.0\Razor\Views\Atendimentos\Edit.cshtml.g.cs
+C:\Users\hugo.ito\source\repos\pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial\Psiconnect-01\obj\Debug\net5.0\Razor\Views\Atendimentos\Index.cshtml.g.cs
