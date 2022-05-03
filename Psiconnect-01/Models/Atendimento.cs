@@ -13,37 +13,41 @@ namespace Psiconnect_01.Models
         [Key]
         public int Id { get; set; }
 
-        [Display(Name = "Paciente")]
+        [Display(Name = "Paciente:")]
         [Required(ErrorMessage = "Obrigatório informar o Paciente!")]
         public int PacienteId { get; set; }
 
         [ForeignKey("PacienteId")]
         public Paciente Paciente { get; set; }
 
-
+        [Display(Name = "Tipo:")]
         [Required(ErrorMessage = "Obrigatório informar o Tipo!")]
         public TipoEspecialidade Tipo { get; set; }
 
+        [Display(Name = "N° Profissional:")]
         [Required(ErrorMessage = "Obrigatório Informar o Cid!")]
         public string CodProfissional { get; set; }
 
+        [Display(Name = "Nome Profissional:")]
         [Required(ErrorMessage = "Obrigatório Informar o Nome do Profissional!")]
         public string NomeProfissional { get; set; }
 
+        [Display(Name = "Data:")]
         [Required(ErrorMessage = "Obrigatório informar a Data!")]
         [DataType(DataType.Date)]
         public DateTime Data { get; set; }
 
-        [Display(Name = "Descrição")]
+
+        [Display(Name = "Descrição:")]
         [Required(ErrorMessage = "Obrigatório informar a Descrição!")]
 
         public string Descricao { get; set; }
 
-        [Display(Name = "Prescrição")]
+        [Display(Name = "Prescrição:")]
         [Required(ErrorMessage = "Obrigatório informar a Prescrição!")]
         public string Prescricao { get; set; }
 
-        [Display(Name = "Sintomas")]
+        [Display(Name = "Sintomas:")]
         [Required(ErrorMessage = "Obrigatório informar a Sintomas!")]
         public string Sintomas { get; set; }
 
