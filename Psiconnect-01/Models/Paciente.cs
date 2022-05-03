@@ -19,12 +19,12 @@ namespace Psiconnect_01.Models
 
         [Display(Name = "CPF:")]
         [Required(ErrorMessage = "Obrigatório Informar o CPF!")]
-        public int Cpf { get; set; }
+        public string Cpf { get; set; }
 
         [Display(Name = "Telefone:")]
         [Required(ErrorMessage = "Obrigatório Informar o Telefone!")]
         [DataType(DataType.PhoneNumber)]
-        public int Telefone { get; set; }
+        public string Telefone { get; set; }
 
         [Display(Name = "E-mail:")]
         [Required(ErrorMessage = "Obrigatório Informar o E-mail!")]
