@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Eixo-02-Uni-02-Back-End\\Psiconnect\\Psiconnect-01\\Psiconnect.csproj": {}
+    "C:\\Users\\hugo.ito\\source\\repos\\pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial\\Psiconnect-01\\Psiconnect.csproj": {}
   },
   "projects": {
-    "D:\\Eixo-02-Uni-02-Back-End\\Psiconnect\\Psiconnect-01\\Psiconnect.csproj": {
+    "C:\\Users\\hugo.ito\\source\\repos\\pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial\\Psiconnect-01\\Psiconnect.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Eixo-02-Uni-02-Back-End\\Psiconnect\\Psiconnect-01\\Psiconnect.csproj",
+        "projectUniqueName": "C:\\Users\\hugo.ito\\source\\repos\\pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial\\Psiconnect-01\\Psiconnect.csproj",
         "projectName": "Psiconnect",
-        "projectPath": "D:\\Eixo-02-Uni-02-Back-End\\Psiconnect\\Psiconnect-01\\Psiconnect.csproj",
-        "packagesPath": "C:\\Users\\Hugo Kioshi\\.nuget\\packages\\",
-        "outputPath": "D:\\Eixo-02-Uni-02-Back-End\\Psiconnect\\Psiconnect-01\\obj\\",
+        "projectPath": "C:\\Users\\hugo.ito\\source\\repos\\pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial\\Psiconnect-01\\Psiconnect.csproj",
+        "packagesPath": "C:\\Users\\hugo.ito\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hugo.ito\\source\\repos\\pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial\\Psiconnect-01\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Hugo Kioshi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\hugo.ito\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

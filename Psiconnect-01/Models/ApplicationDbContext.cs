@@ -14,5 +14,7 @@ namespace Psiconnect_01.Models
 
 
         public DbSet<Usuario> Usuarios { get; set; }
+        public DbSet<Paciente> Pacientes { get; set; }
+        public DbSet<Atendimento> Atendimentos { get; set; }
     }
 }
