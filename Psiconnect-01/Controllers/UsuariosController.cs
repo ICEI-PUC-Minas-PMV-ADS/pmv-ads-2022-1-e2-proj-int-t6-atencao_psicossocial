@@ -12,9 +12,6 @@ using Psiconnect_01.Models;
 
 namespace Psiconnect_01.Controllers
 {
-
-
-  
     public class UsuariosController : Controller
     {
         private readonly ApplicationDbContext _context;
@@ -24,18 +21,19 @@ namespace Psiconnect_01.Controllers
             _context = context;
         }
 
-        
+
+
         public IActionResult Login()
         {
             return View();
         }
 
         [HttpPost]
-        
-        public async Task<IActionResult> Login([Bind("Email,Senha")] Usuario usuarios)
+
+        public async Task<IActionResult> Login([Bind("Cpf,Senha")] Usuario usuarios)
         {
             var user = await _context.Usuarios
-                .FirstOrDefaultAsync(m => m.Email == usuarios.Email);
+                .FirstOrDefaultAsync(m => m.Cpf == usuarios.Cpf);
             if (user == null)
             {
                 ViewBag.Message = "Usuario e ou Senha inválidos ";
@@ -75,11 +73,12 @@ namespace Psiconnect_01.Controllers
             return RedirectToAction("Login", "Usuarios");
         }
 
-        
+
         public IActionResult AccessDenid()
         {
             return View();
         }
+
 
 
 
@@ -93,7 +92,7 @@ namespace Psiconnect_01.Controllers
         }
 
         // GET: Usuarios/Details/5
-        public async Task<IActionResult> Details(int? id)
+        public async Task<IActionResult> Details(string id)
         {
             if (id == null)
             {
@@ -101,7 +100,7 @@ namespace Psiconnect_01.Controllers
             }
 
             var usuario = await _context.Usuarios
-                .FirstOrDefaultAsync(m => m.Id == id);
+                .FirstOrDefaultAsync(m => m.Cpf == id);
             if (usuario == null)
             {
                 return NotFound();
@@ -121,7 +120,7 @@ namespace Psiconnect_01.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Nome,Email,Senha,Perfil")] Usuario usuario)
+        public async Task<IActionResult> Create([Bind("Nome,Cpf,Email,Senha,Perfil")] Usuario usuario)
         {
             if (ModelState.IsValid)
             {
@@ -134,7 +133,7 @@ namespace Psiconnect_01.Controllers
         }
 
         // GET: Usuarios/Edit/5
-        public async Task<IActionResult> Edit(int? id)
+        public async Task<IActionResult> Edit(string id)
         {
             if (id == null)
             {
@@ -154,9 +153,9 @@ namespace Psiconnect_01.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Nome,Email,Senha,Perfil")] Usuario usuario)
+        public async Task<IActionResult> Edit(string id, [Bind("Nome,Cpf,Email,Senha,Perfil")] Usuario usuario)
         {
-            if (id != usuario.Id)
+            if (id != usuario.Cpf)
             {
                 return NotFound();
             }
@@ -171,7 +170,7 @@ namespace Psiconnect_01.Controllers
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!UsuarioExists(usuario.Id))
+                    if (!UsuarioExists(usuario.Cpf))
                     {
                         return NotFound();
                     }
@@ -186,7 +185,7 @@ namespace Psiconnect_01.Controllers
         }
 
         // GET: Usuarios/Delete/5
-        public async Task<IActionResult> Delete(int? id)
+        public async Task<IActionResult> Delete(string id)
         {
             if (id == null)
             {
@@ -194,7 +193,7 @@ namespace Psiconnect_01.Controllers
             }
 
             var usuario = await _context.Usuarios
-                .FirstOrDefaultAsync(m => m.Id == id);
+                .FirstOrDefaultAsync(m => m.Cpf == id);
             if (usuario == null)
             {
                 return NotFound();
@@ -206,7 +205,7 @@ namespace Psiconnect_01.Controllers
         // POST: Usuarios/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> DeleteConfirmed(int id)
+        public async Task<IActionResult> DeleteConfirmed(string id)
         {
             var usuario = await _context.Usuarios.FindAsync(id);
             _context.Usuarios.Remove(usuario);
@@ -214,9 +213,9 @@ namespace Psiconnect_01.Controllers
             return RedirectToAction(nameof(Index));
         }
 
-        private bool UsuarioExists(int id)
+        private bool UsuarioExists(string id)
         {
-            return _context.Usuarios.Any(e => e.Id == id);
+            return _context.Usuarios.Any(e => e.Cpf == id);
         }
     }
 }

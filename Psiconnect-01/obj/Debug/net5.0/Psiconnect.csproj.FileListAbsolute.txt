@@ -860,12 +860,6 @@ C:\Users\hugo.ito\source\repos\pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocia
 C:\Users\hugo.ito\source\repos\pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial\Psiconnect-01\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
 C:\Users\hugo.ito\source\repos\pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial\Psiconnect-01\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Users\hugo.ito\source\repos\pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial\Psiconnect-01\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
-C:\Users\hugo.ito\source\repos\pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial\Psiconnect-01\obj\Debug\net5.0\Razor\Views\Usuarios\Create.cshtml.g.cs
-C:\Users\hugo.ito\source\repos\pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial\Psiconnect-01\obj\Debug\net5.0\Razor\Views\Usuarios\Delete.cshtml.g.cs
-C:\Users\hugo.ito\source\repos\pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial\Psiconnect-01\obj\Debug\net5.0\Razor\Views\Usuarios\Details.cshtml.g.cs
-C:\Users\hugo.ito\source\repos\pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial\Psiconnect-01\obj\Debug\net5.0\Razor\Views\Usuarios\Edit.cshtml.g.cs
-C:\Users\hugo.ito\source\repos\pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial\Psiconnect-01\obj\Debug\net5.0\Razor\Views\Usuarios\Index.cshtml.g.cs
-C:\Users\hugo.ito\source\repos\pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial\Psiconnect-01\obj\Debug\net5.0\Razor\Views\Usuarios\Login.cshtml.g.cs
 C:\Users\hugo.ito\source\repos\pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial\Psiconnect-01\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
 C:\Users\hugo.ito\source\repos\pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial\Psiconnect-01\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
 C:\Users\hugo.ito\source\repos\pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial\Psiconnect-01\obj\Debug\net5.0\Psiconnect.RazorTargetAssemblyInfo.cache
@@ -876,6 +870,12 @@ C:\Users\hugo.ito\source\repos\pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocia
 C:\Users\hugo.ito\source\repos\pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial\Psiconnect-01\obj\Debug\net5.0\ref\Psiconnect.dll
 C:\Users\hugo.ito\source\repos\pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial\Psiconnect-01\obj\Debug\net5.0\Psiconnect.pdb
 C:\Users\hugo.ito\source\repos\pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial\Psiconnect-01\obj\Debug\net5.0\Psiconnect.genruntimeconfig.cache
+C:\Users\hugo.ito\source\repos\pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial\Psiconnect-01\obj\Debug\net5.0\Razor\Views\Usuarios\Create.cshtml.g.cs
+C:\Users\hugo.ito\source\repos\pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial\Psiconnect-01\obj\Debug\net5.0\Razor\Views\Usuarios\Delete.cshtml.g.cs
+C:\Users\hugo.ito\source\repos\pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial\Psiconnect-01\obj\Debug\net5.0\Razor\Views\Usuarios\Details.cshtml.g.cs
+C:\Users\hugo.ito\source\repos\pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial\Psiconnect-01\obj\Debug\net5.0\Razor\Views\Usuarios\Edit.cshtml.g.cs
+C:\Users\hugo.ito\source\repos\pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial\Psiconnect-01\obj\Debug\net5.0\Razor\Views\Usuarios\Index.cshtml.g.cs
+C:\Users\hugo.ito\source\repos\pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial\Psiconnect-01\obj\Debug\net5.0\Razor\Views\Usuarios\Login.cshtml.g.cs
 C:\Users\hugo.ito\source\repos\pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial\Psiconnect-01\obj\Debug\net5.0\Razor\Views\Pacientes\Create.cshtml.g.cs
 C:\Users\hugo.ito\source\repos\pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial\Psiconnect-01\obj\Debug\net5.0\Razor\Views\Pacientes\Delete.cshtml.g.cs
 C:\Users\hugo.ito\source\repos\pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial\Psiconnect-01\obj\Debug\net5.0\Razor\Views\Pacientes\Details.cshtml.g.cs

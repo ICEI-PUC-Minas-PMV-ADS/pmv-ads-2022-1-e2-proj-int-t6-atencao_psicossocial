@@ -18,6 +18,11 @@
                 <span asp-validation-for="Nome" class="text-danger"></span>
             </div>
             <div class="form-group">
+                <label asp-for="Cpf" class="control-label"></label>
+                <input asp-for="Cpf" class="form-control" />
+                <span asp-validation-for="Cpf" class="text-danger"></span>
+            </div>
+            <div class="form-group">
                 <label asp-for="Email" class="control-label"></label>
                 <input asp-for="Email" class="form-control" />
                 <span asp-validation-for="Email" class="text-danger"></span>
@@ -29,6 +34,7 @@
             </div>
             <div class="form-group">
                 <label asp-for="Perfil" class="control-label"></label>
+                <!--  <select asp-for="Perfil" class="form-control"></select> -->
                 <select asp-for="Perfil" class="form-control" asp-items="Html.GetEnumSelectList<Perfil>()"></select>
                 <span asp-validation-for="Perfil" class="text-danger"></span>
             </div>

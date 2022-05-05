@@ -22,23 +22,26 @@
 
                     @if (User.Identity.IsAuthenticated)
                     {
-                        <ul class="navbar-nav flex-grow-1">
-                            <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">&emsp; Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-controller="Pacientes" asp-action="Index">Cadastro</a>
-                            </li>
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">&emsp; Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Pacientes" asp-action="Index">Cadastro</a>
+                        </li>
+
+                        @if (User.IsInRole("ProfissionalDeSaude"))
+                        {
                             <li class="nav-item">
                                 <a class="nav-link text-dark" asp-area="" asp-controller="Atendimentos" asp-action="Index">Atendimentos</a>
                             </li>
-                            @if (User.IsInRole("Admin"))
-                            {
+                            <!-- 
                                 <li class="nav-item">
                                     <a class="nav-link text-dark" asp-area="" asp-controller="Usuarios" asp-action="Index">Usuários</a>
                                 </li>
-                            }
-                        </ul>}
+                            -->
+                        }
+                    </ul>}
 
                     <ul class="navbar-nav">
 

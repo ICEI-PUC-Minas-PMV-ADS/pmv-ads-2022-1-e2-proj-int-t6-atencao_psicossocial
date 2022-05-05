@@ -13,9 +13,10 @@ namespace Psiconnect_01.Models
         [Key]
         public int Id { get; set; }
 
+
         [Display(Name = "Paciente:")]
         [Required(ErrorMessage = "Obrigatório informar o Paciente!")]
-        public int PacienteId { get; set; }
+        public string PacienteId { get; set; }
 
         [ForeignKey("PacienteId")]
         public Paciente Paciente { get; set; }
@@ -29,7 +30,7 @@ namespace Psiconnect_01.Models
         public string CodProfissional { get; set; }
 
         [Display(Name = "Nome Profissional:")]
-        [Required(ErrorMessage = "Obrigatório Informar o Nome do Profissional!")]
+        
         public string NomeProfissional { get; set; }
 
         [Display(Name = "Data:")]

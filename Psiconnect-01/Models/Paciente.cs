@@ -9,14 +9,13 @@ namespace Psiconnect_01.Models
 {
     [Table("Pacientes")]
     public class Paciente
-    {
-        [Key]
-        public int Id { get; set; }
-
+    { 
+        
         [Display(Name = "Nome:")]
         [Required(ErrorMessage = "Obrigatório Informar o Nome!")]
         public string Nome { get; set; }
 
+        [Key]
         [Display(Name = "CPF:")]
         [Required(ErrorMessage = "Obrigatório Informar o CPF!")]
         public string Cpf { get; set; }

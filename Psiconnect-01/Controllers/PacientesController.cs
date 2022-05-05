@@ -25,7 +25,7 @@ namespace Psiconnect_01.Controllers
         }
 
         // GET: Pacientes/Details/5
-        public async Task<IActionResult> Details(int? id)
+        public async Task<IActionResult> Details(string id)
         {
             if (id == null)
             {
@@ -33,7 +33,7 @@ namespace Psiconnect_01.Controllers
             }
 
             var paciente = await _context.Pacientes
-                .FirstOrDefaultAsync(m => m.Id == id);
+                .FirstOrDefaultAsync(m => m.Cpf == id);
             if (paciente == null)
             {
                 return NotFound();
@@ -53,7 +53,7 @@ namespace Psiconnect_01.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Nome,Cpf,Telefone,Email,Cidade,Cep,Endereço,Bairro")] Paciente paciente)
+        public async Task<IActionResult> Create([Bind("Nome,Cpf,Telefone,Email,Cidade,Cep,Endereço,Bairro")] Paciente paciente)
         {
             if (ModelState.IsValid)
             {
@@ -65,7 +65,7 @@ namespace Psiconnect_01.Controllers
         }
 
         // GET: Pacientes/Edit/5
-        public async Task<IActionResult> Edit(int? id)
+        public async Task<IActionResult> Edit(string id)
         {
             if (id == null)
             {
@@ -85,9 +85,9 @@ namespace Psiconnect_01.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Nome,Cpf,Telefone,Email,Cidade,Cep,Endereço,Bairro")] Paciente paciente)
+        public async Task<IActionResult> Edit(string id, [Bind("Nome,Cpf,Telefone,Email,Cidade,Cep,Endereço,Bairro")] Paciente paciente)
         {
-            if (id != paciente.Id)
+            if (id != paciente.Cpf)
             {
                 return NotFound();
             }
@@ -101,7 +101,7 @@ namespace Psiconnect_01.Controllers
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!PacienteExists(paciente.Id))
+                    if (!PacienteExists(paciente.Cpf))
                     {
                         return NotFound();
                     }
@@ -116,7 +116,7 @@ namespace Psiconnect_01.Controllers
         }
 
         // GET: Pacientes/Delete/5
-        public async Task<IActionResult> Delete(int? id)
+        public async Task<IActionResult> Delete(string id)
         {
             if (id == null)
             {
@@ -124,7 +124,7 @@ namespace Psiconnect_01.Controllers
             }
 
             var paciente = await _context.Pacientes
-                .FirstOrDefaultAsync(m => m.Id == id);
+                .FirstOrDefaultAsync(m => m.Cpf == id);
             if (paciente == null)
             {
                 return NotFound();
@@ -136,7 +136,7 @@ namespace Psiconnect_01.Controllers
         // POST: Pacientes/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> DeleteConfirmed(int id)
+        public async Task<IActionResult> DeleteConfirmed(string id)
         {
             var paciente = await _context.Pacientes.FindAsync(id);
             _context.Pacientes.Remove(paciente);
@@ -144,9 +144,9 @@ namespace Psiconnect_01.Controllers
             return RedirectToAction(nameof(Index));
         }
 
-        private bool PacienteExists(int id)
+        private bool PacienteExists(string id)
         {
-            return _context.Pacientes.Any(e => e.Id == id);
+            return _context.Pacientes.Any(e => e.Cpf == id);
         }
     }
 }

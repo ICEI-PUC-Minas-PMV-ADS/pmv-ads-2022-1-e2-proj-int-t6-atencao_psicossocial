@@ -41,8 +41,9 @@ namespace Psiconnect_01.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("PacienteId")
-                        .HasColumnType("int");
+                    b.Property<string>("PacienteId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("Prescricao")
                         .IsRequired()
@@ -64,10 +65,8 @@ namespace Psiconnect_01.Migrations
 
             modelBuilder.Entity("Psiconnect_01.Models.Paciente", b =>
                 {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+                    b.Property<string>("Cpf")
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("Bairro")
                         .IsRequired()
@@ -79,9 +78,6 @@ namespace Psiconnect_01.Migrations
                     b.Property<string>("Cidade")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("Cpf")
-                        .HasColumnType("int");
 
                     b.Property<string>("Email")
                         .IsRequired()
@@ -95,20 +91,19 @@ namespace Psiconnect_01.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("Telefone")
-                        .HasColumnType("int");
+                    b.Property<string>("Telefone")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
-                    b.HasKey("Id");
+                    b.HasKey("Cpf");
 
                     b.ToTable("Pacientes");
                 });
 
             modelBuilder.Entity("Psiconnect_01.Models.Usuario", b =>
                 {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+                    b.Property<string>("Cpf")
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("Email")
                         .IsRequired()
@@ -125,7 +120,7 @@ namespace Psiconnect_01.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.HasKey("Id");
+                    b.HasKey("Cpf");
 
                     b.ToTable("Usuarios");
                 });

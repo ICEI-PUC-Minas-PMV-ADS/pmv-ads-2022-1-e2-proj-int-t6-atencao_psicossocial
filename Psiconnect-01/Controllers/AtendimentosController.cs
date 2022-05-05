@@ -47,7 +47,7 @@ namespace Psiconnect_01.Controllers
         // GET: Atendimentos/Create
         public IActionResult Create()
         {
-            ViewData["PacienteId"] = new SelectList(_context.Pacientes, "Id", "Nome");
+            ViewData["PacienteId"] = new SelectList(_context.Pacientes, "Cpf", "Nome");
             return View();
         }
 
@@ -64,7 +64,7 @@ namespace Psiconnect_01.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["PacienteId"] = new SelectList(_context.Pacientes, "Id", "Nome", atendimento.PacienteId);
+            ViewData["PacienteId"] = new SelectList(_context.Pacientes, "Cpf", "Nome", atendimento.PacienteId);
             return View(atendimento);
         }
 
@@ -81,7 +81,7 @@ namespace Psiconnect_01.Controllers
             {
                 return NotFound();
             }
-            ViewData["PacienteId"] = new SelectList(_context.Pacientes, "Id", "Nome", atendimento.PacienteId);
+            ViewData["PacienteId"] = new SelectList(_context.Pacientes, "Cpf", "Nome", atendimento.PacienteId);
             return View(atendimento);
         }
 
@@ -117,7 +117,7 @@ namespace Psiconnect_01.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["PacienteId"] = new SelectList(_context.Pacientes, "Id", "Nome", atendimento.PacienteId);
+            ViewData["PacienteId"] = new SelectList(_context.Pacientes, "Cpf", "Nome", atendimento.PacienteId);
             return View(atendimento);
         }
 

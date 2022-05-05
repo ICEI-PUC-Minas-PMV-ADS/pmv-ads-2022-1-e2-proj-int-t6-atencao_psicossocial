@@ -2,8 +2,11 @@
   "ExpandedNodes": [
     "",
     "\\Psiconnect-01",
-    "\\Psiconnect-01\\Models"
+    "\\Psiconnect-01\\Views",
+    "\\Psiconnect-01\\Views\\Home",
+    "\\Psiconnect-01\\Views\\Shared",
+    "\\Psiconnect-01\\Views\\Usuarios"
   ],
-  "SelectedNode": "\\Psiconnect-01\\Models",
+  "SelectedNode": "\\Psiconnect-01\\Views\\Usuarios\\Login.cshtml",
   "PreviewInSolutionExplorer": false
 }
