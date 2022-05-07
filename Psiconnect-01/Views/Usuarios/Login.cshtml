@@ -1,31 +1,33 @@
-﻿@model Psiconnect_01.Models.Usuario
+@model Psiconnect_01.Models.Usuario
 
 @{
     ViewData["Title"] = "Login";
 }
-
+<link rel="stylesheet" href="/css/login.css">
 
 <div class="row justify-content-center">
-    <div class="col-md-4">
-        <img src="~/img/User-1.png" alt="Logo da Empresa">
-        <!-- <p><b>Login</b></p> -->
-        <hr />
+    <div class="login-form">
         <form asp-action="Login">
+            <div class="logo-topo">
+                <img src="img/login-topo.png" alt="Psic">
+            </div>
+            
+            <div class="logo">
+				<img src="img/LogoSemFundo.png" alt="Psiconnect">
+			</div>
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <h2 class="text-center">
+				Entre no Sistema
+			</h2>
             <div class="form-group">
-                <label asp-for="Cpf" class="control-label"></label>
-                <input asp-for="Cpf" class="form-control" />
-                <span asp-validation-for="Cpf" class="text-danger"></span>
+                <input asp-for="Cpf" class="form-control" placeholder="Insira seu CPF" required />
             </div>
             <div class="form-group">
-                <label asp-for="Senha" class="control-label"></label>
-                <input asp-for="Senha" class="form-control" />
-                <span asp-validation-for="Senha" class="text-danger"></span>
+                <input asp-for="Senha" class="form-control" placeholder="Insira sua Senha" required />
             </div>
             <div class="form-group">
-                <input type="submit" value="Entrar" class="btn btn-primary float-right" />
+                <input type="submit" value="Login" class="btn btn-primary btn-lg btn-block" />
                 <a class="nav-link text-info" asp-area="" asp-controller="Usuarios" asp-action="Index">Cadastre aqui</a>
-
             </div>
         </form>
     </div>
