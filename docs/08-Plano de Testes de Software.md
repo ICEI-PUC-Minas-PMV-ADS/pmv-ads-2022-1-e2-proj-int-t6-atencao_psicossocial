@@ -18,15 +18,15 @@
 |**Passos** | 1) Acessar o Navegador. <br>2) Informar o endereço do Site.  <br>3) Clicar no botão de login. <br>4)Selecionar esqueci a senha.<br>5) Preencher os campo com dados validos.<br>6) Clicar Salvar. |
 |**Critérios de Êxito** | Senha alterada com sucesso. |
 
-|Caso de Teste |CT-03 – Cadasto de Proficionais |
+|Caso de Teste |CT-03 – Cadasto de Profissionais |
 |--------------------|-----------------------------------------------------------------------------------------------------------------------|
 |**Requisitos Associados** | RF-002 - O sistema deve permitir gerenciar o profissional. |
-|**Entrada** | Cadastrar Proficional: Após preencher dados silicitados do proficional. |
-|**Objetivo do Teste** | Permitir que o usuário cadatre proficionais no sistema. |
-|**Passos** | 1) Acessar o Navegador .<br>2) Informar o endereço do Site.<br>3) Fazer login<br>4) Clicar em Proficionais.<br>5) Selecionar novo.<br>6) Preencher os campos com informações validas.<br>7) Clicar no botão Cadastrar. |
+|**Entrada** | Cadastrar Profissional: Após preencher dados silicitados do proficional. |
+|**Objetivo do Teste** | Permitir que o usuário se cadatre como profissional no sistema. |
+|**Passos** | 1) Acessar o Navegador .<br>2) Informar o endereço do Site.<br>3) Fazer login<br>4) Clicar em Profissionais.<br>5) Selecionar novo.<br>6) Preencher os campos com informações validas.<br>7) Clicar no botão Cadastrar. |
 |**Critérios de Êxito** | O usuário sera direcionado a homepage e terá mensagem de confirmação. |
  
-|Caso de Teste |CT-04 – Edição de Proficionais |
+|Caso de Teste |CT-04 – Edição de Profissionais |
 |--------------------|-----------------------------------------------------------------------------------------------------------------------|
 |**Requisitos Associados** | RF-002 - O sistema deve permitir gerenciar o profissional. |
 |**Entrada** | Editar Cadastro Proficional: Após preencher dados do proficional. |
