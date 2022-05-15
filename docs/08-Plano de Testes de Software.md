@@ -4,7 +4,7 @@
 
 |Caso de Teste |CT-01 – Login do usuário |
 |--------------------|-----------------------------------------------------------------------------------------------------------------------|
-|**Requisitos Associados** | RF-001 - O sistema deve permitir que os profissionais façam login e alterem sua senha.|
+|**Requisitos Associados** | RF-001 - O sistema deve permitir que os profissionais façam login.|
 |**Entrada** | Login: Após preencher o CPF e senha. |
 |**Objetivo do Teste** | Permitir que o usuário acesse a plataforma através do login. |
 |**Passos** | 1) Acessar o Navegador. <br>2) Informar o endereço do Site.   <br>3) Preencher os campos com informações válidas.<br>4) Clicar no botão Logar. |
@@ -13,7 +13,7 @@
 |Caso de Teste |CT-02 – Alterar Senha |
 |--------------------|-----------------------------------------------------------------------------------------------------------------------|
 |**Requisitos Associados** | RF-001 - O sistema deve permitir que os profissionais façam login e alterem sua senha.|
-|**Entrada** | Após clicar no botão esqueci senha, o usuário deverá informar o email cadastrado.. |
+|**Entrada** | Após clicar no botão esqueci senha, o usuário deverá informar o email cadastrado. |
 |**Objetivo do Teste** | Verificar se os campos do formulário estão sendo exibidos corretamente. |
 |**Passos** | 1) Acessar o Navegador. <br>2) Informar o endereço do Site.  <br>3) Clicar no botão de login. <br>4)Selecionar esqueci a senha.<br>5) Preencher os campo com dados validos.<br>6) Clicar Salvar. |
 |**Critérios de Êxito** | Senha alterada com sucesso. |
@@ -29,7 +29,7 @@
 |Caso de Teste |CT-04 – Edição de Profissionais |
 |--------------------|-----------------------------------------------------------------------------------------------------------------------|
 |**Requisitos Associados** | RF-002 - O sistema deve permitir gerenciar o profissional. |
-|**Entrada** | Editar Cadastro Proficional: Após preencher dados do proficional. |
+|**Entrada** | Editar Cadastro Profissional: Após preencher dados do profissional. |
 |**Objetivo do Teste** | Permitir que o usuário edite cadatro de proficionais no sistema. |
 |**Passos** | 1) Acessar o Navegador .<br>2) Informar o endereço do Site.<br>3) Fazer login.<br>4) Clicar em Profissionais.<br>5) Selecionar existente.<br>6) Selecionar editar.<br>7) Preencher os campos com informações válidas.<br>8) Clicar no botão Salvar. |
 |**Critérios de Êxito** | O usuário será direcionado a homepage e terá a mensagem de confirmação. |
