@@ -9,6 +9,13 @@ O método utilizado é de medição e avaliação. O teste visa a avaliar:
   - Tempo gasto para conclusão da tarefa;
   - Concretização da tarefa.
 
+# Objetivos
+  - Percorrer a aplicação visando identificar eventuais falhas de execução de software e avaliar a facilidade de execução dos objetivos pelos usuários;
+  - Identificar os erros e corrigir de forma a melhorar aspectos de interação com usuário, responsividade e funcionamento.
+
+# Análise dos testes
+Realizados os testes, será feita análise quantitativa dos aspectos negativos observados, bem como poderá incluidos comentários sobre a qualidade da aplicação. 
+
 
 | `Caso de teste ` | ` CTU-001 Identificar botão de login `                    | 
 |--------------------|--------------------------------------------------------| 
@@ -56,4 +63,6 @@ O método utilizado é de medição e avaliação. O teste visa a avaliar:
 |--------------------|--------------------------------------------------------| 
 | Objetivo do teste            | Verificar se o usuário identifica a opção de pesquisar um atendimento                   |  
 | Critérios de Êxito           | Usuário identifica opções e selecionando opção de pesquisar atendimento| 
+
+
 
