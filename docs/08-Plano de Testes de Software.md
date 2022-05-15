@@ -5,9 +5,9 @@
 |Caso de Teste |CT-01 – Login do usuário |
 |--------------------|-----------------------------------------------------------------------------------------------------------------------|
 |**Requisitos Associados** | RF-001 - O sistema deve permitir que os profissionais façam login e alterem sua senha.|
-|**Entrada** | Login: Após preencher o email e senha. |
+|**Entrada** | Login: Após preencher o CPF e senha. |
 |**Objetivo do Teste** | Permitir que o usuário acesse a plataforma através do login. |
-|**Passos** | 1) Acessar o Navegador. <br>2) Informar o endereço do Site.  <br>3) Clicar no botão de login. <br>4) Preencher os campos com informações válidas.<br>5) Clicar no botão Logar. |
+|**Passos** | 1) Acessar o Navegador. <br>2) Informar o endereço do Site.   <br>3) Preencher os campos com informações válidas.<br>4) Clicar no botão Logar. |
 |**Critérios de Êxito** | "O usuário sera direcionado a homepage e terá acesso ao seu menu.". |
 
 |Caso de Teste |CT-02 – Alterar Senha |
