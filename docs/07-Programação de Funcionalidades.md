@@ -30,9 +30,9 @@ logo.png
 Index (indexar figura)
 
 **Instruções de acesso**
-Abra um navegador de Internet e informe a seguinte URL: 
+1.Abra um navegador de Internet e informe a seguinte URL: 
 
-A tela de login é a primeira funcionalidade exibida pelo aplicativo.
+2.A tela de login é a primeira funcionalidade exibida pelo aplicativo.
 
 **RF004** - O acompanhamento dos Registros de Atendimento ao paciente é feito por meio da tela "Histórico de atendimento", que já se encontra funcional utilizando das mesmas tecnologias informadas no item anterior.
 
