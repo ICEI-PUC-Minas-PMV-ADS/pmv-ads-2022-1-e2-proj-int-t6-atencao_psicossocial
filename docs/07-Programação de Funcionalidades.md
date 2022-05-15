@@ -6,12 +6,11 @@ Implementação do sistema descritas por meio dos requisitos funcionais e/ou nã
 
 Para cada requisito funcional, pode ser entregue um artefato desse tipo.
 
-
 ## Página incial (RF001 e RF002)
-O sistema já contém front-end exequível dos formulários de cadastro de usuário, login e alteração de senha, permitindo ainda melhorias e imcrementações oportunas. Concebido fazendo uso do HTML, CSS e JavaScript. Os dados cadastrados e carregados são armazenadas no banco de dados Microsoft azure com estruturas dados baseado em JSON. Exemplo na figura abaixo:
+O sistema contém front-end exequível dos formulários de cadastro de usuário e login, permitindo ainda melhorias e imcrementações oportunas. Concebido fazendo uso do HTML, CSS e JavaScript.Os dados cadastrados e carregados são armazenadas no banco de dados Microsoft azure com estruturas dados baseado em JSON.
+O sistema deve permitir que os usuários façam registro e login. Exemplo na figura abaixo:
 
-![Index](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial/blob/main/docs/img/01-login.png)
-
+<br>![Index](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial/blob/main/docs/img/01-login.png)<br>
 
 ## Requisitos atendidos
 - RF-01
@@ -26,7 +25,7 @@ O sistema já contém front-end exequível dos formulários de cadastro de usuá
 ## Estrutura de Dados
 ![Index](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial/blob/main/docs/img/01-login.png)
 
-# Instruções de acesso
+## Instruções de acesso
 1.Abra um navegador de Internet e informe a seguinte URL: ***********************************
 2.A tela de login é a primeira funcionalidade exibida pelo aplicativo.
 
@@ -53,7 +52,7 @@ O sistema deve permitir registrar o atendimento sendo gerado histórico para o p
 
 A tela permite ao usuário que faça um cadastro preenchendo os requisitos: Nome Completo, CPF, e-mail e senha e selecionando em Departamento se é profissional de Saúde ou Atendente(Secretário/Secretária).
 
-## RF004
+## Histórico de Atendimento (RF004)
 O acompanhamento dos Registros de Atendimento ao paciente é feito por meio da tela "Histórico de atendimento", que já se encontra funcional utilizando das mesmas tecnologias informadas no item anterior.
 O sistema deve gerar relatório dos descritivos lançados em atendimento.
 
