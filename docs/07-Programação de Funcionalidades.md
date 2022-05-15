@@ -8,33 +8,36 @@ Para cada requisito funcional, pode ser entregue um artefato desse tipo.
 
 versao1 - Documentação de Programação de Funcionalidades
 
-#**RF001/RF002** - O sistema já contém front-end exequível dos formulários de cadastro de usuário, login e alteração de senha, permitindo ainda melhorias e imcrementações oportunas. Concebido fazendo uso do HTML, CSS e JavaScript. Os dados cadastrados e carregados são armazenadas no banco de dados Microsoft azure com estruturas dados baseado em JSON. Exemplo na figura abaixo:
+# Página inciial RF001/RF002
+O sistema já contém front-end exequível dos formulários de cadastro de usuário, login e alteração de senha, permitindo ainda melhorias e imcrementações oportunas. Concebido fazendo uso do HTML, CSS e JavaScript. Os dados cadastrados e carregados são armazenadas no banco de dados Microsoft azure com estruturas dados baseado em JSON. Exemplo na figura abaixo:
 
 ![Index]()
 
                 Figura 1 - Tela Principal
 
-#**Requisitos atendidos**
+# Requisitos atendidos
 RF-01
 RF-02
 
-#**RF003** - A aplicação conta com uma estrutura de front e back-end da funcionalidade de Registro de Atendimento ao Paciente. Para desenvolvimento desta função foram utilizados HTML, CSS, JS, e Bootstrap para o front-end e o framework do ASP.NET Razor Pages com C# para programação do backend, utilizando como banco de dados para armazenamento de informações o SQL Server da Microsoft azure.
+# RF003
+A aplicação conta com uma estrutura de front e back-end da funcionalidade de Registro de Atendimento ao Paciente. Para desenvolvimento desta função foram utilizados HTML, CSS, JS, e Bootstrap para o front-end e o framework do ASP.NET Razor Pages com C# para programação do backend, utilizando como banco de dados para armazenamento de informações o SQL Server da Microsoft azure.
 
-#**Artefatos da funcionalidade**
+# Artefatos da funcionalidade
 index.html
 login.js
 style-Index.css
 logo.png
 
-#**Estrutura de Dados**
+# Estrutura de Dados
 Index (indexar figura)
 
-#**Instruções de acesso**
+# Instruções de acesso
 1.Abra um navegador de Internet e informe a seguinte URL: 
 
 2.A tela de login é a primeira funcionalidade exibida pelo aplicativo.
 
-#**RF004** - O acompanhamento dos Registros de Atendimento ao paciente é feito por meio da tela "Histórico de atendimento", que já se encontra funcional utilizando das mesmas tecnologias informadas no item anterior.
+# RF004
+O acompanhamento dos Registros de Atendimento ao paciente é feito por meio da tela "Histórico de atendimento", que já se encontra funcional utilizando das mesmas tecnologias informadas no item anterior.
 
 
 
