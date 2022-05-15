@@ -6,12 +6,11 @@ Implementação do sistema descritas por meio dos requisitos funcionais e/ou nã
 
 Para cada requisito funcional, pode ser entregue um artefato desse tipo.
 
-versao1 - Documentação de Programação de Funcionalidades
 
 ## Página inciial RF001/RF002
 O sistema já contém front-end exequível dos formulários de cadastro de usuário, login e alteração de senha, permitindo ainda melhorias e imcrementações oportunas. Concebido fazendo uso do HTML, CSS e JavaScript. Os dados cadastrados e carregados são armazenadas no banco de dados Microsoft azure com estruturas dados baseado em JSON. Exemplo na figura abaixo:
 
-![Index]()
+![Index](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial/blob/main/docs/img/01-login.png)
 
                 Figura 1 - Tela Principal
 
