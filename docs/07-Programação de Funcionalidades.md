@@ -53,7 +53,7 @@ O sistema deve permitir registrar o atendimento sendo gerado histórico para o p
 
 A tela permite ao usuário que faça um cadastro preenchendo os requisitos: Nome Completo, CPF, e-mail e senha e selecionando em Departamento se é profissional de Saúde ou Atendente(Secretário/Secretária).
 
-## RF004
+## Histórico de Atendimento (RF004)
 O acompanhamento dos Registros de Atendimento ao paciente é feito por meio da tela "Histórico de atendimento", que já se encontra funcional utilizando das mesmas tecnologias informadas no item anterior.
 O sistema deve gerar relatório dos descritivos lançados em atendimento.
 
