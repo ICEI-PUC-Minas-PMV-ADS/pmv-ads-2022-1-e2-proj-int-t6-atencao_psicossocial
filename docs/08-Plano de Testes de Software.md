@@ -42,6 +42,7 @@
 |**Passos** | 1) Acessar o Navegador .<br>2) Informar o endereço do Site.<br>3) Fazer login.<br>4) Clicar em Registro de atendimento.<br>5) Selecionar existente.<br>6) Selecionar editar.<br>7) Preencher os campos com informações válidas.<br>8) Clicar no botão Salvar. |
 |**Critérios de Êxito** | O usuário será direcionado a homepage e terá mensagem de confirmação. |
 
+
 ## Ferramentas de Testes (Opcional)
 
 Comente sobre as ferramentas de testes utilizadas.
@@ -50,7 +51,7 @@ Comente sobre as ferramentas de testes utilizadas.
 
 > - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
 > - [Práticas e Técnicas de Testes Ágeis](http://assiste.serpro.gov.br/serproagil/Apresenta/slides.pdf)
-> -  [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
+> - [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
 > - [Criação e Geração de Planos de Teste de Software](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
 > - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
 > - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
