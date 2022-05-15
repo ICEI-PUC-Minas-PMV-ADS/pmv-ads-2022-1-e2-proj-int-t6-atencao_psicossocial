@@ -7,36 +7,73 @@ Implementação do sistema descritas por meio dos requisitos funcionais e/ou nã
 Para cada requisito funcional, pode ser entregue um artefato desse tipo.
 
 
-## Página inciial RF001/RF002
+## Página incial (RF001 e RF002)
 O sistema já contém front-end exequível dos formulários de cadastro de usuário, login e alteração de senha, permitindo ainda melhorias e imcrementações oportunas. Concebido fazendo uso do HTML, CSS e JavaScript. Os dados cadastrados e carregados são armazenadas no banco de dados Microsoft azure com estruturas dados baseado em JSON. Exemplo na figura abaixo:
 
 ![Index](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial/blob/main/docs/img/01-login.png)
 
-                Figura 1 - Tela Principal
 
 ## Requisitos atendidos
-RF-01
-RF-02
-
-## RF003
-A aplicação conta com uma estrutura de front e back-end da funcionalidade de Registro de Atendimento ao Paciente. Para desenvolvimento desta função foram utilizados HTML, CSS, JS, e Bootstrap para o front-end e o framework do ASP.NET Razor Pages com C# para programação do backend, utilizando como banco de dados para armazenamento de informações o SQL Server da Microsoft azure.
+- RF-01
+- RF-02
 
 ## Artefatos da funcionalidade
-index.html
-login.js
-style-Index.css
-logo.png
+- index.html
+- login.js
+- style-Index.css
+- logo.png
 
 ## Estrutura de Dados
-Index (indexar figura)
+![Index](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial/blob/main/docs/img/01-login.png)
 
 # Instruções de acesso
-1.Abra um navegador de Internet e informe a seguinte URL: 
-
+1.Abra um navegador de Internet e informe a seguinte URL: ***********************************
 2.A tela de login é a primeira funcionalidade exibida pelo aplicativo.
+
+## Cadastro (RF003)
+A aplicação conta com uma estrutura de front e back-end da funcionalidade de Registro de Atendimento ao Paciente. Para desenvolvimento desta função foram utilizados HTML, CSS, JS, e Bootstrap para o front-end e o framework do ASP.NET Razor Pages com C# para programação do backend, utilizando como banco de dados para armazenamento de informações o SQL Server da Microsoft azure.
+O sistema deve permitir registrar o atendimento sendo gerado histórico para o paciente atendido ao dia, hora e descritivo do atendimento.
+
+![CadastroLogin](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial/blob/main/docs/img/01-login.png)
+
+## Requisitos atendidos
+- RF-03
+
+## Artefatos da funcionalidade
+- index.html
+- login.js
+- style-index.css
+
+## Estrutura de Dados
+![Index](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial/blob/main/docs/img/01-login.png)
+
+# Instruções de acesso
+1.Abra um navegador de Internet e informe a seguinte URL: ***********************************
+2.A tela de login é a primeira funcionalidade exibida pelo aplicativo.
+
+A tela permite ao usuário que faça um cadastro preenchendo os requisitos: Nome Completo, CPF, e-mail e senha e selecionando em Departamento se é profissional de Saúde ou Atendente(Secretário/Secretária).
 
 ## RF004
 O acompanhamento dos Registros de Atendimento ao paciente é feito por meio da tela "Histórico de atendimento", que já se encontra funcional utilizando das mesmas tecnologias informadas no item anterior.
+O sistema deve gerar relatório dos descritivos lançados em atendimento.
+
+![CadastroLogin](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial/blob/main/docs/img/01-login.png)
+
+## Requisitos atendidos
+- RF-04
+
+## Artefatos da funcionalidade
+- 
+- 
+- 
+
+## Estrutura de Dados
+![Index](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial/blob/main/docs/img/01-login.png)
+
+# Instruções de acesso
+1.Abra um navegador de Internet e informe a seguinte URL: ***********************************
+2.A tela de login é a primeira funcionalidade exibida pelo aplicativo.
+
 
 
 
