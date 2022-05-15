@@ -25,7 +25,7 @@ O sistema deve permitir que os usuários façam registro e login. Exemplo na fig
 ## Estrutura de Dados
 ![Index](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial/blob/main/docs/img/01-login.png)
 
-# Instruções de acesso
+## Instruções de acesso
 1.Abra um navegador de Internet e informe a seguinte URL: ***********************************
 2.A tela de login é a primeira funcionalidade exibida pelo aplicativo.
 
