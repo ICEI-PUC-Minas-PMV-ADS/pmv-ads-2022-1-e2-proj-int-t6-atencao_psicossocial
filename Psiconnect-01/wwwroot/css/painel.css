@@ -1,0 +1,103 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+body {
+	background-color: #FBFDFF;
+
+}
+
+
+.navbar {
+	background-color: #d3e9ff !important;
+	margin-top: 0;
+	display: flex;
+	position: absolute;
+	
+	transition: .25s;
+}
+
+.navbar-list {
+	height: 100vw;
+}
+
+	.navbar img {
+		width: 200px;
+		
+	}
+
+	.navbar li {
+		list-style: none;
+	}
+
+	.navbar a {
+		color: #071e51;
+		font-size: 15px;
+	}
+
+		.navbar a:hover {
+			color: #244181;
+		}
+
+
+.nav {
+	background-color: #f4f4f4 !important;
+}
+
+.nav a {
+		color: #071e51;
+		font-size: 14px;
+}
+
+.nav a:hover {
+		background-color: lightskyblue !important;
+}
+
+.nav .active {
+		background-color: #00A4FF !important;
+}
+
+.btn-sair {
+	margin-top: 80px;
+	margin-left: auto;
+	margin-right: auto;
+	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.nav-item{
+	
+	margin:20px;
+}
+.nav-link {
+	
+	
+	height: 69px;
+	left: 40px;
+	top: 120px;
+	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.conteudo{
+	position: absolute;
+	margin-top: 0;
+}
+
+.principal {
+	max-height: 100%;
+	overflow-y: auto;
+	margin:0.5%;
+}
+
+.tab-content{
+	
+    
+
+}
+
+@media (max-width){
+	.principal {
+		max-height: 100%;
+		overflow-y: auto;
+		margin: 0.5%;
+	}
+}

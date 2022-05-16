@@ -1,0 +1,82 @@
+﻿body, html {
+    
+    background-image:url('/img/backlogin.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.login-form {
+    width: 350px;
+    margin: 0 auto;
+    padding: 100px 0 30px;
+}
+
+
+    .login-form form {
+        color: #7a7a7a;
+        border-radius: 2px;
+        margin-bottom: 15px;
+        font-size: 13px;
+        background: #FBFDFF;
+        padding:0px 30px 30px 30px;
+        position: relative;
+        box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    }
+    .login-form .logo-topo {
+        margin: auto;
+        width: 320px;
+        height: 80px;
+        padding: 0%;
+    }
+    .login-form .logo-topo img {
+        width: 100%;
+    }
+
+    .login-form .logo {
+        margin: 10px auto;
+        width: 185px;
+        height: 85px;
+    }
+
+        .login-form .logo img {
+            width: 100%;
+        }
+
+
+    .login-form h2 {
+        font-size: 18px;
+        margin: 0px 0 10px;
+    }
+
+.form-control {
+    min-height: 40px;
+    background: #ffffff;
+    box-shadow: none !important;
+    border-color: #e3e3e3;
+}
+
+    .form-control:focus {
+        border-color: #4073ac;
+    }
+
+.form-control, .btn {
+    border-radius: 2px;
+}
+
+.login-form .btn:hover, .login-form .btn:focus {
+    background: #00A4FF;
+}
+
+.login-form input[type="checkbox"] {
+    margin-top: 2px;
+}
+
+b{
+    text-align:center;
+    color: black;
+    
+}
+
+b:hover{
+    color: blue;
+}

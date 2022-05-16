@@ -1,0 +1,64 @@
+﻿@model IEnumerable<Psiconnect_01.Models.Usuario>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+<h2 style="text-align:center">Novo Usuário</h2>
+
+<p>
+    <a class="btn btn-secondary" asp-action="Create">Criar Novo Usuário</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Nome)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Email)
+            </th>
+            <!--
+                <th>
+                    @Html.DisplayNameFor(model => model.Senha)
+                </th>
+            -->
+            <th>
+                @Html.DisplayNameFor(model => model.Perfil)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nome)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>
+            <!--
+                <td>
+                    @Html.DisplayFor(modelItem => item.Senha)
+                </td>
+            -->
+            <td>
+                @Html.DisplayFor(modelItem => item.Perfil)
+            </td>
+            <td>
+
+                <a class="btn btn-secondary" asp-action="Edit" asp-route-id="@item.Cpf">Editar</a> |
+                <a class="btn btn-secondary" asp-action="Details" asp-route-id="@item.Cpf">Detalhes</a> |
+                <a class="btn btn-secondary" asp-action="Delete" asp-route-id="@item.Cpf">Deletar</a>
+
+            </td>
+        </tr>
+            }
+                </tbody>
+            </table>
+<div>
+    <a class="btn btn-info" asp-controller="Home" asp-action="Index">Voltar</a>
+</div>
