@@ -10,9 +10,9 @@ Para cada requisito funcional, pode ser entregue um artefato desse tipo
 |-----------------------------------------|----|
 | A aplicação deve apresentar, na página principal, a funcionalidade de cadastro de usuários login ou cadastrar. | login.cshtml | 
 | A aplicação deve ter a opção de alteração da senha. | em desenvolvimento |
-| A aplicação deve possibilitar cadastrar o profissional. |  |
-| A aplicação deve permitir editar o profissional. |  |
-| A aplicação deve registrar o atendimento do paciente. |  |
+| A aplicação deve possibilitar cadastrar o profissional. | Create.cshtml |
+| A aplicação deve permitir editar o profissional. | Edit.cshtml |
+| A aplicação deve registrar o atendimento do paciente. | Index.cshtml |
 .
 
 
