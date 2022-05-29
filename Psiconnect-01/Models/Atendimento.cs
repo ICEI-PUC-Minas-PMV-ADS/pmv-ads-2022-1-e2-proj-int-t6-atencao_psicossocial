@@ -25,7 +25,7 @@ namespace Psiconnect_01.Models
         [Required(ErrorMessage = "Obrigatório informar o Tipo!")]
         public TipoEspecialidade Tipo { get; set; }
 
-        [Display(Name = "N° Profissional:")]
+        [Display(Name = "N° CID:")]
         [Required(ErrorMessage = "Obrigatório Informar o Cid!")]
         public string CodProfissional { get; set; }
 

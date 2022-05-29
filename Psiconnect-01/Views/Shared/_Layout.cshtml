@@ -1,4 +1,4 @@
-﻿
+  
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,75 +6,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - Psiconnect_01</title>
 
-    <link rel="stylesheet" href="~/css/painel.css">
+    <link rel="stylesheet" href="~/css/painel.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    @if (User.Identity.IsAuthenticated)
+  @if (User.Identity.IsAuthenticated)
     {
-
-        <!-- <nav class="navbar navbar-light bg-light">
-               <div class="col-12">
-                   <img class="float-left" src="~/img/Logo.png" alt="Logo da Empresa">
-                   <ul>
-                       <li class="float-right nav-item dropdown">
-                           Olá, @User.Identity.Name &emsp;<a class="btn btn-outline-danger" asp-area="" asp-controller="Usuarios" asp-action="Logout">Sair</a>
-                       </li>
-                   </ul>
-               </div>
-           </nav>-->
-
-    }
-    <div class="container-fluid mt-4 fixed-top">
-        <div class="row fixed-top">
-            <nav class="navbar  mb-4 pt-3 " >
-                <div class="navbar-list col-md-2 col-sm-12 ">
-                    @if (User.Identity.IsAuthenticated)
-                    {
-                    <div class="nav flex-column nav-pills " id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                        <img style="width:121px" class="float-left p-2" src="~/img/LOGOTIPO.png" alt="Logo da Empresa">
-                        <a class="nav-link  " id="v-pills-home-tab" role="tab" aria-controls="v-pills-home" aria-selected="true" asp-area="" asp-controller="Home" asp-action="Index">Inicial</a>
-                        <a class="nav-link " id="v-pills-home-tab" role="tab" aria-controls="v-pills-home" aria-selected="true" asp-area="" asp-controller="Usuarios" asp-action="Index">Perfil</a>
-                        <a class="nav-link" id="v-pills-profile-tab" role="tab" aria-controls="v-pills-profile" aria-selected="false" asp-area="" asp-controller="Pacientes" asp-action="Index">Cadastro</a>
-                        @if (User.IsInRole("ProfissionalDeSaude"))
-                        {
-                            <a class="nav-link" asp-area="" asp-controller="Atendimentos" asp-action="Index">Atendimentos</a>
-                        }
-                        <div class="btn-sair tab-content" id="v-pills-tabContent">
-                            
-                            <a class="btn-sair" asp-area="" asp-controller="Usuarios" asp-action="Logout"><img style="width:60px" class="float-left p-1" src="~/img/Logout.png" alt="Sair"></a>
-                        </div>
-                       
-                    </div>
-                    }
+        
+            <nav class="navbar navbar-light bg-light">
+                <div class="col-12">
+			        <img class="float-left" src="~/img/Logo.png" alt="Logo da Empresa">
+                    <ul>
+			            <li class="float-right nav-item dropdown">
+				            <a class="btn btn-outline-danger" asp-area="" asp-controller="Usuarios" asp-action="Logout">Sair</a>
+			            </li>
+                    </ul>
                 </div>
             </nav>
-            <div class="principal col-md-9 col-sm-12 pt-3">
-                <div class="tab-content" id="v-pills-tabContent">
-                    <main role="main" class="pb-3">
-                        @RenderBody()
-                    </main>
+       
+    }
+        <div class="container-fluid mt-4">
+            <div class="row">
+               <div class="col-md-3 col-sm-12 mb-4">
+                  @if (User.Identity.IsAuthenticated)
+                      {
+                        <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                            <a class="nav-link active" id="v-pills-home-tab" role="tab" aria-controls="v-pills-home" aria-selected="true" asp-area="" asp-controller="Home" asp-action="Index">&emsp; Home</a>
+                            <a class="nav-link" id="v-pills-profile-tab" role="tab" aria-controls="v-pills-profile" aria-selected="false" asp-area="" asp-controller="Pacientes" asp-action="Index">Paciente</a>
+                            @if (User.IsInRole("ProfissionalDeSaude"))
+                            {
+                                <a class="nav-link" asp-area="" asp-controller="Atendimentos" asp-action="Index">Atendimentos</a>
+                            }
+                            <a class="nav-link" id="v-pills-profile-tab" role="tab" aria-controls="v-pills-profile" aria-selected="false" asp-area="" asp-controller="Usuarios" asp-action="Details">Meus Dados</a>
+                        </div>
+                        }
                 </div>
-            </div>
-
-            <div class="col-md-1 col-sm-12 pt-4">
-                <div class="tab-content" id="v-pills-tabContent">
-                    @if (User.Identity.IsAuthenticated)
-                    {
-                        <img style="width:40px" class="float-left p-1" src="~/img/Profile.png" alt="Logo da Empresa">
-                        <a class="nav-item">
-
-                            @User.Identity.Name
-                        </a>
-                    }
-
-                </div>
+        
+                <div class="col-md-9 col-sm-12">
+                        <div class="tab-content" id="v-pills-tabContent">
+                            <main role="main" class="pb-3">
+                               @RenderBody()
+                            </main>
+                        </div>
+                 </div>
             </div>
         </div>
-    </div>
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
@@ -82,4 +61,4 @@
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>
-
+ 

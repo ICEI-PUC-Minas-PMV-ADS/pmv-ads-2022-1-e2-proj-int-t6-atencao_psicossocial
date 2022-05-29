@@ -1,3 +1,4 @@
+
 @model Psiconnect_01.Models.Usuario
 
 @{
@@ -5,10 +6,16 @@
 }
 <link rel="stylesheet" href="/css/login.css">
 
-<div class="row justify-content-center">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+
+<div class="row justify-content-center col-md-8">
     <div class="login-form">
         <form asp-action="Login">
-            
+            <div class="logo-topo">
+                <img src="img/login-topo.png" alt="Psic">
+            </div>
             
             <div class="logo">
 				<img src="img/LogoSemFundo.png" alt="Psiconnect">
@@ -18,8 +25,8 @@
 				Entre no Sistema
 			</h2>
             <div class="form-group">
-                <input asp-for="Cpf" class="form-control" placeholder="Insira seu CPF" required maxlength="11" />
-		 <span asp-validation-for="Cpf" class="text-danger" ></span>
+                <input asp-for="Cpf" class="form-control" placeholder="Insira seu CPF" required />
+		 <span asp-validation-for="Cpf" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <input asp-for="Senha" class="form-control" placeholder="Insira sua Senha" required />
@@ -27,7 +34,8 @@
             </div>
             <div class="form-group">
                 <input type="submit" value="Login" class="btn btn-primary btn-lg btn-block" />
-                <a class="nav-link text-info" asp-area="" asp-controller="Usuarios" asp-action="Index"><b>Nao tem cadastro? Cadastre aqui</b></a>
+               <!-- Antigo Cadastre aqui <a class="nav-link text-info" asp-area="" asp-controller="Usuarios" asp-action="Index">Cadastre aqui</a>-->
+               <a class="nav-link text-info" asp-area="" asp-controller="Usuarios" asp-action="Create">Cadastre aqui</a>
             </div>
 		<p class="text-secondary">@ViewBag.Message</p>
         </form>

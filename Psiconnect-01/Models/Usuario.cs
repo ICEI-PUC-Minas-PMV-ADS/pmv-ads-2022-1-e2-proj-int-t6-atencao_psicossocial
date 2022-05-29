@@ -36,7 +36,9 @@ namespace Psiconnect_01.Models
 
     public enum Perfil
     {
+        [Display(Name = "Profissional de saúde")]
         ProfissionalDeSaude,
+        [Display(Name = "Secretaria")]
         Secretaria
     }
 }

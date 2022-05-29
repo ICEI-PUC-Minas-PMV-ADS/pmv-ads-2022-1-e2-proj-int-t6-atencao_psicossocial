@@ -50,15 +50,19 @@ namespace Psiconnect_01.Controllers
                 };
 
                 var userIdentity = new ClaimsIdentity(claims, "login");
+                
+
                 ClaimsPrincipal principal = new ClaimsPrincipal(userIdentity);
-                // expira
+
                 var props = new AuthenticationProperties
                 {
                     AllowRefresh = true,
                     ExpiresUtc = DateTime.Now.ToLocalTime().AddDays(7),
                     IsPersistent = true
                 };
+
                 await HttpContext.SignInAsync(principal, props);
+
                 return Redirect("/Home/Index");
             }
 
@@ -122,13 +126,19 @@ namespace Psiconnect_01.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Nome,Cpf,Email,Senha,Perfil")] Usuario usuario)
         {
+            if (_context.Usuarios.Any(c => c.Cpf == usuario.Cpf))
+            {
+                ModelState.AddModelError("CPF", $"Esse CPF já está registrado.");
+            }
+
             if (ModelState.IsValid)
             {
                 usuario.Senha = BCrypt.Net.BCrypt.HashPassword(usuario.Senha);
                 _context.Add(usuario);
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                return RedirectToAction(nameof(Login));
             }
+          
             return View(usuario);
         }
 

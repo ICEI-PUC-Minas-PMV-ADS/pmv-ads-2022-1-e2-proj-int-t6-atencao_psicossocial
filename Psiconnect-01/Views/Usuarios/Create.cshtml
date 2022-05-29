@@ -1,15 +1,14 @@
 ﻿@model Psiconnect_01.Models.Usuario
 
 @{
-    ViewData["Title"] = "Cadastrar Usuário";
+    ViewData["Title"] = "Create";
 }
 
-<h3 style="text-align:center">Criar Novo Usuário</h3>
 
-<h4>Usuario</h4>
-<hr />
 <div class="row">
-    <div class="col-md-4">
+    <div class="col-md-4 ">
+        <h4>Novo usuário</h4>
+        <hr />
         <form asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
@@ -39,15 +38,14 @@
                 <span asp-validation-for="Perfil" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <input type="submit" value="Registrar" class="btn btn-primary" />
+                <input type="submit" value="Cadastrar" class="btn btn-primary float-right" />
+                <a class="btn btn-info" asp-controller="Usuarios" asp-action="Login">Voltar</a>
             </div>
         </form>
     </div>
 </div>
 
-<div>
-    <a asp-action="Index" class="btn btn-info">Retornar</a>
-</div>
+
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}

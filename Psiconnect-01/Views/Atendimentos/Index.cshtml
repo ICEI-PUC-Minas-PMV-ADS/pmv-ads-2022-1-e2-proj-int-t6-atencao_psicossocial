@@ -10,17 +10,26 @@
     <a class="btn btn-primary float-sm-left" asp-action="Create">Novo Atendimento</a>
 </p>
 <br />
+<br />
+<div>
+       <!--  Barra Pesquisa-->
+
+     @using (Html.BeginForm()){    
+         <p>
+             CPF Paciente: @Html.TextBox("SearchString") &emsp;   
+         <input class="btn-info" type="submit" value="Pesquisar" /></p> 
+        } 
+    <!--  Barra Pesquisa-->
+
+</div>
+ 
+
+<br />
 <table class="table">
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.Paciente)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Tipo)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.CodProfissional)
+                CPF Paciente:
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.NomeProfissional)
@@ -28,6 +37,14 @@
             <th>
                 @Html.DisplayNameFor(model => model.Data)
             </th>
+            <!--
+            <th>
+                @Html.DisplayNameFor(model => model.Tipo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CodProfissional)
+            </th>
+            
             <th>
                 @Html.DisplayNameFor(model => model.Descricao)
             </th>
@@ -37,21 +54,16 @@
             <th>
                 @Html.DisplayNameFor(model => model.Sintomas)
             </th>
+            -->
             <th></th>
         </tr>
     </thead>
     <tbody>
-        @foreach (var item in Model)
+        @foreach (var item in Model.OrderByDescending(item => item.Data))
         {
             <tr>
                 <td>
-                    @Html.DisplayFor(modelItem => item.Paciente.Nome)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Tipo)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.CodProfissional)
+                    @Html.DisplayFor(modelItem => item.PacienteId)
                 </td>
                 <td>
                     @Html.DisplayFor(modelItem => item.NomeProfissional)
@@ -59,6 +71,14 @@
                 <td>
                     @Html.DisplayFor(modelItem => item.Data)
                 </td>
+                <!--
+                <td>
+                    @Html.DisplayFor(modelItem => item.Tipo)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CodProfissional)
+                </td>
+                
                 <td>
                     @Html.DisplayFor(modelItem => item.Descricao)
                 </td>
@@ -68,16 +88,14 @@
                 <td>
                     @Html.DisplayFor(modelItem => item.Sintomas)
                 </td>
+                -->
                 <td>
-                    <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                    <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                    <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                    <!-- <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> -->
+                    <a asp-action="Details" asp-route-id="@item.Id">Details</a>
+                    <a asp-action="Relatorio" asp-route-id="@item.Id">Relatorio</a>
+                    <!-- <a asp-action="Delete" asp-route-id="@item.Id">Delete</a> -->
                 </td>
             </tr>
         }
     </tbody>
 </table>
-
-<div>
-    <a class="btn btn-info" asp-controller="Home" asp-action="Index">Voltar</a>
-</div>

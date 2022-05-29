@@ -1,71 +1,66 @@
 ﻿@model Psiconnect_01.Models.Paciente
 
 @{
-    ViewData["Title"] = "Cadastrar Paciente";
+    ViewData["Title"] = "Create";
 }
 
+<h1>Create</h1>
 
-<head>
-  <link rel="stylesheet" href="~/css/CadPacientecss.css">
-</head>
-
-<h3>Cadastrar Paciente</h3>
-
-<h4>Informações Básicas</h4>
-
-<div class=" row justify-content-left">
+<h4>Paciente</h4>
+<hr />
+<div class="row">
     <div class="col-md-4">
-        <form asp-action="Create" class="table-overflow">
+        <form asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
-                <label asp-for="Nome" class="control-label">Nome:</label>
+                <label asp-for="Nome" class="control-label"></label>
                 <input asp-for="Nome" class="form-control" />
                 <span asp-validation-for="Nome" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Cpf" class="control-label">CPF:</label>
-                <input asp-for="Cpf" class="form-control" maxlength="11" />
+                <label asp-for="Cpf" class="control-label"></label>
+                <input asp-for="Cpf" class="form-control" />
                 <span asp-validation-for="Cpf" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Telefone" class="control-label">Telefone:</label>
+                <label asp-for="Telefone" class="control-label"></label>
                 <input asp-for="Telefone" class="form-control" />
                 <span asp-validation-for="Telefone" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Email" class="control-label">Email:</label>
+                <label asp-for="Email" class="control-label"></label>
                 <input asp-for="Email" class="form-control" />
                 <span asp-validation-for="Email" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Cidade" class="control-label">Cidade:</label>
+                <label asp-for="Cidade" class="control-label"></label>
                 <input asp-for="Cidade" class="form-control" />
                 <span asp-validation-for="Cidade" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Cep" class="control-label">CEP:</label>
+                <label asp-for="Cep" class="control-label"></label>
                 <input asp-for="Cep" class="form-control" />
                 <span asp-validation-for="Cep" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Endereço" class="control-label">Endereço:</label>
-                <input  asp-for="Endereço" class="form-control" />
+                <label asp-for="Endereço" class="control-label"></label>
+                <input asp-for="Endereço" class="form-control" />
                 <span asp-validation-for="Endereço" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Bairro" class="control-label">Bairro:</label>
-                <input  asp-for="Bairro" class="form-control" />
+                <label asp-for="Bairro" class="control-label"></label>
+                <input asp-for="Bairro" class="form-control" />
                 <span asp-validation-for="Bairro" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <input type="submit" value="Registrar Paciente" class="btn btn-primary" />
+                <input type="submit" value="Create" class="btn btn-primary" />
             </div>
         </form>
     </div>
 </div>
 
 <div>
-    <a asp-action="Index" class="btn btn-info">Back to List</a>
+    <a asp-action="Index">Back to List</a>
 </div>
 
 @section Scripts {

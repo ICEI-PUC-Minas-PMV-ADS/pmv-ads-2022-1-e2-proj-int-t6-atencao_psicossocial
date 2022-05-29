@@ -1,8 +1,6 @@
-﻿body, html {
-    
-    background-image:url('/img/backlogin.png');
-    background-repeat: no-repeat;
-    background-position: center;
+﻿body {
+    color: #fff;
+    background-color: #c8c8c8 !important;
 }
 
 .login-form {
@@ -69,14 +67,4 @@
 
 .login-form input[type="checkbox"] {
     margin-top: 2px;
-}
-
-b{
-    text-align:center;
-    color: black;
-    
-}
-
-b:hover{
-    color: blue;
 }

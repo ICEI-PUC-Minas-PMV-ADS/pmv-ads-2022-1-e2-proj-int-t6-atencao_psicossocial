@@ -77,7 +77,7 @@ namespace Psiconnect_01
                 endpoints.MapControllerRoute(
                     name: "default",
                     //Alerei rota para login
-                    pattern: "{controller=Usuarios}/{action=Login}/{id?}");
+                 pattern: "{controller=Usuarios}/{action=Login}/{id?}");
                 //pattern: "{controller=Home}/{action=Index}/{id?}");
             });
         }
