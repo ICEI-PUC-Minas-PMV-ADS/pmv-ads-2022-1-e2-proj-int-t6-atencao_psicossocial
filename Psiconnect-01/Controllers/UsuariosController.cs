@@ -22,6 +22,21 @@ namespace Psiconnect_01.Controllers
         }
 
 
+        public ActionResult IndexMeusDados()
+        {
+            if (User.Identity.IsAuthenticated)
+            {
+                var userName = User.Identity.Name;
+                var usuario = _context.Usuarios.FirstOrDefault(x => x.Nome == userName);
+
+                if (usuario != null)
+                    return View(usuario);
+            }
+
+            return RedirectToAction("Index");
+        }
+
+
 
         public IActionResult Login()
         {
@@ -189,7 +204,7 @@ namespace Psiconnect_01.Controllers
                         throw;
                     }
                 }
-                return RedirectToAction(nameof(Index));
+                return RedirectToAction(nameof(IndexMeusDados));
             }
             return View(usuario);
         }
