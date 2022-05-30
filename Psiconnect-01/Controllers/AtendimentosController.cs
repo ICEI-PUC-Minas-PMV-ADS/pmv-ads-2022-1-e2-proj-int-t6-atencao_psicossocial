@@ -47,28 +47,6 @@ namespace Psiconnect_01.Controllers
 
             }
 
-        /* ---------------- Relatorio ------------- */
-        public async Task<IActionResult> Relatorio(int? id)
-        {
-            if (id == null)
-            {
-                return NotFound();
-            }
-
-            var paciente = await _context.Atendimentos
-                .Include(t => t.PacienteId)
-                .FirstOrDefaultAsync(m => m.Id == id);
-
-            if (paciente == null)
-            {
-                return NotFound();
-            }
-
-            return View(paciente);
-        }
-        /* ---------------- Relatorio ------------- */
-
-
         /* Scrip barra de pesquisa  02
 /*
                     public async Task<IActionResult> Index(string searchString)

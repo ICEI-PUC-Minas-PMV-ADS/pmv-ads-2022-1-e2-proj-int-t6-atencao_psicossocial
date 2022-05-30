@@ -57,7 +57,7 @@ namespace Psiconnect_01.Controllers
                 var props = new AuthenticationProperties
                 {
                     AllowRefresh = true,
-                    ExpiresUtc = DateTime.Now.ToLocalTime().AddDays(7),
+                    ExpiresUtc = DateTime.Now.ToLocalTime().AddDays(1),
                     IsPersistent = true
                 };
 

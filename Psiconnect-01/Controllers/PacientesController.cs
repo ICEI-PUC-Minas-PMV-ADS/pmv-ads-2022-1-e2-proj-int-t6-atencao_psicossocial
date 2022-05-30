@@ -24,6 +24,52 @@ namespace Psiconnect_01.Controllers
             return View(await _context.Pacientes.ToListAsync());
         }
 
+       /* public async Task<IActionResult> IndexRelatorio()
+        {
+            return View(await _context.Pacientes.ToListAsync());
+        }*/
+
+        /* ---------------- Relatorio ------------- */
+        public async Task<IActionResult> Relatorio(string id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var paciente = await _context.Pacientes
+            .Include(a => a.Atendimentos)
+                  .FirstOrDefaultAsync(m => m.Cpf == id);
+            if (paciente == null)
+            {
+                return NotFound();
+            }
+
+            return View(paciente);
+        }
+        /* ---------------- Relatorio ------------- */
+
+        /* Scrip barra de pesquisa  02 */
+
+            public async Task<IActionResult> IndexRelatorio(string searchString)
+            {
+
+
+                var paciente = from m in _context.Pacientes
+                                  select m;
+
+                if (!String.IsNullOrEmpty(searchString))
+                {
+                paciente = paciente.Where(s => s.Nome.Contains(searchString));
+                }
+
+                return View(await paciente.ToListAsync());
+
+            }
+
+ 
+
+
         // GET: Pacientes/Details/5
         public async Task<IActionResult> Details(string id)
         {

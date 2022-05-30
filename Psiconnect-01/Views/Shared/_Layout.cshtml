@@ -1,8 +1,8 @@
   
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
-    <meta charset="utf-8" />
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - Psiconnect_01</title>
 
@@ -39,6 +39,7 @@
                             @if (User.IsInRole("ProfissionalDeSaude"))
                             {
                                 <a class="nav-link" asp-area="" asp-controller="Atendimentos" asp-action="Index">Atendimentos</a>
+                                <a class="nav-link" asp-area="" asp-controller="Pacientes" asp-action="IndexRelatorio">Relatorio</a>
                             }
                             <a class="nav-link" id="v-pills-profile-tab" role="tab" aria-controls="v-pills-profile" aria-selected="false" asp-area="" asp-controller="Usuarios" asp-action="Details">Meus Dados</a>
                         </div>

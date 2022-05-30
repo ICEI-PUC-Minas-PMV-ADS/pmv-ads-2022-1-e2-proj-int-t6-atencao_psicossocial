@@ -1,0 +1,47 @@
+﻿@model Psiconnect_01.Models.Paciente
+
+@{
+    ViewData["Title"] = "Relatorio";
+}
+
+<h1>Relatório</h1>
+
+<div>
+    <h4>Paciente @Model.Nome</h4>
+    <hr />
+    <table class="table">
+    <thead>
+       <tr>
+                    <th>
+                        Data:
+                    </th>
+                    <th>
+                        Nome Profissional:
+                    </th>
+                    <th>
+                        Sintomas:
+                    </th>
+                </tr>
+    </thead>
+    <tbody>
+                @foreach (var item in Model.Atendimentos.OrderByDescending(c => c.Data)) {
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Data)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.NomeProfissional)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Sintomas)
+                            </td>
+                        </tr>
+                        }
+    </tbody>
+</table>
+</div>
+<div>
+    <a href="javascript:window.print()">Imprimir</a>
+    <a asp-action="Index">Back to List</a>
+        
+</div>
