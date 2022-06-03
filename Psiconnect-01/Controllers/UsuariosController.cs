@@ -9,12 +9,16 @@ using System.Security.Claims;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
 using Psiconnect_01.Models;
+using System.Net.Http;
 
 namespace Psiconnect_01.Controllers
 {
     public class UsuariosController : Controller
     {
         private readonly ApplicationDbContext _context;
+        private static Random random = new Random();
+        private List<RedefinicaoSenhaUsuario> listaRedefinicoesEmAberto = new List<RedefinicaoSenhaUsuario>();
+
 
         public UsuariosController(ApplicationDbContext context)
         {
@@ -236,6 +240,75 @@ namespace Psiconnect_01.Controllers
             _context.Usuarios.Remove(usuario);
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> VerificaUsuarioExistente(string cpf)
+        {
+            if (UsuarioExists(cpf))
+                return Ok();
+            else
+                return BadRequest();
+            
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> EnviaTokenParaUsuario(string cpf)
+        {
+            var token = RandomString(10);
+            // Envia email ou outra f
+            var redef = new RedefinicaoSenhaUsuario();
+            redef.cpf = cpf;
+            redef.token = token;
+
+            listaRedefinicoesEmAberto.Add(redef);
+            Console.WriteLine(token);
+            return Ok();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> VerificaTokenDigitado([FromBody] RedefinicaoSenhaUsuario redefinicaoSenhaUsuario)
+        {
+            var redef = listaRedefinicoesEmAberto.Where(x => x.cpf == redefinicaoSenhaUsuario.cpf && x.token == redefinicaoSenhaUsuario.token);
+            if (redef != null && redef.Count() > 0)
+            {
+                return Ok();
+            }
+            else
+                return BadRequest();
+
+
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> RedefineSenha([FromBody] RedefinicaoSenhaUsuario redefinicaoRecebida)
+        {
+            var redef = listaRedefinicoesEmAberto.Where(x => x.cpf == redefinicaoRecebida.cpf && x.token == redefinicaoRecebida.token);
+            if (redef != null && redef.Count() > 0)
+            {
+                var usuario = await _context.Usuarios
+                .FirstOrDefaultAsync(m => m.Cpf == redefinicaoRecebida.cpf);
+
+                if (usuario == null)
+                    return BadRequest();
+
+                usuario.Senha = BCrypt.Net.BCrypt.HashPassword(redefinicaoRecebida.senhaNova);
+                _context.Update(usuario);
+                await _context.SaveChangesAsync();
+
+
+                listaRedefinicoesEmAberto.RemoveAll(x => x.cpf == redefinicaoRecebida.cpf);
+                return Ok();
+            }
+            else
+                return BadRequest();
+        }
+
+        public static string RandomString(int length)
+        {
+            const string chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+            return new string(Enumerable.Repeat(chars, length)
+                .Select(s => s[random.Next(s.Length)]).ToArray());
         }
 
         private bool UsuarioExists(string id)
