@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hugo.ito\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial\\Psiconnect-01\\Psiconnect.csproj": {}
+    "C:\\Users\\LENOVO\\OneDrive\\Documentos\\pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial\\Psiconnect-01\\Psiconnect.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hugo.ito\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial\\Psiconnect-01\\Psiconnect.csproj": {
+    "C:\\Users\\LENOVO\\OneDrive\\Documentos\\pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial\\Psiconnect-01\\Psiconnect.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hugo.ito\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial\\Psiconnect-01\\Psiconnect.csproj",
+        "projectUniqueName": "C:\\Users\\LENOVO\\OneDrive\\Documentos\\pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial\\Psiconnect-01\\Psiconnect.csproj",
         "projectName": "Psiconnect",
-        "projectPath": "C:\\Users\\hugo.ito\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial\\Psiconnect-01\\Psiconnect.csproj",
-        "packagesPath": "C:\\Users\\hugo.ito\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hugo.ito\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial\\Psiconnect-01\\obj\\",
+        "projectPath": "C:\\Users\\LENOVO\\OneDrive\\Documentos\\pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial\\Psiconnect-01\\Psiconnect.csproj",
+        "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\LENOVO\\OneDrive\\Documentos\\pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial\\Psiconnect-01\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\hugo.ito\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
