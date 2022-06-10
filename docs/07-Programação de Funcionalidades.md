@@ -4,12 +4,12 @@ Implementação do sistema descritas por meio dos requisitos funcionais e/ou nã
 
 Para cada requisito funcional, pode ser entregue um artefato desse tipo
 
-| Requisito  | Artefato |
-|-----------------------------------------|----|
-| A aplicação deve apresentar, na página principal, a funcionalidade de usuários login e cadastrar. | login.cshtml | 
-| A aplicação deve ter a opção de alteração da senha. | Passwordrecory.cshtml |
-| A aplicação deve possibilitar cadastrar o profissional. | Create.cshtml |
-| A aplicação deve permitir editar o profissional. | Edit.cshtml |
-| A aplicação deve registrar o atendimento do paciente. | Index.cshtml |
+| x  | Requisito  | Artefato |
+|----|-----------------------------------------|----|
+| x |  A aplicação deve apresentar, na página principal, a funcionalidade de usuários login e cadastrar. | login.cshtml | 
+| x | A aplicação deve ter a opção de alteração da senha. | Passwordrecory.cshtml |
+| x | A aplicação deve possibilitar cadastrar o profissional. | Create.cshtml |
+| x | A aplicação deve permitir editar o profissional. | Edit.cshtml |
+| x | A aplicação deve registrar o atendimento do paciente. | Index.cshtml |
 .
 
