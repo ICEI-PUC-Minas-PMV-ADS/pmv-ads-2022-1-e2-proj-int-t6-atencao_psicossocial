@@ -7,51 +7,29 @@ Relatório com as evidências dos testes de software realizados no sistema pela 
 
 ## CT-01 - Login do usuário
 
-![Cadastre-se]()
 
-![Dados e senha]()
-
-![Cadastro Concluído]()
 
 ## CT-02 - Alterar/Recuperar Senha 
 
-![Esqueci minha senha]()
 
-![Dados]()
-
-![Código recuperação]()
-
-![Nova senha]()
-
-![Senha alterada]()
 
 ## CT-03 - Cadastro do Profissional
 
-![Cadastre aqui]()
 
-![Dados]()
-
-![Criação de Senha]()
-
-![Cadastro Concluído]()
 
 ## CT-04 - Editar profissional
 
-![Tela Edit]()
+
 
 ## CT-05 - Registro de Atendimento
 
-![Atendimenotos]()
 
-![Histórico de Atendimento]()
 
-![Detalhes]()
+## CT-06 - Emissão de Relatório
+
 
 
 
 ## Avaliação
 
 Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
-
-> **Links Úteis**:
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
