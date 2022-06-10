@@ -1,13 +1,11 @@
 # Plano de Testes de Software
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>
-
 |Caso de Teste |CT-01 – Login do usuário |
 |--------------------|-----------------------------------------------------------------------------------------------------------------------|
 |**Requisitos Associados** | RF-001 - O sistema deve permitir que os profissionais façam login.|
-|**Entrada** | Login: Após preencher o CPF e senha. |
+|**Entrada** | Na página incial, digitar CPF e senha nos respectivos campos. |
 |**Objetivo do Teste** | Permitir que o usuário acesse a plataforma através do login. |
-|**Passos** | 1) Acessar o Navegador. <br>2) Informar o endereço do Site.   <br>3) Preencher os campos com informações válidas.<br>4) Clicar no botão Logar. |
+|**Passos** | 1) Acessar o Navegador. <br>2) Informar endereço: https://psiconnect20220609203034.azurewebsites.net/. <br>3) Preencher os campos CPF e senha.<br>4) Clicar no botão Login. |
 |**Critérios de Êxito** | "O usuário sera direcionado a homepage e terá acesso ao seu menu.". |
 
 |Caso de Teste |CT-02 – Alterar Senha |
@@ -42,16 +40,14 @@
 |**Passos** | 1) Acessar o Navegador .<br>2) Informar o endereço do Site.<br>3) Fazer login.<br>4) Clicar em Registro de atendimento.<br>5) Selecionar existente.<br>6) Selecionar editar.<br>7) Preencher os campos com informações válidas.<br>8) Clicar no botão Salvar. |
 |**Critérios de Êxito** | O usuário será direcionado a homepage e terá mensagem de confirmação. |
 
+|Caso de Teste |CT-06 – Emissão de Relatório |
+|--------------------|-----------------------------------------------------------------------------------------------------------------------|
+|**Requisitos Associados** | RF-004 - O sistema deve permitir a geração de relatórios para cada atendimento realizado. |
+|**Entrada** | Através de um formulário contendo informações do paciente e profissional vinculado. |
+|**Objetivo do Teste** | Permitir que o profissional tenha acesso ao registo do atendimento. |
+|**Passos** | 1) Acessar o Navegador .<br>2) Informar o endereço do Site.<br>3) Fazer login.<br>4) Acessar o menu relatório.<br>5) Ir no campo nome do paciente.<br>6) Adicionar CPF ou nome do paciente.<br>7) Clicar no botão pesquisar.<br>8) Clicar botão imprimir. |
+|**Critérios de Êxito** | O usuário será visualizará campo para impressão ou download do relatório. |
 
 ## Ferramentas de Testes (Opcional)
 
 Comente sobre as ferramentas de testes utilizadas.
- 
-> **Links Úteis**:
-
-> - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Práticas e Técnicas de Testes Ágeis](http://assiste.serpro.gov.br/serproagil/Apresenta/slides.pdf)
-> - [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
-> - [Criação e Geração de Planos de Teste de Software](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
-> - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
