@@ -8,12 +8,12 @@
 |**Passos** | 1) Acessar o Navegador. <br>2) Informar endereço: https://psiconnect20220609203034.azurewebsites.net/. <br>3) Preencher os campos CPF e senha.<br>4) Clicar no botão Login. |
 |**Critérios de Êxito** | "O usuário sera direcionado a homepage e terá acesso ao seu menu.". |
 
-|Caso de Teste |CT-02 – Alterar Senha |
+|Caso de Teste |CT-02 – Gerenciar profissional |
 |--------------------|-----------------------------------------------------------------------------------------------------------------------|
-|**Requisitos Associados** | RF-001 - O sistema deve permitir que os profissionais façam login e alterem sua senha.|
-|**Entrada** | Após clicar no botão esqueci senha, o usuário deverá informar o email cadastrado. |
-|**Objetivo do Teste** | Verificar se os campos do formulário estão sendo exibidos corretamente. |
-|**Passos** | 1) Acessar o Navegador. <br>2) Informar o endereço do Site.  <br>3) Clicar no botão de login. <br>4)Selecionar esqueci a senha.<br>5) Preencher os campo com dados validos.<br>6) Clicar Salvar. |
+|**Requisitos Associados** | RF-001 - O sistema deve permitir que os profissionais recuperem senha e gerencie dados.|
+|**Entrada** | Na página inicial, o usuário deverá clicar em esqueci minha senha logo ao final da página, o usuário deverá informar o CPF no campo "CPF", inserir nova senha no campo "Nova Senha", confirmar novamente digitando a nova senha no campo "Confirmar Senha" e clicar no botão "Confirmar" |
+|**Objetivo do Teste** | Verificar se o usuário recupera seu acesso caso esqueça sua senha atual. |
+|**Passos** | 1) Acessar o Navegador. <br>2) Informar o endereço: https://psiconnect20220609203034.azurewebsites.net/. <br>4)Clicar em esqueci minha senha.<br>5) Preencher os campo com dados válidos.<br>6) Clicar em Confrimar. |
 |**Critérios de Êxito** | Senha alterada com sucesso. |
 
 |Caso de Teste |CT-03 – Cadasto de Profissionais |
