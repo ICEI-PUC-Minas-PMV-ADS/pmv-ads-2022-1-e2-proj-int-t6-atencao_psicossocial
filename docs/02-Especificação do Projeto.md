@@ -38,8 +38,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Isaque              | Gerar relatórios eletrônicos                           | Evitar a perda de documentos |
 |Isaque              | Guardar as informações em um banco de dados            | Facilitar a relação de dados e possibilitar a criação de perfis de usuários |
 |Cristiane           | Cadastrar os pacientes na plataforma e editar ou excluir os perfis quando necessário | Organizar o banco de dados e facilitar o acesso/controle das sessões |
-|Cristiane           | Verificar a compatibilidade de horários entre psicólogos e pacientes                 | Garantir que os atendimentos sejam gerenciados sem conflitos de agenda  |
-|Francisco           | Receber lembretes com opção de cancelar consulta                     | Em caso de esquecimento ou outro compromisso no mesmo dia e horário   
+ 
 
 
 
