@@ -21,6 +21,15 @@ Após realizar os testes de usabilidade, obtém-se um relatório a partir das an
 | Usuário 2 | --- 	| --- | ---  | --- | --- | --- |
 | Usuário 3	| --- 	| --- | ---  | --- | --- | --- |
 
+**Perfil do Usuário**
+
+| **Usuário** 	| **Idade** 	| **Esolaridade** | **Profissão** | 
+| --- 	| --- 	| --- | ---  |
+| Usuário 1	| --- 	| --- | ---  | 
+| Usuário 2 | --- 	| --- | ---  | 
+| Usuário 3	| --- 	| --- | ---  |
+
+
 # Conclusão </hr>
 
 
