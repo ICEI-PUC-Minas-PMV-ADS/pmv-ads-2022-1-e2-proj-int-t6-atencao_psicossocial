@@ -32,7 +32,7 @@
 |**Passos** | 1) Acessar o Navegador .<br>2) Informar o endereço: https://psiconnect20220609203034.azurewebsites.net/.<br>4) Clicar em login.<br>5) Na Homepage, clique em  "Atendimentos".<br>6) Na página aberta clique no botão Novo Atendimento.<br>7) Preencha todos os dados da consulta nos respectivos quadrantes e clique em "Criar".
 |**Critérios de Êxito** | "O atendimento será registrado e o profissional será direcionado ao menu inicial." |
 
-|Caso de Teste |CT-05 – Emissão de Relatório |
+|Caso de Teste |CT-05 – Emissão de relatório |
 |--------------------|-----------------------------------------------------------------------------------------------------------------------|
 |**Requisitos Associados** | RF-004 - O sistema deve permitir a geração de relatórios para cada atendimento realizado. |
 |**Entrada** | Na homepage selecione "Relatório" e insira dados do paciente para realizar busca. |
