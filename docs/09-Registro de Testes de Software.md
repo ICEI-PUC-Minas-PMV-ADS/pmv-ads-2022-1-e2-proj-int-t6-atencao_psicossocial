@@ -9,24 +9,27 @@ Relatório com as evidências dos testes de software realizados no sistema pela 
 
 
 
-## CT-02 - Alterar/Recuperar Senha 
+## CT-02 - Cadastro de usuário
 
 
 
-## CT-03 - Cadastro do Profissional
+## CT-03 - Gerenciar profissional
 
 
 
-## CT-04 - Editar profissional
+## CT-04 - Registro de atendimentos
 
 
 
-## CT-05 - Registro de Atendimento
+## CT-05 - Emissão de relatório
 
 
 
-## CT-06 - Emissão de Relatório
+## CT-06 - Recuperação de senha
 
+
+
+## CT-06 - Cadastramento de profissionais
 
 
 
