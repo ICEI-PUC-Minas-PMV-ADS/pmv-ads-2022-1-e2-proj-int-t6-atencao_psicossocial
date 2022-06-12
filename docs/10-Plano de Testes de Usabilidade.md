@@ -8,7 +8,7 @@ O método utilizado é de medição e avaliação. O teste visa a avaliar:
   - Quantidade de erros (discriminadamente);
   - Tempo gasto para conclusão da tarefa;
   - Concretização da tarefa;
-  - Grau de satisfação com a tarefa.
+  - Grau de satisfação com a tarefa com uso da escala de Likert.
 
 # Objetivos
   - Percorrer a aplicação visando identificar eventuais falhas de execução de software e avaliar a facilidade de execução dos objetivos pelos usuários;
