@@ -7,28 +7,31 @@ Relatório com as evidências dos testes de software realizados no sistema pela 
 
 ## CT-01 - Login do usuário
 
+|	Vídeo 	| <video src=""> |
 
+## CT-02 - Cadastro de usuário
+  
+|	Vídeo 	| <video src=""> |
 
-## CT-02 - Alterar/Recuperar Senha 
+## CT-03 - Gerenciar profissional
 
+|	Vídeo 	| <video src=""> |
 
+## CT-04 - Registro de atendimentos
 
-## CT-03 - Cadastro do Profissional
+|	Vídeo 	| <video src=""> |
 
+## CT-05 - Emissão de relatório
 
+|	Vídeo 	| <video src=""> |
 
-## CT-04 - Editar profissional
+## CT-06 - Recuperação de senha
 
+|	Vídeo 	| <video src=""> |
 
+## CT-07 - Cadastramento de profissionais
 
-## CT-05 - Registro de Atendimento
-
-
-
-## CT-06 - Emissão de Relatório
-
-
-
+|	Vídeo 	| <video src=""> |
 
 ## Avaliação
 

@@ -1,6 +1,6 @@
 # Plano de Testes de Usabilidade
 
-O teste de usabilidade permite avaliar a qualidade da interface com o usuário da aplicação interativa. O Plano de Testes de Software é gerado a partir da especificação do sistema e consiste em casos de testes que deverão ser executados quando a implementação estiver parcial ou totalmente pronta.
+O teste de usabilidade permite avaliar a qualidade da interface com o usuário da aplicação interativa. O Plano de Testes da usabilidade é gerado a partir da especificação do sistema e consiste em casos de testes que deverão ser executados quando a implementação estiver parcial ou totalmente pronta.
 
 # Metodo: 
 O método utilizado é de medição e avaliação. O teste visa a avaliar: 
@@ -29,13 +29,13 @@ Realizados os testes, será feita análise quantitativa dos aspectos negativos o
 | Critérios de Êxito           | Usuário identifica onde é possível se cadastrar no sistema| 
 
 
-| `Caso de teste ` | ` CTU-003 formulário de cadastro  `                    | 
+| `Caso de teste ` | ` CTU-003 Formulário de cadastro  `                    | 
 |--------------------|--------------------------------------------------------| 
 | Objetivo do teste            | Verificar se é claro as informações de preenchimento             |  
 | Critérios de Êxito           | Usuário preenche os campos corretamente  | 
 
 
-| `Caso de teste ` | ` CTU-004 Campos obrigatório no formulário de cadastro   `                    | 
+| `Caso de teste ` | ` CTU-004 Campo obrigatório no formulário de cadastro   `                    | 
 |--------------------|--------------------------------------------------------| 
 | Objetivo do teste            | Usuário identifica símbolo e legenda                    |  
 | Critérios de Êxito           | Usuário preenche os campos obrigatório|

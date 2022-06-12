@@ -25,7 +25,7 @@ Desenvolvimento de aplicação web voltada para registro e manipulação de info
 ## Instruções de utilização
 
 O objetivo dessa aplicação é auxiliar os profissionais da áreas de atenção psicossocial no desempenho de suas funções como organização e padronização dos dados coletados, agilidade nos atendimentos, fácil acesso ao histórico psicológico dos pacientes. 
-Para acessar a aplicação clique em https://psiconnect20220609203034.azurewebsites.net/ .
+Para acessar a aplicação clique em :https://psiconnect20220609192831.azurewebsites.net/ .
 
 # Documentação
 

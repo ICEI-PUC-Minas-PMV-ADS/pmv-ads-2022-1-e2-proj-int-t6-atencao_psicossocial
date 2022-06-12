@@ -8,7 +8,7 @@
 |**Passos** | 1) Acessar o Navegador. <br>2) Informar endereço: https://psiconnect20220609203034.azurewebsites.net/. <br>3) Preencher os campos CPF e senha.<br>4) Clicar no botão Login. |
 |**Critérios de Êxito** | "O usuário será direcionado à homepage e terá acesso ao Menu pessoal." |
 
-|Caso de Teste |CT-02 – Cadastro de Usuário |
+|Caso de Teste |CT-02 – Cadastro de usuário |
 |--------------------|-----------------------------------------------------------------------------------------------------------------------|
 |**Requisitos Associados** | RF-001 - O sistema deve permitir cadastrar um usuário. |
 |**Entrada** | Na página inicial, o usuário deverá clicar em "Cadastre aqui".  |
@@ -32,7 +32,7 @@
 |**Passos** | 1) Acessar o Navegador .<br>2) Informar o endereço: https://psiconnect20220609203034.azurewebsites.net/.<br>4) Clicar em login.<br>5) Na Homepage, clique em  "Atendimentos".<br>6) Na página aberta clique no botão Novo Atendimento.<br>7) Preencha todos os dados da consulta nos respectivos quadrantes e clique em "Criar".
 |**Critérios de Êxito** | "O atendimento será registrado e o profissional será direcionado ao menu inicial." |
 
-|Caso de Teste |CT-05 – Emissão de Relatório |
+|Caso de Teste |CT-05 – Emissão de relatório |
 |--------------------|-----------------------------------------------------------------------------------------------------------------------|
 |**Requisitos Associados** | RF-004 - O sistema deve permitir a geração de relatórios para cada atendimento realizado. |
 |**Entrada** | Na homepage selecione "Relatório" e insira dados do paciente para realizar busca. |
@@ -48,7 +48,7 @@
 |**Passos** | 1) Acessar o Navegador .<br>2) Informar o endereço: https://psiconnect20220609203034.azurewebsites.net/.<br>4) Clicar em "Esqueci minha senha".<br>5) Na tela seguinte, preencher os quadrantes, CPF, Nova Senha e Confirmar Senha.<br>6) Clicar no botão Confirmar. |
 |**Critérios de Êxito** | "O usuário será redirecionado para a página de Login." |
 
-|Caso de Teste |CT-07 – Cadastramento de Profissionais |
+|Caso de Teste |CT-07 – Cadastramento de profissionais |
 |--------------------|-----------------------------------------------------------------------------------------------------------------------|
 |**Requisitos Associados** | RF-006 - O sistema deve permitir o cadastramento de profissionais de saúde. |
 |**Entrada** | Na página inicial, o usuário deverá clicar em "Cadastre aqui".  |
