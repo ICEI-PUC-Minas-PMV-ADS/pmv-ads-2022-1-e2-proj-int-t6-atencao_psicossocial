@@ -7381,5 +7381,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problema ao ler o arquivo de cache C:\\Users\\Samuel\\OneDrive\\Documentos\\Faculdade\\Projeto\\Eixo2\\pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial\\Psiconnect-01\\obj\\project.nuget.cache: Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
