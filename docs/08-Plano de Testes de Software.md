@@ -54,7 +54,7 @@
 |**Entrada** | Na página inicial, o usuário deverá clicar em "Cadastre aqui".  |
 |**Objetivo do Teste** | Validar usabilidade do cadastrado de perfil para profissional de saúde. |
 |**Passos** | 1) Acessar o Navegador .<br>2) Informar endereço: https://psiconnect20220609203034.azurewebsites.net/.<br>3) Clicar em Cadastre aqui.<br>4) Inserir os dados solicitados nos quadrantes em branco.<br>5) No quadrante do departamento, selecionar a opção Profissional de saúde.<br>6) Clicar em Cadastrar. |
-|**Critérios de Êxito** | "O usuário será direcionado à homepage e **terá mensagem de confirmação***." |
+|**Critérios de Êxito** | "O usuário será direcionado à homepage." |
 
 ## Ferramentas de Testes (Opcional)
 
