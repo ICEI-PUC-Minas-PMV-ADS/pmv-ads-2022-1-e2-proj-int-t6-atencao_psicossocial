@@ -2,12 +2,12 @@
   "$schema": "https://schema.management.azure.com/schemas/2018-05-01/subscriptionDeploymentTemplate.json#",
   "contentVersion": "1.0.0.0",
   "metadata": {
-    "_dependencyType": "compute.function.linux.appService"
+    "_dependencyType": "function.linux.appService"
   },
   "parameters": {
     "resourceGroupName": {
       "type": "string",
-      "defaultValue": "Psiconnect20220504194909ResourceGroup",
+      "defaultValue": "Psiconnect20220609203034ResourceGroup",
       "metadata": {
         "description": "Name of the resource group for the resource. It is recommended to put resources under same resource group for better tracking."
       }
@@ -21,7 +21,7 @@
     },
     "resourceName": {
       "type": "string",
-      "defaultValue": "Psiconnect20220510214928",
+      "defaultValue": "Psiconnect20220609203034",
       "metadata": {
         "description": "Name of the main resource to be created by this template."
       }

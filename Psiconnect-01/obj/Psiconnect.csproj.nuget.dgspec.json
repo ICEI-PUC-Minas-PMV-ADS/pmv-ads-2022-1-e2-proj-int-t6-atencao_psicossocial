@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hugo.ito\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial\\Psiconnect-01\\Psiconnect.csproj": {}
+    "C:\\Users\\Samuel\\OneDrive\\Documentos\\Faculdade\\Projeto\\Eixo2\\pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial\\Psiconnect-01\\Psiconnect.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hugo.ito\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial\\Psiconnect-01\\Psiconnect.csproj": {
+    "C:\\Users\\Samuel\\OneDrive\\Documentos\\Faculdade\\Projeto\\Eixo2\\pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial\\Psiconnect-01\\Psiconnect.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hugo.ito\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial\\Psiconnect-01\\Psiconnect.csproj",
+        "projectUniqueName": "C:\\Users\\Samuel\\OneDrive\\Documentos\\Faculdade\\Projeto\\Eixo2\\pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial\\Psiconnect-01\\Psiconnect.csproj",
         "projectName": "Psiconnect",
-        "projectPath": "C:\\Users\\hugo.ito\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial\\Psiconnect-01\\Psiconnect.csproj",
-        "packagesPath": "C:\\Users\\hugo.ito\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hugo.ito\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial\\Psiconnect-01\\obj\\",
+        "projectPath": "C:\\Users\\Samuel\\OneDrive\\Documentos\\Faculdade\\Projeto\\Eixo2\\pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial\\Psiconnect-01\\Psiconnect.csproj",
+        "packagesPath": "C:\\Users\\Samuel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Samuel\\OneDrive\\Documentos\\Faculdade\\Projeto\\Eixo2\\pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial\\Psiconnect-01\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\hugo.ito\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Samuel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -85,7 +89,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
         }
       }
     }
