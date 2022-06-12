@@ -18,9 +18,7 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 | Cristiane            |                                    |                |
 |![](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial/blob/main/docs/img/Cristiane.png)|**Idade:** 34  anos - **Ocupação:** Secretária no Centro de Atendimento Psicossocial. |**Aplicativos:** Whatsapp, Telegram.|
 |**Motivações:** Otimizar a parte de agendamentos, check in e sequência nos tratamentos oferecidos pelo centro.  |**Frustrações:** Dificuldade de agendar e confirmar consultas na clínica; dificuldade de conciliar a disponibilidade dos profissionais com a  dos pacientes.|**Hobbies:** Assistir séries e cozinhar.|
-| Francisco            |                                    |                |
-|![](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial/blob/main/docs/img/Francisco.png)|**Idade:** 37  anos - **Ocupação:** Desempregado. |**Aplicativos:** Instagram, Facebook, Twitter, Linkedln.|
-|**Motivações:** Quer ser atendido de forma rápida e ter melhor controle e informações de suas consultas.  |**Frustrações:** Tem bastante dificuldade em lembrar os horários agendados de suas consultas, perdendo frequentemente os agendamentos.|**Hobbies:** Adora ler, passear com o pet e viajar com a família.|
+
 
 
 
@@ -40,8 +38,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Isaque              | Gerar relatórios eletrônicos                           | Evitar a perda de documentos |
 |Isaque              | Guardar as informações em um banco de dados            | Facilitar a relação de dados e possibilitar a criação de perfis de usuários |
 |Cristiane           | Cadastrar os pacientes na plataforma e editar ou excluir os perfis quando necessário | Organizar o banco de dados e facilitar o acesso/controle das sessões |
-|Cristiane           | Verificar a compatibilidade de horários entre psicólogos e pacientes                 | Garantir que os atendimentos sejam gerenciados sem conflitos de agenda  |
-|Francisco           | Receber lembretes com opção de cancelar consulta                     | Em caso de esquecimento ou outro compromisso no mesmo dia e horário   
+ 
 
 
 
@@ -55,17 +52,18 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| O sistema deve permitir que os profissionais façam login e alterem a senha. | ALTA | 
+|RF-001| O sistema deve permitir que os profissionais façam login. | ALTA | 
 |RF-002| O sistema deve permitir gerenciar o profissional.   | ALTA |
 |RF-003| O sistema deve permitir registrar os atendimentos, para cada atendimento o profissional de saúde deverá vincular o paciente que foi atendido ao dia, a hora e a descrição do atendimento.   | ALTA |
 |RF-004| O sistema deve emitir os seguintes relatórios: Relatório por profissional, relatório por atendimento ao paciente, relatório por data, histórico de consultas .  | ALTA |
-
+|RF-005| O sistema deve permitir que os profissionais alterem a senha. | ALTA | 
+|RF-006| O sistema deve permitir que os profissionais se cadastrem. | ALTA | 
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O App ou site será publicado em um ambiente na Internet. cap(GitHub, Firebase) | ALTA | 
+|RNF-001| O App ou site será publicado em um ambiente na Internet. (Azure) | ALTA | 
 |RNF-002| A aplicação web poderá ser acessado por um telefone celular Android ou IOS com uma visualização adequada. |  ALTA | 
 |RNF-003| A aplicação web será compatível com os principais navegadores do mercado. |  ALTA | 
 |RNF-004| A aplicação web deve ser confiável, deve atender às suas especificações. |  MÉDIA | 

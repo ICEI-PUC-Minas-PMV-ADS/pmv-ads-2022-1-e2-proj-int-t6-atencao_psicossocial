@@ -215,8 +215,8 @@ namespace Psiconnect_01.Controllers
 
         // GET: Usuarios/Delete/5
         public async Task<IActionResult> Delete(string id)
-        {
-            if (id == null)
+                    {
+                       if (id == null)
             {
                 return NotFound();
             }
@@ -230,7 +230,7 @@ namespace Psiconnect_01.Controllers
 
             return View(usuario);
         }
-
+        
         // POST: Usuarios/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
@@ -241,7 +241,11 @@ namespace Psiconnect_01.Controllers
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
-
+        // GET:Usuarios/Passwordrecovery
+                public IActionResult Passwordrecovery()
+        {
+            return View();
+        }
         [HttpGet]
         public async Task<IActionResult> VerificaUsuarioExistente(string cpf)
         {
@@ -249,8 +253,10 @@ namespace Psiconnect_01.Controllers
                 return Ok();
             else
                 return BadRequest();
+        
             
         }
+        
 
         [HttpGet]
         public async Task<IActionResult> EnviaTokenParaUsuario(string cpf)
@@ -258,8 +264,8 @@ namespace Psiconnect_01.Controllers
             var token = RandomString(10);
             // Envia email ou outra f
             var redef = new RedefinicaoSenhaUsuario();
-            redef.cpf = cpf;
-            redef.token = token;
+            redef.Cpf = cpf;
+            redef.Token = token;
 
             listaRedefinicoesEmAberto.Add(redef);
             Console.WriteLine(token);
@@ -269,7 +275,7 @@ namespace Psiconnect_01.Controllers
         [HttpPost]
         public async Task<IActionResult> VerificaTokenDigitado([FromBody] RedefinicaoSenhaUsuario redefinicaoSenhaUsuario)
         {
-            var redef = listaRedefinicoesEmAberto.Where(x => x.cpf == redefinicaoSenhaUsuario.cpf && x.token == redefinicaoSenhaUsuario.token);
+            var redef = listaRedefinicoesEmAberto.Where(x => x.Cpf == redefinicaoSenhaUsuario.Cpf && x.Token == redefinicaoSenhaUsuario.Token);
             if (redef != null && redef.Count() > 0)
             {
                 return Ok();
@@ -281,28 +287,27 @@ namespace Psiconnect_01.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> RedefineSenha([FromBody] RedefinicaoSenhaUsuario redefinicaoRecebida)
-        {
-            var redef = listaRedefinicoesEmAberto.Where(x => x.cpf == redefinicaoRecebida.cpf && x.token == redefinicaoRecebida.token);
-            if (redef != null && redef.Count() > 0)
-            {
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Passwordrecovery([Bind("Cpf,NovaSenha,ConfirmarSenha")] RedefinicaoSenhaUsuario redefinicaoRecebida)
+        {            
+           
                 var usuario = await _context.Usuarios
-                .FirstOrDefaultAsync(m => m.Cpf == redefinicaoRecebida.cpf);
+                .FirstOrDefaultAsync(m => m.Cpf == redefinicaoRecebida.Cpf);
 
-                if (usuario == null)
+                if (usuario == null) 
                     return BadRequest();
 
-                usuario.Senha = BCrypt.Net.BCrypt.HashPassword(redefinicaoRecebida.senhaNova);
-                _context.Update(usuario);
-                await _context.SaveChangesAsync();
-
-
-                listaRedefinicoesEmAberto.RemoveAll(x => x.cpf == redefinicaoRecebida.cpf);
-                return Ok();
-            }
-            else
+            if (redefinicaoRecebida.NovaSenha != redefinicaoRecebida.ConfirmarSenha)
                 return BadRequest();
-        }
+
+                usuario.Senha = BCrypt.Net.BCrypt.HashPassword(redefinicaoRecebida.NovaSenha);
+                _context.Update(usuario);
+                 await _context.SaveChangesAsync();
+
+
+                return View("Login");
+            
+              }
 
         public static string RandomString(int length)
         {

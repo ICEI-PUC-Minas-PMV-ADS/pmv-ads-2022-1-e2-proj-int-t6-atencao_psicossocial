@@ -3,8 +3,9 @@
     public class RedefinicaoSenhaUsuario
     {
 
-        public string cpf { get; set; }
-        public string token { get; set; }
-        public string senhaNova { get; set; }
+        public string Cpf { get; set; }
+        public string Token { get; set; }
+        public string NovaSenha { get; set; }
+        public string ConfirmarSenha { get; set; }    
     }
 }
