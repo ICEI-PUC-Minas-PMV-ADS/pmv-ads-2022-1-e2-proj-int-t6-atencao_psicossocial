@@ -2,7 +2,7 @@
 
 |Caso de Teste |CT-01 – Login do usuário |
 |--------------------|-----------------------------------------------------------------------------------------------------------------------|
-|**Requisitos Associados** | RF-001 - O sistema deve permitir que os profissionais façam login.|
+|**Requisitos Associados** | RF-001 - O sistema deve permitir que usuários e profissionais façam login.|
 |**Entrada** | Na página inicial, digitar CPF e senha nos respectivos campos e clicar em Login. |
 |**Objetivo do Teste** | Validar acesso do usuário à plataforma através do login. |
 |**Passos** | 1) Acessar o Navegador. <br>2) Informar endereço: https://psiconnect20220609203034.azurewebsites.net/. <br>3) Preencher os campos CPF e senha.<br>4) Clicar no botão Login. |
@@ -10,26 +10,26 @@
 
 |Caso de Teste |CT-02 – Cadastro de usuário |
 |--------------------|-----------------------------------------------------------------------------------------------------------------------|
-|**Requisitos Associados** | RF-001 - O sistema deve permitir cadastrar um usuário. |
+|**Requisitos Associados** | RF-006 - O sistema deve permitir cadastrar um usuário. |
 |**Entrada** | Na página inicial, o usuário deverá clicar em "Cadastre aqui".  |
 |**Objetivo do Teste** | Validar usabilidade do cadastro de usuário. |
 |**Passos** | 1) Acessar o Navegador .<br>2) Informar endereço: https://psiconnect20220609203034.azurewebsites.net/.<br>3) Clicar em Cadastre aqui.<br>4) Inserir os dados pessoais nos quadrantes em branco.<br>5) No quadrante do departamento, selecionar a opção Secretária.<br>6) Clicar em Cadastrar. |
-|**Critérios de Êxito** | "O usuário será direcionado à homepage e **terá mensagem de confirmação***". |
+|**Critérios de Êxito** | "O usuário será direcionado à homepage. |
 
-|Caso de Teste |CT-03 – Gerenciar profissional |
+|Caso de Teste |CT-03 – Gerenciar cadastro |
 |--------------------|-----------------------------------------------------------------------------------------------------------------------|
-|**Requisitos Associados** | RF-002 - O sistema deve permitir o gerenciamento dos dados de usuário.|
+|**Requisitos Associados** | RF-002 - O sistema deve permitir o gerenciamento dos dados de cadastro dos usuários.|
 |**Entrada** | a página inicial, digitar CPF e senha nos respectivos campos. |
 |**Objetivo do Teste** | Validar usabilidade da edição de dados de cadastro do usuário no sistema. |
 |**Passos** | 1) Acessar o Navegador. <br>2) Informar o endereço: https://psiconnect20220609203034.azurewebsites.net/. <br>4)Clicar no botão login.<br>5) Na tela seguinte, clicar no botão "Meus dados", localizado no menu lateral esquerdo.<br>6) Clicar no quadrante de dados que deseja alterar e inserir o novo valor.<br>7) Após inserção de dados, clicar no botão "Save".<br> |
-|**Critérios de Êxito** | "Usuário será direcionado para a página Meus dados, **com os dados já salvos**." |
+|**Critérios de Êxito** | "Usuário será direcionado para a página Meus dados." |
 
 |Caso de Teste |CT-04 – Registro de atendimentos |
 |--------------------|-----------------------------------------------------------------------------------------------------------------------|
 |**Requisitos Associados** | RF-003 - O sistema deve permitir registrar os atendimentos, para cada atendimento o profissional de saúde deverá vincular o paciente que foi atendido ao dia, a hora e a descrição do atendimento. |
 |**Entrada** | Ao realizar login na aplicação, o profissional deverá acessar o botão Relatório, localizado no menu lateral esquerdo.
 |**Objetivo do Teste** | Validar usabilidade do profissional, no cadastro de atendimento nas consultas. |
-|**Passos** | 1) Acessar o Navegador .<br>2) Informar o endereço: https://psiconnect20220609203034.azurewebsites.net/.<br>4) Clicar em login.<br>5) Na Homepage, clique em  "Atendimentos".<br>6) Na página aberta clique no botão Novo Atendimento.<br>7) Preencha todos os dados da consulta nos respectivos quadrantes e clique em "Criar".
+|**Passos** | 1) Acessar o Navegador .<br>2) Informar o endereço: https://psiconnect20220609203034.azurewebsites.net/.<br>4) Clicar em login.<br>5) Na Homepage, clique em  "Atendimentos".<br>6) Na página seguinte, clique no botão Novo Atendimento.<br>7) Preencha todos os dados da consulta nos respectivos quadrantes e clique em "Criar".
 |**Critérios de Êxito** | "O atendimento será registrado e o profissional será direcionado ao menu inicial." |
 
 |Caso de Teste |CT-05 – Emissão de relatório |
