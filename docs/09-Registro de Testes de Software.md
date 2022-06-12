@@ -29,7 +29,7 @@ Relatório com as evidências dos testes de software realizados no sistema pela 
 
 |	Vídeo 	| <video src=""> |
 
-## CT-06 - Cadastramento de profissionais
+## CT-07 - Cadastramento de profissionais
 
 |	Vídeo 	| <video src=""> |
 
