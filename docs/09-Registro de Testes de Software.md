@@ -9,7 +9,7 @@ Relatório com as evidências dos testes de software realizados no sistema pela 
 
 |	Vídeo 	| <video src=""> |
 
-## CT-02 - Cadastro de usuário
+## CT-02 - Cadastro de usuário e profissional
   
 |	Vídeo 	| <video src=""> |
 
@@ -26,10 +26,6 @@ Relatório com as evidências dos testes de software realizados no sistema pela 
 |	Vídeo 	| <video src=""> |
 
 ## CT-06 - Recuperação de senha
-
-|	Vídeo 	| <video src=""> |
-
-## CT-07 - Cadastramento de profissionais
 
 |	Vídeo 	| <video src=""> |
 
