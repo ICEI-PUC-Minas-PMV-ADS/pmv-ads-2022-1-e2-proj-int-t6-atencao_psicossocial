@@ -8,7 +8,7 @@
 |**Passos** | 1) Acessar o Navegador. <br>2) Informar endereço: https://psiconnect20220609203034.azurewebsites.net/. <br>3) Preencher os campos CPF e senha.<br>4) Clicar no botão Login. |
 |**Critérios de Êxito** | "O usuário será direcionado à homepage e terá acesso ao Menu pessoal." |
 
-|Caso de Teste |CT-02 – Cadastro de usuário |
+|Caso de Teste |CT-02 – Cadastro de usuário e profissional de saúde |
 |--------------------|-----------------------------------------------------------------------------------------------------------------------|
 |**Requisitos Associados** | RF-006 - O sistema deve permitir cadastrar um usuário. |
 |**Entrada** | Na página inicial, o usuário deverá clicar em "Cadastre aqui".  |
