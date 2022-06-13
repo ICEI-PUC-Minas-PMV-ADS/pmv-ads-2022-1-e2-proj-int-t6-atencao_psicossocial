@@ -28,6 +28,10 @@ Relatório com as evidências dos testes de software realizados no sistema pela 
 ## CT-06 - Recuperação de senha
 
 |	Vídeo 	| <video src=""> |
+  
+## CT-07 - Cadastramento de Profissional
+
+|	Vídeo 	| <video src=""> |  
 
 ## Avaliação
 
