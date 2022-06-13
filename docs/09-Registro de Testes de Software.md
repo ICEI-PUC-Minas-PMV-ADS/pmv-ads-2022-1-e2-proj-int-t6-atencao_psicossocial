@@ -7,7 +7,8 @@ Relatório com as evidências dos testes de software realizados no sistema pela 
 
 ## CT-01 - Login do usuário
 
-https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial/blob/main/docs/videos/CT01%20-%20Login%20do%20usu%C3%A1rio.mp4
+<video src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial/blob/main/docs/videos/CT01%20-%20Login%20do%20usu%C3%A1rio.mp4"> 
+
 ## CT-02 - Cadastro de usuário e profissional
   
 |	Vídeo 	| <video src=""> |
