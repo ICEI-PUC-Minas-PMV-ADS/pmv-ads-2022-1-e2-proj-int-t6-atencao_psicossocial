@@ -7,7 +7,7 @@ Relatório com as evidências dos testes de software realizados no sistema pela 
 
 ## CT-01 - Login do usuário
 
-https://sgapucminasbr-my.sharepoint.com/:v:/g/personal/1363297_sga_pucminas_br/EYKS_m9Y2jtBggs4e28PpRoB8OZYQTCzb6eyUawApIdyCg?e=tUXvX0
+"https://sgapucminasbr-my.sharepoint.com/:v:/g/personal/1363297_sga_pucminas_br/EYKS_m9Y2jtBggs4e28PpRoB8OZYQTCzb6eyUawApIdyCg?e=tUXvX0"
 
 ## CT-02 - Cadastro de usuário e profissional
   
