@@ -69,7 +69,7 @@ namespace Psiconnect_01.Controllers
                 };
 
                 var userIdentity = new ClaimsIdentity(claims, "login");
-                
+
 
                 ClaimsPrincipal principal = new ClaimsPrincipal(userIdentity);
 
@@ -157,7 +157,7 @@ namespace Psiconnect_01.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Login));
             }
-          
+
             return View(usuario);
         }
 
@@ -215,8 +215,8 @@ namespace Psiconnect_01.Controllers
 
         // GET: Usuarios/Delete/5
         public async Task<IActionResult> Delete(string id)
-                    {
-                       if (id == null)
+        {
+            if (id == null)
             {
                 return NotFound();
             }
@@ -230,7 +230,7 @@ namespace Psiconnect_01.Controllers
 
             return View(usuario);
         }
-        
+
         // POST: Usuarios/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
@@ -242,7 +242,7 @@ namespace Psiconnect_01.Controllers
             return RedirectToAction(nameof(Index));
         }
         // GET:Usuarios/Passwordrecovery
-                public IActionResult Passwordrecovery()
+        public IActionResult Passwordrecovery()
         {
             return View();
         }
@@ -253,10 +253,10 @@ namespace Psiconnect_01.Controllers
                 return Ok();
             else
                 return BadRequest();
-        
-            
+
+
         }
-        
+
 
         [HttpGet]
         public async Task<IActionResult> EnviaTokenParaUsuario(string cpf)
@@ -289,25 +289,24 @@ namespace Psiconnect_01.Controllers
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Passwordrecovery([Bind("Cpf,NovaSenha,ConfirmarSenha")] RedefinicaoSenhaUsuario redefinicaoRecebida)
-        {            
-           
-                var usuario = await _context.Usuarios
-                .FirstOrDefaultAsync(m => m.Cpf == redefinicaoRecebida.Cpf);
+        {
 
-                if (usuario == null) 
-                    return BadRequest();
+            var usuario = await _context.Usuarios
+            .FirstOrDefaultAsync(m => m.Cpf == redefinicaoRecebida.Cpf);
+
+            if (usuario == null)
+                return BadRequest();
 
             if (redefinicaoRecebida.NovaSenha != redefinicaoRecebida.ConfirmarSenha)
                 return BadRequest();
 
-                usuario.Senha = BCrypt.Net.BCrypt.HashPassword(redefinicaoRecebida.NovaSenha);
-                _context.Update(usuario);
-                 await _context.SaveChangesAsync();
+            usuario.Senha = BCrypt.Net.BCrypt.HashPassword(redefinicaoRecebida.NovaSenha);
+            _context.Update(usuario);
+            await _context.SaveChangesAsync();
 
+            return RedirectToAction("Login", "Usuarios");
 
-                return View("Login");
-            
-              }
+        }
 
         public static string RandomString(int length)
         {
