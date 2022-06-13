@@ -7,7 +7,7 @@ Relatório com as evidências dos testes de software realizados no sistema pela 
 
 ## CT-01 - Login do usuário
 
-|	Vídeo 	| <video src=""> |
+|	![Login do usuário](pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial/docs/videos/CT01 - Login do usuário.mp4)|
 
 ## CT-02 - Cadastro de usuário e profissional
   
