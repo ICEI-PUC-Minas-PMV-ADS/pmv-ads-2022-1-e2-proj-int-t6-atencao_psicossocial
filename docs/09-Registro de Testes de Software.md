@@ -7,31 +7,31 @@ Relatório com as evidências dos testes de software realizados no sistema pela 
 
 ## CT-01 - Login do usuário
 
-https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial/blob/a52c82223edc5f90a233290fab90337c0eb186b3/docs/CT01%20-%20Login%20do%20usu%C3%A1rio.mp4
+|	Vídeo 	| <video src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial/blob/main/docs/videos/CT01%20-%20Login%20do%20usu%C3%A1rio.mp4"> |
 
 ## CT-02 - Cadastro de usuário e profissional
   
-|	Vídeo 	| <video src=""> |
+|	Vídeo 	| <video src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial/blob/main/docs/videos/CT02%20-%20Cadastro%20de%20usu%C3%A1rio.mp4"> |
 
 ## CT-03 - Gerenciar profissional
 
-|	Vídeo 	| <video src=""> |
+|	Vídeo 	| <video src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial/blob/main/docs/videos/CT03%20-%20Gerenciar%20Cadastro.mp4"> |
 
 ## CT-04 - Registro de atendimentos
 
-|	Vídeo 	| <video src=""> |
+|	Vídeo 	| <video src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial/blob/main/docs/videos/CT04%20-%20Registro%20de%20atendimentos.mp4"> |
 
 ## CT-05 - Emissão de relatório
 
-|	Vídeo 	| <video src=""> |
+|	Vídeo 	| <video src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial/blob/main/docs/videos/CT05%20-%20Emiss%C3%A3o%20de%20relat%C3%B3rio.mp4"> |
 
 ## CT-06 - Recuperação de senha
 
-|	Vídeo 	| <video src=""> |
+|	Vídeo 	| <video src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial/blob/main/docs/videos/CT06%20-%20Recupera%C3%A7%C3%A3o%20de%20senha.mp4"> |
   
 ## CT-07 - Cadastramento de Profissional
 
-|	Vídeo 	| <video src=""> |  
+|	Vídeo 	| <video src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial/blob/main/docs/videos/CT07%20-%20Cadastramento%20do%20Profissional%20de%20sa%C3%BAde.mp4"> |  
 
 ## Avaliação
 
