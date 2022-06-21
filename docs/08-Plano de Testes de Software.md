@@ -16,7 +16,7 @@
 |**Passos** | 1) Acessar o Navegador .<br>2) Informar endereço: https://psiconnect20220609203034.azurewebsites.net/.<br>3) Clicar em Cadastre aqui.<br>4) Inserir os dados pessoais nos quadrantes em branco.<br>5) No quadrante do departamento, selecionar a opção Secretária.<br>6) Clicar em Cadastrar. |
 |**Critérios de Êxito** | "O usuário será direcionado à homepage. |
 
-|Caso de Teste |CT-03 – Gerenciar cadastro |
+|Caso de Teste |CT-03 – Editar cadastro |
 |--------------------|-----------------------------------------------------------------------------------------------------------------------|
 |**Requisitos Associados** | RF-002 - O sistema deve permitir o gerenciamento dos dados de cadastro dos usuários.|
 |**Entrada** | a página inicial, digitar CPF e senha nos respectivos campos. |
