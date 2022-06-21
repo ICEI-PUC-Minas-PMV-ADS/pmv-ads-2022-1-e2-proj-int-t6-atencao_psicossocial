@@ -41,27 +41,23 @@ Realizados os testes, será feita análise quantitativa dos aspectos negativos o
 | Objetivo do teste            | Usuário identifica símbolo e legenda                    |  
 | Critérios de Êxito           | Usuário preenche os campos obrigatório|
 
-| `Caso de teste ` | ` CTU-005 Erro no envio cadastro `                    | 
-|--------------------|--------------------------------------------------------| 
-| Objetivo do teste            | Verificar se o sistema informa ao usuário porque o formulário não foi enviado                    |  
-| Critérios de Êxito           | Sistema informa que o formulário não foi enviado com aviso| 
 
-| `Caso de teste ` | ` CTU-006 Cadastro Efetivado `                    | 
+| `Caso de teste ` | ` CTU-005 Cadastro Efetivado `                    | 
 |--------------------|--------------------------------------------------------| 
 | Objetivo do teste            | Verificar se o sistema informa ao usuário que o formulário foi enviado                   |  
 | Critérios de Êxito           | Sistema informa que o formulário  foi cadastrado com sucesso| 
 
-| `Caso de teste ` | ` CTU-007 Usuário entende onde inclui novo atendimento  `                    | 
+| `Caso de teste ` | ` CTU-006 Usuário entende onde inclui novo atendimento  `                    | 
 |--------------------|--------------------------------------------------------| 
 | Objetivo do teste            | Verificar se o usuário identifica a opção de incluir atendimento                    |  
 | Critérios de Êxito           | Usuário identifica opções e selecionando opção novo atendimento| 
 
-| `Caso de teste ` | ` CTU-008 Usuário entende onde edita informação do atendimento `                    | 
+| `Caso de teste ` | ` CTU-007 Usuário entende onde edita informação do atendimento `                    | 
 |--------------------|--------------------------------------------------------| 
 | Objetivo do teste            | Verificar se o usuário identifica a opção de editar um atendimento                   |  
 | Critérios de Êxito           | Usuário identifica opções e selecionando opção editar atendimento | 
 
-| `Caso de teste ` | ` CTU-009 Usuário entende onde pesquisa os atendimentos `                    | 
+| `Caso de teste ` | ` CTU-008 Usuário entende onde pesquisa os atendimentos `                    | 
 |--------------------|--------------------------------------------------------| 
 | Objetivo do teste            | Verificar se o usuário identifica a opção de pesquisar um atendimento                   |  
 | Critérios de Êxito           | Usuário identifica opções e selecionando opção de pesquisar atendimento| 
