@@ -29,7 +29,7 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t6-atencao_
 
 https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial/blob/main/docs/videos/CT06%20-%20Recupera%C3%A7%C3%A3o%20de%20senha.mp4
   
-## CT-07 - Cadastro de Profissional
+## CT-07 - Cadastro de Profissional de Saúde
 
 https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial/blob/main/docs/videos/CT07%20-%20Cadastramento%20do%20Profissional%20de%20sa%C3%BAde.mp4
 
