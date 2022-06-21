@@ -9,11 +9,11 @@ Relatório com as evidências dos testes de software realizados no sistema pela 
 
 "https://sgapucminasbr-my.sharepoint.com/:v:/g/personal/1363297_sga_pucminas_br/EYKS_m9Y2jtBggs4e28PpRoB8OZYQTCzb6eyUawApIdyCg?e=tUXvX0"
 
-## CT-02 - Cadastro de usuário e profissional
+## CT-02 - Cadastro de usuário  
   
 https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial/blob/main/docs/videos/CT02%20-%20Cadastro%20de%20usu%C3%A1rio.mp4
 
-## CT-03 - Gerenciar profissional
+## CT-03 - Editar Cadastro
 
 https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial/blob/main/docs/videos/CT03%20-%20Gerenciar%20Cadastro.mp4
 
@@ -29,7 +29,7 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t6-atencao_
 
 https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial/blob/main/docs/videos/CT06%20-%20Recupera%C3%A7%C3%A3o%20de%20senha.mp4
   
-## CT-07 - Cadastramento de Profissional
+## CT-07 - Cadastro de Profissional
 
 https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial/blob/main/docs/videos/CT07%20-%20Cadastramento%20do%20Profissional%20de%20sa%C3%BAde.mp4
 
