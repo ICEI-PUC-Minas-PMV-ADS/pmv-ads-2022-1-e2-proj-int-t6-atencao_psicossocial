@@ -6,32 +6,25 @@ Relatório com as evidências dos testes de software realizados no sistema pela 
 
 
 ## CT-01 - Login do usuário
-
-"https://sgapucminasbr-my.sharepoint.com/:v:/g/personal/1363297_sga_pucminas_br/EYKS_m9Y2jtBggs4e28PpRoB8OZYQTCzb6eyUawApIdyCg?e=tUXvX0"
+https://user-images.githubusercontent.com/61605610/175189496-e3b58fe8-bc4a-44e1-a2d4-2d8bb1fb37f0.mp4
 
 ## CT-02 - Cadastro de usuário  
-  
-https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial/blob/main/docs/videos/CT02%20-%20Cadastro%20de%20usu%C3%A1rio.mp4
+https://user-images.githubusercontent.com/61605610/175189672-4a24100a-a4d7-4e4d-9e3a-fce25c170cda.mp4
 
 ## CT-03 - Editar Cadastro
-
-https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial/blob/main/docs/videos/CT03%20-%20Gerenciar%20Cadastro.mp4
+https://user-images.githubusercontent.com/61605610/175189681-b3953c27-e8b1-484c-94c0-33c819225b8a.mp4
 
 ## CT-04 - Registro de atendimentos
-
-https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial/blob/main/docs/videos/CT04%20-%20Registro%20de%20atendimentos.mp4
+https://user-images.githubusercontent.com/61605610/175189686-ffb1133f-8ff0-4c96-af22-fe2d1acd6401.mp4
 
 ## CT-05 - Emissão de relatório
-
-https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial/blob/main/docs/videos/CT05%20-%20Emiss%C3%A3o%20de%20relat%C3%B3rio.mp4
+https://user-images.githubusercontent.com/61605610/175189698-6bd7fa9e-df87-4730-be8b-c848c1f97098.mp4
 
 ## CT-06 - Recuperação de senha
+https://user-images.githubusercontent.com/61605610/175189709-54ada8b7-d51d-4611-87a4-1a9754145c81.mp4
 
-https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial/blob/main/docs/videos/CT06%20-%20Recupera%C3%A7%C3%A3o%20de%20senha.mp4
-  
 ## CT-07 - Cadastro de Profissional de Saúde
-
-https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial/blob/main/docs/videos/CT07%20-%20Cadastramento%20do%20Profissional%20de%20sa%C3%BAde.mp4
+https://user-images.githubusercontent.com/61605610/175189730-3775d24c-cb8c-4fac-b4a4-49a7a447db5c.mp4
 
 ## Avaliação
 
