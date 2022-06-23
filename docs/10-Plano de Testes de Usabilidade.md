@@ -57,10 +57,5 @@ Realizados os testes, será feita análise quantitativa dos aspectos negativos o
 | Objetivo do teste            | Verificar se o usuário identifica a opção de editar um atendimento                   |  
 | Critérios de Êxito           | Usuário identifica opções e selecionando opção editar atendimento | 
 
-| `Caso de teste ` | ` CTU-008 Usuário entende onde pesquisa os atendimentos `                    | 
-|--------------------|--------------------------------------------------------| 
-| Objetivo do teste            | Verificar se o usuário identifica a opção de pesquisar um atendimento                   |  
-| Critérios de Êxito           | Usuário identifica opções e selecionando opção de pesquisar atendimento| 
-
 
 
