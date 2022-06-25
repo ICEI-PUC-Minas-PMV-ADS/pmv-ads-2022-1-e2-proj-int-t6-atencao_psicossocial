@@ -42,7 +42,7 @@
 
 |Caso de Teste |CT-006 – Recuperação de senha |
 |--------------------|-----------------------------------------------------------------------------------------------------------------------|
-|**Requisitos Associados** | RF-005 - O sistema deve permitir a que a senha seja recuperada. |
+|**Requisitos Associados** | RF-005 - A aplicação deve ter a opção de recuperação/alteração da senha. |
 |**Entrada** | Na homepage clicar em "Esqueci minha Senha". |
 |**Objetivo do Teste** | Validar acesso à recuperação de senha esquecida. |
 |**Passos** | 1) Acessar o Navegador .<br>2) Informar o endereço: https://psiconnect20220609203034.azurewebsites.net/.<br>4) Clicar em "Esqueci minha senha".<br>5) Na tela seguinte, preencher os quadrantes, CPF, Nova Senha e Confirmar Senha.<br>6) Clicar no botão Confirmar. |
@@ -52,3 +52,5 @@
 ## Ferramentas de Testes (Opcional)
 
 Comente sobre as ferramentas de testes utilizadas.
+Para registro dos testes acima usamos a ferramenta nativa do Windows, intitulada "Xbox Game Bar", acessada através do comando das teclas **`windows`** + **`G`**. Com esta ferramenta, otimizou o processo para registro em vídeo.
+
