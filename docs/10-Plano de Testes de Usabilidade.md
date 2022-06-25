@@ -21,41 +21,36 @@ Realizados os testes, será feita análise quantitativa dos aspectos negativos o
 
 | `Caso de teste ` | ` CTU-001 Fazer Login `                   | 
 |--------------------|--------------------------------------------------------| 
-| Objetivo do teste            | Realização de login no sistema                   |  
-| Critérios de Êxito           | Identificação e preenchimento dos campos com posterior entrada no sistema| 
+| Objetivo do teste            | Realizar login no sistema                   |  
+| Critérios de Êxito           | O usuário será direcionado à homepage e terá acesso ao Menu pessoal.| 
 
-| `Caso de teste ` | ` CTU-002 Realizar cadastro caso ainda não possua  `                    | 
+| `Caso de teste ` | ` CTU-002 Cadastrar novo usuário  `                    | 
 |--------------------|--------------------------------------------------------| 
 | Objetivo do teste            | Identificar opção de cadastro e criar usuário                 |  
-| Critérios de Êxito           | Usuário identifica onde é possível se cadastrar no sistema| 
+| Critérios de Êxito           | O usuário será direcionado à página de login.| 
 
 
-| `Caso de teste ` | ` CTU-003 Formulário de cadastro  `                    | 
+| `Caso de teste ` | ` CTU-003 Editar Cadastro  `                    | 
 |--------------------|--------------------------------------------------------| 
 | Objetivo do teste            | Verificar se é claro as informações de preenchimento             |  
-| Critérios de Êxito           | Usuário preenche os campos corretamente  | 
+| Critérios de Êxito           | Usuário será direcionado para a página Meus dados.  | 
 
 
-| `Caso de teste ` | ` CTU-004 Campo obrigatório no formulário de cadastro   `                    | 
+| `Caso de teste ` | ` CTU-004 Registro de atendimento   `                    | 
 |--------------------|--------------------------------------------------------| 
 | Objetivo do teste            | Usuário identifica símbolo e legenda                    |  
-| Critérios de Êxito           | Usuário preenche os campos obrigatório|
+| Critérios de Êxito           | O atendimento será registrado e o profissional será direcionado ao menu inicial.|
 
 
-| `Caso de teste ` | ` CTU-005 Cadastro Efetivado `                    | 
+| `Caso de teste ` | ` CTU-005 Emissão de relatório `                    | 
 |--------------------|--------------------------------------------------------| 
-| Objetivo do teste            | Verificar se o sistema informa ao usuário que o formulário foi enviado                   |  
-| Critérios de Êxito           | Sistema informa que o formulário  foi cadastrado com sucesso| 
+| Objetivo do teste            | Verificar se o sistema emite relatório.                  |  
+| Critérios de Êxito           | O usuário visualizará campo para impressão ou download do relatório.| 
 
-| `Caso de teste ` | ` CTU-006 Usuário entende onde inclui novo atendimento  `                    | 
+| `Caso de teste ` | ` CTU-006 Recuperação de senha  `                    | 
 |--------------------|--------------------------------------------------------| 
-| Objetivo do teste            | Verificar se o usuário identifica a opção de incluir atendimento                    |  
-| Critérios de Êxito           | Usuário identifica opções e selecionando opção novo atendimento| 
-
-| `Caso de teste ` | ` CTU-007 Usuário entende onde edita informação do atendimento `                    | 
-|--------------------|--------------------------------------------------------| 
-| Objetivo do teste            | Verificar se o usuário identifica a opção de editar um atendimento                   |  
-| Critérios de Êxito           | Usuário identifica opções e selecionando opção editar atendimento | 
+| Objetivo do teste            | Verificar se o usuário consegue recuperar a senha.         |  
+| Critérios de Êxito           | O usuário será redirecionado para a página de Login.| 
 
 
 
