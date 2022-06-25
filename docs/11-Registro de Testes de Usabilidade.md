@@ -39,11 +39,6 @@ Após realizar os testes de usabilidade, obtém-se um relatório a partir das an
 | Usuário 2 | CTU-007	| RF-006 	| 1min | 2  | 0 | Nenhum | Não apareceu a máscara do CPF | 5 |
 | Usuário 3	| CTU-007	| RF-006 | 20s | 6  | 0 | Nenhum | Fácil | 5 |
 
-| **Usuário** | **Caso de teste** | **Requisito** | **Tempo** | **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Dificuldade** | **Satisfação** |
-| --- | --- | --- | --- | --- | --- | --- | --- |--- |
-| Usuário 1	| CTU-008	| RF-? |  |  |  | |  |  |
-| Usuário 2 | CTU-008	| RF-? |  |  |  | |  |  |
-| Usuário 3	| CTU-008	| RF-? |  |  |  |  |  |  |
 
 **Perfil do Usuário**
 
