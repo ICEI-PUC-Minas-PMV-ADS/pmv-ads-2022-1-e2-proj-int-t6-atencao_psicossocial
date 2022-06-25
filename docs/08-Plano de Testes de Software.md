@@ -24,7 +24,7 @@
 |**Passos** | 1) Acessar o Navegador. <br>2) Informar o endereço: https://psiconnect20220609203034.azurewebsites.net/. <br>4)Clicar no botão login.<br>5) Na tela seguinte, clicar no botão "Meus dados", localizado no menu lateral esquerdo.<br>6) Clicar no quadrante de dados que deseja alterar e inserir o novo valor.<br>7) Após inserção de dados, clicar no botão "Save".<br> |
 |**Critérios de Êxito** | "Usuário será direcionado para a página Meus dados." |
 
-|Caso de Teste |CT-004 – Registro de atendimentos |
+|Caso de Teste |CT-004 – Registro de atendimento |
 |--------------------|-----------------------------------------------------------------------------------------------------------------------|
 |**Requisitos Associados** | RF-003 - A aplicação deve registrar o atendimento do paciente. |
 |**Entrada** | Ao realizar login na aplicação, o profissional deverá acessar o botão Relatório, localizado no menu lateral esquerdo.
@@ -32,7 +32,7 @@
 |**Passos** | 1) Acessar o Navegador .<br>2) Informar o endereço: https://psiconnect20220609203034.azurewebsites.net/.<br>4) Clicar em login.<br>5) Na Homepage, clique em  "Atendimentos".<br>6) Na página seguinte, clique no botão Novo Atendimento.<br>7) Preencha todos os dados da consulta nos respectivos quadrantes e clique em "Criar".
 |**Critérios de Êxito** | "O atendimento será registrado e o profissional será direcionado ao menu inicial." |
 
-|Caso de Teste |CT-00 – Emissão de relatório |
+|Caso de Teste |CT-005 – Emissão de relatório |
 |--------------------|-----------------------------------------------------------------------------------------------------------------------|
 |**Requisitos Associados** | RF-004 - A aplicação deve permitir a emissão de relatórios de atendimento. |
 |**Entrada** | Na homepage selecione "Relatório" e insira dados do paciente para realizar busca. |
