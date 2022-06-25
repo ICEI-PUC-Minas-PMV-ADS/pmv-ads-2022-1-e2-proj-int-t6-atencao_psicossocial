@@ -48,8 +48,6 @@
 |**Passos** | 1) Acessar o Navegador .<br>2) Informar o endereço: https://psiconnect20220609203034.azurewebsites.net/.<br>4) Clicar em "Esqueci minha senha".<br>5) Na tela seguinte, preencher os quadrantes, CPF, Nova Senha e Confirmar Senha.<br>6) Clicar no botão Confirmar. |
 |**Critérios de Êxito** | "O usuário será redirecionado para a página de Login." |
 
-|Caso de Teste |CT-007 – Cadastro do profissional de saúde|
-|--------------------|-----------------------------------------------------------------------------------------------------------------------|
 
 ## Ferramentas de Testes (Opcional)
 
