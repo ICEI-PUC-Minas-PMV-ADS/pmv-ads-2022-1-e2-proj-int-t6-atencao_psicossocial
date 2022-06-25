@@ -51,6 +51,5 @@
 
 ## Ferramentas de Testes (Opcional)
 
-Comente sobre as ferramentas de testes utilizadas.
 Para registro dos testes acima utilizamos a ferramenta nativa do Windows, intitulada "Xbox Game Bar", acessada através do comando das teclas **`windows`** + **`G`**. Com esta ferramenta, otimizou o processo para registro capturando um vídeo de cada Caso de Teste, demonstrando assim o passo a passo de cada Teste acima.
 Este acesso foi testado através do navegador Microsoft Edge, mas também realizado teste em diversos navegadores, sendo satisfatório em todos.
