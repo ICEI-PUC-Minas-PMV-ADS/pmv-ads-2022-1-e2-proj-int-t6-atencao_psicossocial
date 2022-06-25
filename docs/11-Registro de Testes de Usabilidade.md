@@ -11,9 +11,9 @@ Após realizar os testes de usabilidade, obtém-se um relatório a partir das an
 
 | **Usuário** | **Caso de teste** | **Requisito** | **Tempo** | **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Dificuldade** | **Satisfação** |
 | --- | --- | --- | --- | --- | --- | --- | --- |--- |
-| Usuário 1	| CTU-002	| RF-002 	| Até 10s | 4  | 0 | Nenhum | Fácil | 5 |
-| Usuário 2 | CTU-002	| RF-002 	| 1min e 38s | 8  | 0 | Nenhum | Não apareceu mensagem de alteração do cadastro, talvez o usuário fique confuso | 4 |
-| Usuário 3	| CTU-002	| RF-002 	| 30s | 4  | 0 | Nenhum | Fácil | 4 |
+| Usuário 1	| CTU-002	| RF-006 	| Até 10s | 4  | 0 | Nenhum | Fácil | 5 |
+| Usuário 2 | CTU-002	| RF-006 	| 1min e 38s | 8  | 0 | Nenhum | Não apareceu mensagem de alteração do cadastro, talvez o usuário fique confuso | 4 |
+| Usuário 3	| CTU-002	| RF-006 	| 30s | 4  | 0 | Nenhum | Fácil | 4 |
 
 | **Usuário** | **Caso de teste** | **Requisito** | **Tempo** | **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Dificuldade** | **Satisfação** |
 | --- | --- | --- | --- | --- | --- | --- | --- |--- |
