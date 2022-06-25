@@ -13,7 +13,7 @@
 |**Requisitos Associados** | RF-006 - A aplicação deve possibilitar o cadastro tanto de usuários quanto de profissionais. |
 |**Entrada** | Na página inicial, o usuário deverá clicar em "Cadastre aqui".  |
 |**Objetivo do Teste** | Validar usabilidade do cadastro de usuário. |
-|**Passos** | 1) Acessar o Navegador .<br>2) Informar endereço: https://psiconnect20220609203034.azurewebsites.net/.<br>3) Clicar em Cadastre aqui.<br>4) Inserir os dados pessoais nos quadrantes em branco.<br>5) Escolher uma senha pessoal.<br>6) No quadrante do departamento, selecionar o departamento escolher a opção de sua função.<br>6) Clicar em Cadastrar. |
+|**Passos** | 1) Acessar o Navegador .<br>2) Informar endereço: https://psiconnect20220609203034.azurewebsites.net/.<br>3) Clicar em Cadastre aqui.<br>4) Inserir os dados pessoais nos quadrantes em branco.<br>5) Escolher uma senha pessoal.<br>6) No quadrante do departamento, selecionar o departamento escolher a opção de sua função.<br>7) Clicar em Cadastrar. |
 |**Critérios de Êxito** | "O usuário será direcionado à página de login." |
 
 |Caso de Teste |CT-003 – Editar cadastro |
