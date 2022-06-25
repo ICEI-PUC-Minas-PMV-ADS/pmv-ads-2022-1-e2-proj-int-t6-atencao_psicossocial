@@ -33,12 +33,6 @@ Após realizar os testes de usabilidade, obtém-se um relatório a partir das an
 | Usuário 2 | CTU-006	| RF-005 	| Até 50s | 4  | 0 | Nenhum | Poderia aparecer a mensagem de alteração da senha | 5 |
 | Usuário 3	| CTU-006	| RF-005 | 22s | 5  | 0 | Nenhum | Fácil | 4 |
 
-| **Usuário** | **Caso de teste** | **Requisito** | **Tempo** | **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Dificuldade** | **Satisfação** |
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| Usuário 1	| CTU-007	| RF-006	| Menos de 10s | 5 | 0 | Nenhum| Fácil | 5 |
-| Usuário 2 | CTU-007	| RF-006 	| 1min | 2  | 0 | Nenhum | Não apareceu a máscara do CPF | 5 |
-| Usuário 3	| CTU-007	| RF-006 | 20s | 6  | 0 | Nenhum | Fácil | 5 |
-
 **Perfil do Usuário**
 
 | **Usuário** 	| **Idade** 	| **Esolaridade** | **Profissão** |   
