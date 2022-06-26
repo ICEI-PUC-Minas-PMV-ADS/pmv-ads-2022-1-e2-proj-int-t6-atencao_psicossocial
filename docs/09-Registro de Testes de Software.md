@@ -28,4 +28,7 @@ https://user-images.githubusercontent.com/61605610/175189730-3775d24c-cb8c-4fac-
 
 ## Avaliação
 
-Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
+Como demonstra o resultado do teste acima, o usuário inseriu os seus dados nos formulários e o sistema não retornou nenhum alerta de erro, o que demonstra o sucesso nas aplicações. Esta aplicação visa possibilitar ao usuário do projeto o controle de atendimento de pacientes, bem como oferecer ao profissional uma base com uma construção de um software possibilitando o usuário ter acesso ao registro dos pacientes. Afinal, por mais vantagens que se possa ter, qualquer tipo de aplicação pode apresentar alguns pontos fracos. Sobre pontos fracos, nesta aplicação temos:
+
+- Segurança e/ou vulnerabilidade dos dados, futuramente , em momento oportuno podemos melhoras com uma autenticação de dois fatores;
+- Design de interface do projeto;
