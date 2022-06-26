@@ -19,7 +19,7 @@ O método utilizado é de medição e avaliação. O teste visa a avaliar:
 Realizados os testes, será feita análise quantitativa dos aspectos negativos observados, bem como poderá incluidos comentários sobre a qualidade da aplicação. 
 
 
-| `Caso de teste ` | ` CTU-001 Fazer Login `                   | 
+| `Caso de teste ` | ` CTU-001 Login do usuário `                   | 
 |:--------------------:|:--------------------------------------------------------:|
 | Objetivo do teste            | Realizar login no sistema                   |  
 | Critérios de Êxito           | O usuário será direcionado à homepage e terá acesso ao Menu pessoal|
