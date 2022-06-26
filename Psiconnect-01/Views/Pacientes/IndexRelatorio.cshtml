@@ -1,7 +1,7 @@
 ﻿@model IEnumerable<Psiconnect_01.Models.Paciente>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Relatórios";
 }
 
 
@@ -19,7 +19,7 @@
 
 </div>
 <br /><br />
-<table class="table">
+<table class="table table-striped">
     <thead>
         <tr>
             <th>
@@ -77,7 +77,7 @@
             <td>
                <!-- <a asp-action="Edit" asp-route-id="@item.Cpf">Edit</a>-->
                <!-- <a asp-action="Details" asp-route-id="@item.Cpf">Details</a>-->
-                <a asp-action="Relatorio" asp-route-id="@item.Cpf">Relatório</a> 
+                <a  class="btn btn-primary" asp-action="Relatorio" asp-route-id="@item.Cpf">Relatório</a> 
                <!--  <a asp-action="Delete" asp-route-id="@item.Cpf">Delete</a> -->
             </td>
         </tr>

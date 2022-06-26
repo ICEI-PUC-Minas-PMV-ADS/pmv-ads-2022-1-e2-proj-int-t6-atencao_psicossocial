@@ -10,38 +10,49 @@
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
 
+
+<body class="bg-image">
 <div class="row justify-content-center col-md-8">
     <div class="login-form">
         <form asp-action="Login">
-            <div class="logo-topo">
-                <img src="img/login-topo.png" alt="Psic">
-            </div>
-
-            <div class="logo">
-                <img src="img/LogoSemFundo.png" alt="Psiconnect">
-            </div>
+            
+            
+            <div class="logo pt-3">
+				<img src="img/LogoSemFundo.png" alt="Psiconnect">
+			</div>
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <h2 class="text-center">
-                Entre no Sistema
-            </h2>
+				Entre no Sistema
+			</h2>
             <div class="form-group">
-                <input asp-for="Cpf" class="form-control" placeholder="Insira seu CPF" required />
-                <span asp-validation-for="Cpf" class="text-danger"></span>
+                <input asp-for="Cpf" id="cpf" class="form-control" placeholder="Insira seu CPF" required maxlength="14" onkeyup="maskCpf()" />
+		 <span asp-validation-for="Cpf" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <input asp-for="Senha" class="form-control" placeholder="Insira sua Senha" required />
-                <span asp-validation-for="Senha" class="text-danger"></span>
+		<span asp-validation-for="Senha" class="text-danger"></span>
+        
             </div>
+           
+
             <div class="form-group">
                 <input type="submit" value="Login" class="btn btn-primary btn-lg btn-block" />
-                <a class="nav-link text-info" asp-area="" asp-controller="Usuarios" asp-action="Create">Cadastre aqui</a>
-                <a class="nav-link text-info" asp-area="" asp-controller="Usuarios" asp-action="Passwordrecovery">Esqueci minha senha</a>
+               <!-- Antigo Cadastre aqui <a class="nav-link text-info" asp-area="" asp-controller="Usuarios" asp-action="Index">Cadastre aqui</a>-->
+               <a class="nav-link text-dark font-weight-bold text-sm-center p-0 mt-2" asp-area="" asp-controller="Usuarios" asp-action="Create">Cadastre aqui</a>
+               <a asp-controller="Usuarios" asp-action="Passwordrecovery" class="nav-link text-sm-center p-0 font-weight-bold text-dark" > Esqueci Minha Senha</a>
             </div>
-            <p class="text-secondary">@ViewBag.Message</p>
+
+		<p class="text-secondary">@ViewBag.Message</p>
         </form>
     </div>
 </div>
 
+<div>
+    <!-- <a asp-action="Index">Back to List</a> -->
+</div>
+
+   
+</body>
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}

@@ -1,13 +1,26 @@
-body {
-	background-color: #FBFDFF;
+.bg-image{
+	background-image:url(/img/fundotelas.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	margin: 0;
+
+}
+
+
+#lg{
+	height: 22px;
+	width: 22px;
+	margin: 3px;
 }
 
 .navbar {
-	background-color: #F2F8FF !important;
+	opacity:0.9;
+	
 }
 
 	.navbar img {
-		width: 200px;
+		width: 170px;
 	}
 
 	.navbar li {
@@ -25,18 +38,24 @@ body {
 
 
 .nav {
-	background-color: #f4f4f4 !important;
+	background-color: lightskyblue !important;
+	font-weight: bolder;
+	border-radius: 10px;
 }
 
 .nav a {
-		color: #071e51;
+		color: white;
 		font-size: 14px;
 }
 
-.nav a:hover {
-		background-color: lightskyblue !important;
-}
+	.nav a:hover {
+		background-color: #00A4FF !important;
+		color: white;
+		font-size: large
+	}
 
 	.nav .active {
-		background-color: #00A4FF !important;
+		border-radius:10px;
+		background-color: lightskyblue !important;
 	}
+

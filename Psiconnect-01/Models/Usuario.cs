@@ -32,6 +32,13 @@ namespace Psiconnect_01.Models
         [Display(Name = "Departamento:")]
         [Required(ErrorMessage = "Obrigatório Informar o perfil!")]
         public Perfil Perfil { get; set; }
+
+        [Display(Name = "Conselho de Classe:")]
+        
+        public string Registro { get; set; }
+
+ 
+
     }
 
     public enum Perfil

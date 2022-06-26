@@ -25,6 +25,11 @@ namespace Psiconnect_01.Controllers
             _context = context;
         }
 
+      
+        
+
+        
+
 
         public ActionResult IndexMeusDados()
         {
@@ -69,7 +74,7 @@ namespace Psiconnect_01.Controllers
                 };
 
                 var userIdentity = new ClaimsIdentity(claims, "login");
-
+                
 
                 ClaimsPrincipal principal = new ClaimsPrincipal(userIdentity);
 
@@ -143,7 +148,7 @@ namespace Psiconnect_01.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Nome,Cpf,Email,Senha,Perfil")] Usuario usuario)
+        public async Task<IActionResult> Create([Bind("Nome,Cpf,Email,Registro,Senha,Perfil")] Usuario usuario)
         {
             if (_context.Usuarios.Any(c => c.Cpf == usuario.Cpf))
             {
@@ -157,7 +162,7 @@ namespace Psiconnect_01.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Login));
             }
-
+          
             return View(usuario);
         }
 
@@ -241,50 +246,25 @@ namespace Psiconnect_01.Controllers
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
-        // GET:Usuarios/Passwordrecovery
-        public IActionResult Passwordrecovery()
-        {
-            return View();
-        }
+
         [HttpGet]
-        public async Task<IActionResult> VerificaUsuarioExistente(string cpf)
+        public IActionResult VerificaUsuarioExistente(string cpf)
         {
             if (UsuarioExists(cpf))
                 return Ok();
             else
                 return BadRequest();
 
-
         }
 
-
-        [HttpGet]
-        public async Task<IActionResult> EnviaTokenParaUsuario(string cpf)
+        public IActionResult Passwordrecovery()
         {
-            var token = RandomString(10);
-            // Envia email ou outra f
-            var redef = new RedefinicaoSenhaUsuario();
-            redef.Cpf = cpf;
-            redef.Token = token;
-
-            listaRedefinicoesEmAberto.Add(redef);
-            Console.WriteLine(token);
-            return Ok();
+            return View();
         }
 
-        [HttpPost]
-        public async Task<IActionResult> VerificaTokenDigitado([FromBody] RedefinicaoSenhaUsuario redefinicaoSenhaUsuario)
-        {
-            var redef = listaRedefinicoesEmAberto.Where(x => x.Cpf == redefinicaoSenhaUsuario.Cpf && x.Token == redefinicaoSenhaUsuario.Token);
-            if (redef != null && redef.Count() > 0)
-            {
-                return Ok();
-            }
-            else
-                return BadRequest();
 
 
-        }
+
 
         [HttpPost]
         [ValidateAntiForgeryToken]
@@ -304,16 +284,12 @@ namespace Psiconnect_01.Controllers
             _context.Update(usuario);
             await _context.SaveChangesAsync();
 
-            return RedirectToAction("Login", "Usuarios");
+
+            return View("Login");
 
         }
 
-        public static string RandomString(int length)
-        {
-            const string chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
-            return new string(Enumerable.Repeat(chars, length)
-                .Select(s => s[random.Next(s.Length)]).ToArray());
-        }
+       
 
         private bool UsuarioExists(string id)
         {

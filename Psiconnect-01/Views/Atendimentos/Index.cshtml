@@ -1,7 +1,7 @@
 ﻿    @model IEnumerable<Psiconnect_01.Models.Atendimento>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Atendimentos";
 }
 
 <h3>Atendimento</h3>
@@ -25,7 +25,7 @@
  
 
 <br />
-<table class="table">
+<table class="table table-striped">
     <thead>
         <tr>
             <th>
@@ -91,7 +91,7 @@
                 -->
                 <td>
                     <!-- <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> -->
-                    <a asp-action="Details" asp-route-id="@item.Id">Details</a>
+                    <a asp-action="Details" class="btn btn-primary" asp-route-id="@item.Id">Visualizar</a>
                     <!-- <a asp-action="Delete" asp-route-id="@item.Id">Delete</a> -->
                 </td>
             </tr>

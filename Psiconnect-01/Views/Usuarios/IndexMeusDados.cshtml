@@ -1,7 +1,7 @@
 ﻿@model Psiconnect_01.Models.Usuario
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Meus Dados";
 }
 
 <h4>Meus Dados</h4>
@@ -9,8 +9,10 @@
 <div class="row">
     <div class="col-md-4">
     <p><b>Nome Completo:</b> @Model.Nome</p>
+    <p><b>Conselho:</b> @Model.Registro</p>
     <p><b>CPF:</b> @Model.Cpf</p>
     <p><b>E-mail:</b>@Model.Email</p>
+
 
     <a class="btn btn-primary" asp-action="Edit" asp-route-id="@Model.Cpf">Alterar</a>
 </div>

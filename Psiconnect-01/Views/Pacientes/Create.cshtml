@@ -1,30 +1,35 @@
 ﻿@model Psiconnect_01.Models.Paciente
 
 @{
-    ViewData["Title"] = "Create";
+    ViewData["Title"] = "Novo Paciente";
 }
 
-<h1>Create</h1>
+<head>
+    <script  type="text/javascript" src="/js/site.js"></script>
+</head>
+<h5>Cadastrar Novo Paciente</h5>
 
-<h4>Paciente</h4>
+<h4></h4>
 <hr />
-<div class="row">
+<div class="row bg-light border-primary border" style="border-radius:10px;" >
     <div class="col-md-4">
-        <form asp-action="Create">
+        <form asp-action="Create" class=" bg-light">
+            
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
                 <label asp-for="Nome" class="control-label"></label>
                 <input asp-for="Nome" class="form-control" />
                 <span asp-validation-for="Nome" class="text-danger"></span>
+
             </div>
             <div class="form-group">
                 <label asp-for="Cpf" class="control-label"></label>
-                <input asp-for="Cpf" class="form-control" />
+                <input id="cpf" asp-for="Cpf" class="form-control" maxlength="14" onkeyup="maskCpf()"/>
                 <span asp-validation-for="Cpf" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="Telefone" class="control-label"></label>
-                <input asp-for="Telefone" class="form-control" />
+                <input id="tel" asp-for="Telefone" class="form-control" maxlength="14"  onkeyup="masktel()"/>
                 <span asp-validation-for="Telefone" class="text-danger"></span>
             </div>
             <div class="form-group">
@@ -39,7 +44,7 @@
             </div>
             <div class="form-group">
                 <label asp-for="Cep" class="control-label"></label>
-                <input asp-for="Cep" class="form-control" />
+                <input  id="cep" asp-for="Cep" onkeyup="maskcep()" class="form-control" maxlength="9" />
                 <span asp-validation-for="Cep" class="text-danger"></span>
             </div>
             <div class="form-group">
@@ -53,12 +58,15 @@
                 <span asp-validation-for="Bairro" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
-                <a class="btn btn-danger float-left" asp-action="Index">Voltar</a>
+                <input type="submit" value="Salvar" class="btn btn-primary m-2"/>
+                <a class="btn-pdg btn btn-danger float-left m-2" asp-action="Index">Voltar</a>
             </div>
+          
         </form>
     </div>
 </div>
+
+    
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}

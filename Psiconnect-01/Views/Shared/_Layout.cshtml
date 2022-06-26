@@ -5,37 +5,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - Psiconnect_01</title>
-
+    <link rel="icon" href="~/img/favicon.ico.png" type="image/x-icon"/>
     <link rel="stylesheet" href="~/css/painel.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
 </head>
 
-<body>
+    <body class="bg-image">  
+
   @if (User.Identity.IsAuthenticated)
     {
-        
-            <nav class="navbar navbar-light bg-light">
+     
+            <nav class="navbar" >
                 <div class="col-12">
 			        <img class="float-left" src="~/img/Logo.png" alt="Logo da Empresa">
                     <ul>
 			            <li class="float-right nav-item dropdown">
-				            <a class="btn btn-outline-danger" asp-area="" asp-controller="Usuarios" asp-action="Logout">Sair</a>
+				            <a class="btn text-danger font-weight-bold" asp-area="" asp-controller="Usuarios" asp-action="Logout"><img id="lg" src="~/img/Logout.png" title="Logout">Sair</a>
 			            </li>
                     </ul>
                 </div>
             </nav>
        
     }
+    
         <div class="container-fluid mt-4">
             <div class="row">
                <div class="col-md-3 col-sm-12 mb-4">
                   @if (User.Identity.IsAuthenticated)
                       {
                         <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                            <a class="nav-link active" id="v-pills-home-tab" role="tab" aria-controls="v-pills-home" aria-selected="true" asp-area="" asp-controller="Home" asp-action="Index">&emsp; Home</a>
-                            <a class="nav-link" id="v-pills-profile-tab" role="tab" aria-controls="v-pills-profile" aria-selected="false" asp-area="" asp-controller="Pacientes" asp-action="Index">Paciente</a>
+                            <a class="nav-link active" id="v-pills-home-tab" role="tab" aria-controls="v-pills-home" aria-selected="true" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                            <a class="nav-link " id="v-pills-profile-tab" role="tab" aria-controls="v-pills-profile" aria-selected="false" asp-area="" asp-controller="Pacientes" asp-action="Index">Paciente</a>
                             @if (User.IsInRole("ProfissionalDeSaude"))
                             {
                                 <a class="nav-link" asp-area="" asp-controller="Atendimentos" asp-action="Index">Atendimentos</a>
@@ -43,10 +45,14 @@
                             }
                             <a class="nav-link" id="v-pills-profile-tab" role="tab" aria-controls="v-pills-profile" aria-selected="false" asp-area="" asp-controller="Usuarios" asp-action="IndexMeusDados">Meus Dados</a>
                         </div>
+                        
+                    
+                    
                         }
                 </div>
         
-                <div class="col-md-9 col-sm-12">
+
+                <div class="col-md-8 col-sm-12">
                         <div class="tab-content" id="v-pills-tabContent">
                             <main role="main" class="pb-3">
                                @RenderBody()
@@ -56,10 +62,18 @@
             </div>
         </div>
 
+        <div id="loading" style=" background-color:rgba(255,255,255,0.8); display:block; width: 100%; height: 100%; position:absolute; top:50%; left:50%; transform: translate(-50%, -50%);">
+    <div class="spinner-grow text-primary" style="width: 4rem; height: 4rem; left:50%; top:50%; position:relative;" > <img class="rounded mx-auto d-block" src="~/img/favicon.ico.png" alt="loding" /></div>
+    </div>
+        
+        
+
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)
-</body>
+
+    </body>
+
 </html>
  

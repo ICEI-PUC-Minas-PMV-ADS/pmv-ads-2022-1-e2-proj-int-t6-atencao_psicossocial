@@ -4,22 +4,30 @@
     ViewData["Title"] = "Relatorio";
 }
 
-<h1>Relatório</h1>
+<div id="print" class="conteudo">
+<h3 class="text-center">Relatório de Atendimentos</h3>
+<br />
 
-<div>
-    <h4>Paciente @Model.Nome</h4>
-    <hr />
-    <table class="table">
+    <h5 class="text-center">@Model.Nome</h5>
+
+  <div class="bg-light">  
+    <table class="table table-striped">
     <thead>
        <tr>
                     <th>
                         Data:
                     </th>
                     <th>
-                        Nome Profissional:
+                       Profissional:
                     </th>
                     <th>
                         Sintomas:
+                    </th>
+                    <th>
+                        Descrição:
+                    </th>
+                    <th>
+                        Prescrição:
                     </th>
                 </tr>
     </thead>
@@ -35,13 +43,34 @@
                             <td>
                                 @Html.DisplayFor(modelItem => item.Sintomas)
                             </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Descricao)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Prescricao)
+                            </td>
                         </tr>
                         }
     </tbody>
 </table>
 </div>
-<div>
-    <a class="btn btn-info" href="javascript:window.print()">Imprimir</a>
-    <a class="btn btn-danger float-left" asp-action="IndexRelatorio">Voltar</a>
-        
 </div>
+
+<div class="float-sm-right">
+    <a class="btn btn-info m-3" onclick="cont()">Imprimir</a>
+    <a class="btn btn-danger float-left m-3" asp-action="IndexRelatorio">Voltar</a>
+      
+</div>
+
+      <script>
+
+          
+function cont(){
+   var conteudo = document.getElementById('print').innerHTML;
+   tela_impressao = window.open('about:blank');
+   tela_impressao.document.write(conteudo);
+   tela_impressao.window.print();
+   tela_impressao.window.close();
+}
+
+      </script>

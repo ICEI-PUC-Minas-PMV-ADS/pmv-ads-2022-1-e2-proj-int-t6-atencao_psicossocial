@@ -1,10 +1,10 @@
 ﻿@model Psiconnect_01.Models.Atendimento
 
 @{
-    ViewData["Title"] = "Edit";
+    ViewData["Title"] = "Editar Atendimento";
 }
 
-
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js" ></script>
 <div class="row">
     <div class="col-md-5">
         <form asp-action="Edit">
@@ -26,7 +26,7 @@
             </div>
             <div class="form-group">
                 <label asp-for="CodProfissional" class="control-label">Número do Registro Profissional:</label>
-                <input asp-for="CodProfissional" class="form-control" />
+                <input asp-for="CodProfissional" readonly value="@Model.CodProfissional" class="form-control" />
                 <span asp-validation-for="CodProfissional" class="text-danger"></span>
             </div>
             <div class="form-group">
@@ -60,7 +60,7 @@
             </div>
             <div class="form-group">
                 <a class="btn btn-danger float-left" asp-action="Index">Voltar</a>
-                <input type="submit" value="Salvar Alterações" class="btn btn-primary float-right" />
+                <input type="submit" value="Salvar Alterações" class="btn btn-primary float-right" onclick="swal('Registro Atualizado!', '', 'success')" />
             </div>
         </form>
     </div>

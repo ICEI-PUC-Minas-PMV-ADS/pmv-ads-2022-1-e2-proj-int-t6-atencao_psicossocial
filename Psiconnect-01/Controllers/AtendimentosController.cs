@@ -95,7 +95,10 @@ return View(atendimento);
 // GET: Atendimentos/Create
 public IActionResult Create()
 {
-ViewData["PacienteId"] = new SelectList(_context.Pacientes, "Cpf", "Nome");
+            var userName = User.Identity.Name;
+            var usuario = _context.Usuarios.FirstOrDefault(x => x.Nome == userName);
+            ViewData["PacienteId"] = new SelectList(_context.Pacientes, "Cpf", "Nome");
+            ViewData["CodProfissional"] = usuario.Registro;
 return View();
 }
 
@@ -104,7 +107,7 @@ return View();
 // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
 [HttpPost]
 [ValidateAntiForgeryToken]
-public async Task<IActionResult> Create([Bind("Id,PacienteId,Tipo,CodProfissional,NomeProfissional,Data,Descricao,Prescricao,Sintomas")] Atendimento atendimento)
+public async Task<IActionResult> Create([Bind("Id,PacienteId,Tipo,Registro,NomeProfissional,Data,Descricao,Prescricao,Sintomas")] Atendimento atendimento)
 {
 if (ModelState.IsValid)
 {
