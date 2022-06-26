@@ -10,7 +10,7 @@
 
 |Caso de Teste |CT-002 – Cadastrar novo usuário |
 |--------------------|-----------------------------------------------------------------------------------------------------------------------|
-|**Requisitos Associados** | RF-006 - A aplicação deve possibilitar o cadastro tanto de usuários quanto de profissionais. |
+|**Requisitos Associados** | RF-002 - A aplicação deve possibilitar o cadastro tanto de usuários quanto de profissionais. |
 |**Entrada** | Na página inicial, o usuário deverá clicar em "Cadastre aqui".  |
 |**Objetivo do Teste** | Validar usabilidade do cadastro de usuário. |
 |**Passos** | 1) Acessar o Navegador .<br>2) Informar endereço: https://psiconnect20220609203034.azurewebsites.net/.<br>3) Clicar em Cadastre aqui.<br>4) Inserir os dados pessoais nos quadrantes em branco.<br>5) Escolher uma senha pessoal.<br>6) No quadrante do departamento, selecionar o departamento escolher a opção de sua função.<br>7) Clicar em Cadastrar. |
@@ -18,7 +18,7 @@
 
 |Caso de Teste |CT-003 – Editar cadastro |
 |--------------------|-----------------------------------------------------------------------------------------------------------------------|
-|**Requisitos Associados** | RF-002 - O sistema deve permitir o gerenciamento dos dados de cadastro dos usuários.|
+|**Requisitos Associados** | RF-003 - A aplicação deve permitir editar dados de cadastro.|
 |**Entrada** | a página inicial, digitar CPF e senha nos respectivos campos. |
 |**Objetivo do Teste** | Validar usabilidade da edição de dados de cadastro do usuário no sistema. |
 |**Passos** | 1) Acessar o Navegador. <br>2) Informar o endereço: https://psiconnect20220609203034.azurewebsites.net/. <br>4)Clicar no botão login.<br>5) Na tela seguinte, clicar no botão "Meus dados", localizado no menu lateral esquerdo.<br>6) Clicar no quadrante de dados que deseja alterar e inserir o novo valor.<br>7) Após inserção de dados, clicar no botão "Save".<br> |
@@ -26,7 +26,7 @@
 
 |Caso de Teste |CT-004 – Registro de atendimento |
 |--------------------|-----------------------------------------------------------------------------------------------------------------------|
-|**Requisitos Associados** | RF-003 - A aplicação deve registrar o atendimento do paciente. |
+|**Requisitos Associados** | RF-004 - A aplicação deve registrar o atendimento do paciente. |
 |**Entrada** | Ao realizar login na aplicação, o profissional deverá acessar o botão Relatório, localizado no menu lateral esquerdo.
 |**Objetivo do Teste** | Validar usabilidade do profissional, no cadastro de atendimento nas consultas. |
 |**Passos** | 1) Acessar o Navegador .<br>2) Informar o endereço: https://psiconnect20220609203034.azurewebsites.net/.<br>4) Clicar em login.<br>5) Na Homepage, clique em  "Atendimentos".<br>6) Na página seguinte, clique no botão Novo Atendimento.<br>7) Preencha todos os dados da consulta nos respectivos quadrantes e clique em "Criar".
@@ -34,7 +34,7 @@
 
 |Caso de Teste |CT-005 – Emissão de relatório |
 |--------------------|-----------------------------------------------------------------------------------------------------------------------|
-|**Requisitos Associados** | RF-004 - A aplicação deve permitir a emissão de relatórios de atendimento. |
+|**Requisitos Associados** | RF-005 - A aplicação deve permitir a emissão de relatórios de atendimento. |
 |**Entrada** | Na homepage selecione "Relatório" e insira dados do paciente para realizar busca. |
 |**Objetivo do Teste** | Validar acesso do profissional aos relatórios de atendimento. |
 |**Passos** | 1) Acessar o Navegador .<br>2) Informar o endereço: https://psiconnect20220609203034.azurewebsites.net/.<br>4) Acessar o menu relatório.<br>5) No campo Nome Paciente pesquise por nome.<br>6) Clicar no botão pesquisar.<br>7) Escolher se deseja imprimir ou salvar relatório. |
@@ -42,7 +42,7 @@
 
 |Caso de Teste |CT-006 – Recuperação de senha |
 |--------------------|-----------------------------------------------------------------------------------------------------------------------|
-|**Requisitos Associados** | RF-005 - A aplicação deve ter a opção de recuperação/alteração da senha. |
+|**Requisitos Associados** | RF-006 - A aplicação deve ter a opção de recuperação/alteração da senha. |
 |**Entrada** | Na homepage clicar em "Esqueci minha Senha". |
 |**Objetivo do Teste** | Validar acesso à recuperação de senha esquecida. |
 |**Passos** | 1) Acessar o Navegador .<br>2) Informar o endereço: https://psiconnect20220609203034.azurewebsites.net/.<br>4) Clicar em "Esqueci minha senha".<br>5) Na tela seguinte, preencher os quadrantes, CPF, Nova Senha e Confirmar Senha.<br>6) Clicar no botão Confirmar. |
