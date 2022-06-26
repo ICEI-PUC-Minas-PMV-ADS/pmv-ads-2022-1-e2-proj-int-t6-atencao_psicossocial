@@ -24,7 +24,7 @@ Realizados os testes, será feita análise quantitativa dos aspectos negativos o
 | Objetivo do teste | Realizar login no sistema      |   Não há   |         Total           |        Fácil usabilidade, sem erros, compreensão geral.      |
 | Critérios de Êxito | O usuário será direcionado à homepage e terá acesso ao Menu pessoal|
 
-| `Caso de teste ` | ` CTU-002 Cadastrar novo usuário `         | ` Dificuldade  ` | `  Grau Satisfação geral  ` |` Observação `|
+| `Caso de teste ` | ` CTU-002 Cadastrar novo usuário `         | ` Dificuldade  ` | `  Grau Satisfação geral  ` |` Análise `|
 |:---:|:---:|:---:|:---:|:---:|
 | Objetivo do teste | Identificar opção de cadastro e criar usuário  |  Não apareceu máscara no CPF | Total |  Mediante observação do usuário corrigido a máscara do CPF |
 | Critérios de Êxito | O usuário será direcionado à página de login|
