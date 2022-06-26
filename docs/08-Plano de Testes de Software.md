@@ -1,6 +1,6 @@
 # Plano de Testes de Software
 
-|Caso de Teste |CT-001 – Fazer Login |
+|Caso de Teste |CT-001 – Login do usuário |
 |--------------------|-----------------------------------------------------------------------------------------------------------------------|
 |**Requisitos Associados** | RF-001 - A aplicação deve apresentar, na página principal, a funcionalidade de login de usuário/profissional.|
 |**Entrada** | Na página inicial, digitar CPF e senha nos respectivos campos e clicar em Login. |
