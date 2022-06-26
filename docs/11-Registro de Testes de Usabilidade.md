@@ -48,6 +48,6 @@ Após realizar os testes de usabilidade, obtém-se um relatório a partir das an
 | Usuário 3	| 28	| Superior Completo | Assistente Social  |
 
 # Conclusão </hr>
-Mediante
+
 
 
