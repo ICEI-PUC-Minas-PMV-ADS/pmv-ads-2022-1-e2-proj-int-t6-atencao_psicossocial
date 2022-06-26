@@ -30,4 +30,4 @@ Como demonstra o resultado de cada Caso de Teste planejado, o sistema não apres
 - Segurança e/ou vulnerabilidade dos dados. Futuramente, em momento oportuno podemos aplicar melhorias com uma autenticação de dois fatores;
 - Design de interface do projeto;
 - CT-02, percebemos a ausência de informação quanto à confirmação da conclusão. O recurso foi implementado nesta última etapa e hoje funciona com sucesso.
-- CT-02, CT-03 e CT-06, Cadastro de usuário, Editar cadastro e Recuperação de senha, respectivamente. Apesar de existir informação para os requisitos de escolha da senha, apresenta pequenas inconsistências, podendo ser implementado em uma nova versão.
+- CT-02, CT-03 e CT-06, Cadastro de usuário, Editar cadastro e Recuperação de senha, respectivamente. Apesar de existir informação dos requisitos para escolha da senha, apresenta pequenas inconsistências, podendo ser implementado em uma nova versão.
