@@ -17,7 +17,7 @@ Após realizar os testes de usabilidade, obtém-se um relatório a partir das an
 
 | **Usuário** | **Caso de teste** | **Requisito** | **Tempo** | **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Dificuldade** | **Satisfação** |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| Usuário 1	| CTU-003	| RF-003	| Até 10s | 5  | 0 | Nenhum | Fácil | 5 |
+| Usuário 1	| CTU-003	| RF-003	| Até 10s | 4  | 0 | Nenhum | Fácil | 5 |
 | Usuário 2 | CTU-003	| RF-003 	| 1min 38seg | 8  | 0 | Nenhum | Sem mensagem de confirmação da alteração, possível confusão no usuário | 4 |
 | Usuário 3	| CTU-003	| RF-003	| 30s | 4  | 0 | Nenhum | Fácil | 4 |
 
@@ -48,6 +48,7 @@ Após realizar os testes de usabilidade, obtém-se um relatório a partir das an
 | Usuário 3	| 28	| Superior Completo | Assistente Social  |
 
 # Conclusão </hr>
-
+Com base nos testes observados, pode se observar que o objetivo de implementar uma aplicação com uma interface limpa, de fácil compreensão e usabilidade foi alcançado.
+Entretanto, como ponto de atenção, são necessárias mudanças no que tanje a falta de mensagens que confirmem uma determinada ação (por exemplo, o aparecedimento de uma mensagem de confirmação do cadastro). O quesito CTU-006, durante a realização dos testes apresentou erro que impossibilitou a conclusão da operação pelo usuário. Avaliando-se os aspectos observados durante o registro de testes de usabilidade, são necessárias melhorias nos requisitos funcionais referentes à troca de senha e melhorias em aspectos voltados à feedback ao usuário.
 
 
