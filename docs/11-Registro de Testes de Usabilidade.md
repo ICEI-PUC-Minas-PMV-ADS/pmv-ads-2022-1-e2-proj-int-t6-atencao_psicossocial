@@ -49,6 +49,6 @@ Após realizar os testes de usabilidade, obtém-se um relatório a partir das an
 
 # Conclusão </hr>
 Com base nos testes observados, pode se perceber que o objetivo de implementar uma aplicação com uma interface limpa, de fácil compreensão e usabilidade foi alcançado.
-Entretanto, como ponto de atenção, são necessárias mudanças no que tanje a falta de mensagens que confirmem uma determinada ação (por exemplo, o aparecedimento de uma mensagem de confirmação do cadastro). O quesito CTU-006, durante a realização dos testes apresentou erro que impossibilitou a conclusão da operação pelo usuário. Avaliando-se os aspectos observados durante o registro de testes de usabilidade, são necessárias melhorias nos requisitos funcionais referentes à troca de senha e melhorias em aspectos voltados à feedback ao usuário.
+Entretanto, como ponto de atenção, são necessárias mudanças no que tange a falta de mensagens que confirmem uma determinada ação (por exemplo, o aparecimento de uma mensagem de confirmação do cadastro). O quesito CTU-006, durante a realização dos testes apresentou erro que impossibilitou a conclusão da operação pelo usuário. Avaliando-se os aspectos observados durante o registro de testes de usabilidade, são necessárias melhorias nos requisitos funcionais referentes à troca de senha e melhorias em aspectos voltados à feedback ao usuário.
 
 
