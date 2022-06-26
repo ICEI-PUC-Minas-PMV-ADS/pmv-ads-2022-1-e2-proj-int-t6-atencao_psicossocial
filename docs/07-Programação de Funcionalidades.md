@@ -12,5 +12,3 @@ Para cada requisito funcional, pode ser entregue um artefato desse tipo.
 | RF-004 | A aplicação deve registrar o atendimento do paciente. | Index.cshtml |
 | RF-005 | A aplicação deve permitir a emissão de relatórios de atendimento. | Relatorio.cshtml |
 | RF-006 | A aplicação deve ter a opção de recuperação e alteração da senha. | Passwordrecory.cshtml |
-
-| RF-005 | A aplicação deve registrar o atendimento do paciente. | Index.cshtml |
