@@ -22,9 +22,6 @@ https://user-images.githubusercontent.com/61605610/175189698-6bd7fa9e-df87-4730-
 ## CT-06 - Recuperação de senha
 https://user-images.githubusercontent.com/61605610/175189709-54ada8b7-d51d-4611-87a4-1a9754145c81.mp4
 
-## CT-07 - Cadastro de Profissional de Saúde
-https://user-images.githubusercontent.com/61605610/175189730-3775d24c-cb8c-4fac-b4a4-49a7a447db5c.mp4
-
 ## Avaliação
 
 Como demonstra o resultado do teste acima, o usuário inseriu os seus dados nos formulários e o sistema não retornou nenhum alerta de erro, o que demonstra o sucesso nas aplicações. Esta aplicação visa possibilitar ao usuário do projeto o controle de atendimento de pacientes, bem como oferecer ao profissional uma base com uma construção de um software possibilitando o usuário ter acesso ao registro dos pacientes. Para fins de avaliação, elaboramos a seguinte tabela que relaciona os casos de teste de software  propostos e os respectivos comentários a respeito das funcionalidades da aplicação:
@@ -37,4 +34,4 @@ Como demonstra o resultado do teste acima, o usuário inseriu os seus dados nos 
 |CT-04 - Registro de atendimentos | Permite que o profissional da saude registre atendimento com as seguintes informações: prescrição medica, caracteristicas do tratamento do paciente.| Profissional da saude consegue acessar a pagina de Atendimentos e cadastrar adentimento realizado com sucesso. | Implementado com sucesso.|
 |CT-05 - Emissão de relatório| Permite que o usuario crie um relatorio para cada paciente atendido.| Profissional/Usuario tem acesso ao historico de atendimentos de cada paciente com sucesso.| Implementado com sucesso.|
 |CT-06 - Recuperação de senha| Permite que o usuario recupe e ou redefina sua senha, atraves de seu CPF.| Usuario consegue acessar a pagina de de recuperação de senha, mas foi encontrado falta de segurança e/ou vulnerabilidade dos dados, futuramente , em momento oportuno podemos melhorar com uma autenticação de dois fatores. | Implementado parcialmente.|
-|CT-07 - Cadastro de Profissional de Saúde | Permite ao profissional se cadastrar na plataforma, com seus dados e registro de conselho.| Profissional da saude consegue se cadastrar na plataforma tendo registro valido. | Implementado com sucesso.|
+
