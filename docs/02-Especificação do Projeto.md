@@ -118,7 +118,7 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de
 | |Caso o usuário tenha esquecido sua senha, será necessário alterá-la antes de fazer login na aplicação.|
 ||Caso o usuário deseje requisitar prontuário poderá fazer pesquisa em banco de dados.|
 
-![](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t6-atencao_psicossocial/blob/main/docs/img/RepresentacaoVisualCasoDeUso1-2.png)
+![](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e3-proj-mov-t4-voga-app/blob/main/docs/img/imagem%20cronograma%20de%20caso%20de%20uso.png)
 
 
 
