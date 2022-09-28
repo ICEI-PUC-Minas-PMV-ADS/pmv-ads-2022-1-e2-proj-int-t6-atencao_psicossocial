@@ -45,7 +45,7 @@
 |**Requisitos Associados** | RF-006 - A aplicação deve ter a opção de recuperação/alteração da senha. |
 |**Entrada** | Na homepage clicar em "Esqueci minha Senha". |
 |**Objetivo do Teste** | Validar acesso à recuperação de senha esquecida. |
-|**Passos** | 1) Acessar o Navegador .<br>2) Informar o endereço: https://psiconnect20220609203034.azurewebsites.net/.<br>4) Clicar em "Esqueci minha senha".<br>5) Na tela seguinte, preencher os quadrantes, CPF, e escolher uma senha que atenda aos requisitos, contendo no mínimo 6 dígitos.<br>6) Clicar no botão Confirmar. |
+|**Passos** | 1) Acessar o Navegador .<br>2) Informar o endereço: https://psiconnect20220609203034.azurewebsites.net/.<br>4) Clicar em "Esqueci minha senha".<br>5) Na tela seguinte, preencher os quadrantes, CPF, e escolher uma senha que atenda aos requisitos, contendo no mínimo 6 dígitos. <br>6) Clicar no botão Confirmar. |
 |**Critérios de Êxito** | "O usuário será redirecionado para a página de Login." |
 
 
